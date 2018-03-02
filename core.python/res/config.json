@@ -1,0 +1,42 @@
+{
+    "debug": false,
+
+    "redis": {
+        "host": "165.227.45.184",
+        "port": 6379,
+        "map": {
+            "meta": 0,
+            "csgo": 1,
+            "pubg": 2,
+            "h1z1": 3
+        }
+    },
+
+    "redis_debug": {
+        "host": "localhost",
+        "port": 6379,
+        "map": {
+            "meta": 0,
+            "csgo": 1,
+            "pubg": 2,
+            "h1z1": 3
+        }
+    },
+
+    "delays": {
+        "parsers": {
+            "csgo": {
+                "opskins": 30
+            },
+            "pubg": {
+                "opskins": 30
+            },
+            "h1z1": {
+                "opskins": 30
+            }
+        },
+
+        "error": 60
+    }
+
+}
