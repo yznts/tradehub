@@ -1,80 +1,142 @@
-2018-03-02 02:18:17,808 - root - INFO - Start
-2018-03-02 02:18:18,718 - root - INFO - (0.75) PUBG opskins updated
-2018-03-02 02:18:18,789 - root - INFO - (0.82) H1Z1 opskins updated
-2018-03-02 02:18:20,198 - root - INFO - (2.24) CS:GO opskins updated
-2018-03-02 02:28:41,461 - root - INFO - Start
-2018-03-02 02:28:49,080 - root - INFO - (7.44) H1Z1 opskins updated
-2018-03-02 02:28:51,840 - root - INFO - (10.20) PUBG opskins updated
-2018-03-02 02:28:53,483 - root - INFO - (11.84) CS:GO opskins updated
-2018-03-02 02:29:23,206 - root - INFO - (4.12) H1Z1 opskins updated
-2018-03-02 02:30:54,128 - root - INFO - Start
-2018-03-02 02:31:01,816 - root - INFO - (7.53) PUBG opskins updated
-2018-03-02 02:31:03,588 - root - INFO - (9.30) H1Z1 opskins updated
-2018-03-02 02:31:06,667 - root - INFO - (12.38) CS:GO opskins updated
-2018-03-02 02:31:36,652 - root - INFO - (4.83) PUBG opskins updated
-2018-03-02 02:31:38,188 - root - INFO - Start
-2018-03-02 02:31:47,520 - root - INFO - (9.17) H1Z1 opskins updated
-2018-03-02 02:31:51,337 - root - INFO - (13.00) CS:GO opskins updated
-2018-03-02 02:31:51,542 - root - INFO - (13.20) PUBG opskins updated
-2018-03-02 02:32:23,900 - root - INFO - (6.38) H1Z1 opskins updated
-2018-03-02 02:32:32,331 - root - INFO - (10.79) PUBG opskins updated
-2018-03-02 02:32:33,731 - root - INFO - (12.39) CS:GO opskins updated
-2018-03-02 02:33:00,664 - root - INFO - (6.76) H1Z1 opskins updated
-2018-03-02 02:33:08,239 - root - INFO - (5.91) PUBG opskins updated
-2018-03-02 10:09:32,767 - root - INFO - Start
-2018-03-02 10:09:34,882 - requests.packages.urllib3.connectionpool - INFO - Starting new HTTPS connection (1): api.opskins.com
-2018-03-02 10:09:34,882 - requests.packages.urllib3.connectionpool - INFO - Starting new HTTPS connection (1): api.opskins.com
-2018-03-02 10:09:35,049 - requests.packages.urllib3.connectionpool - INFO - Starting new HTTPS connection (1): api.opskins.com
-2018-03-02 10:09:35,968 - requests.packages.urllib3.connectionpool - DEBUG - "GET /IPricing/GetAllLowestListPrices/v1?appid=433850 HTTP/1.1" 200 None
-2018-03-02 10:09:36,020 - requests.packages.urllib3.connectionpool - DEBUG - "GET /IPricing/GetAllLowestListPrices/v1?appid=578080 HTTP/1.1" 200 None
-2018-03-02 10:09:36,115 - requests.packages.urllib3.connectionpool - DEBUG - "GET /IPricing/GetAllLowestListPrices/v1?appid=730 HTTP/1.1" 200 None
-2018-03-02 10:09:43,490 - root - INFO - (10.50) PUBG opskins updated
-2018-03-02 10:09:44,268 - root - INFO - (11.28) H1Z1 opskins updated
-2018-03-02 10:09:49,893 - root - INFO - (16.91) CS:GO opskins updated
-2018-03-02 10:10:14,977 - requests.packages.urllib3.connectionpool - DEBUG - "GET /IPricing/GetAllLowestListPrices/v1?appid=578080 HTTP/1.1" 200 None
-2018-03-02 10:10:16,076 - requests.packages.urllib3.connectionpool - DEBUG - "GET /IPricing/GetAllLowestListPrices/v1?appid=433850 HTTP/1.1" 200 None
-2018-03-02 10:10:19,481 - root - INFO - (5.21) H1Z1 opskins updated
-2018-03-02 10:10:21,319 - root - INFO - (7.83) PUBG opskins updated
-2018-03-02 10:10:21,455 - requests.packages.urllib3.connectionpool - DEBUG - "GET /IPricing/GetAllLowestListPrices/v1?appid=730 HTTP/1.1" 200 None
-2018-03-02 10:10:41,503 - root - INFO - (21.61) CS:GO opskins updated
-2018-03-02 10:10:50,909 - requests.packages.urllib3.connectionpool - DEBUG - "GET /IPricing/GetAllLowestListPrices/v1?appid=433850 HTTP/1.1" 200 None
-2018-03-02 10:10:52,944 - requests.packages.urllib3.connectionpool - DEBUG - "GET /IPricing/GetAllLowestListPrices/v1?appid=578080 HTTP/1.1" 200 None
-2018-03-02 10:10:53,740 - root - INFO - (4.26) H1Z1 opskins updated
-2018-03-02 10:10:56,325 - root - INFO - (5.01) PUBG opskins updated
-2018-03-02 10:13:23,442 - root - INFO - Start
-2018-03-02 10:13:30,602 - root - INFO - (7.03) H1Z1 opskins updated
-2018-03-02 10:13:31,202 - root - INFO - (7.64) PUBG opskins updated
-2018-03-02 10:13:38,886 - root - INFO - (15.32) CS:GO opskins updated
-2018-03-02 10:14:06,698 - root - INFO - (4.99) H1Z1 opskins updated
-2018-03-02 10:14:08,026 - root - INFO - (5.71) PUBG opskins updated
-2018-03-02 10:14:31,868 - root - INFO - Start
-2018-03-02 10:14:43,522 - root - INFO - (11.54) PUBG opskins updated
-2018-03-02 10:14:46,246 - root - INFO - (14.26) H1Z1 opskins updated
-2018-03-02 10:14:47,734 - root - INFO - (15.75) CS:GO opskins updated
-2018-03-02 10:15:20,372 - root - INFO - (6.85) PUBG opskins updated
-2018-03-02 10:15:27,285 - root - INFO - (11.04) H1Z1 opskins updated
-2018-03-02 10:15:38,243 - root - INFO - (20.51) CS:GO opskins updated
-2018-03-02 10:15:55,754 - root - INFO - (5.38) PUBG opskins updated
-2018-03-02 10:16:02,308 - root - INFO - (5.02) H1Z1 opskins updated
-2018-03-02 10:16:16,951 - root - INFO - (8.71) CS:GO opskins updated
-2018-03-02 10:16:30,060 - root - INFO - (4.30) PUBG opskins updated
-2018-03-02 10:16:42,804 - root - INFO - (10.49) H1Z1 opskins updated
-2018-03-02 10:16:56,480 - root - INFO - (9.53) CS:GO opskins updated
-2018-03-02 10:17:05,798 - root - INFO - (5.73) PUBG opskins updated
-2018-03-02 10:17:18,361 - root - INFO - Start
-2018-03-02 10:17:25,521 - root - INFO - (7.04) H1Z1 opskins updated
-2018-03-02 10:17:28,922 - root - INFO - (10.44) PUBG opskins updated
-2018-03-02 10:17:42,255 - root - INFO - Start
-2018-03-02 10:17:58,052 - root - INFO - Start
-2018-03-02 10:18:28,452 - root - INFO - Start
-2018-03-02 10:18:30,786 - root - INFO - (2.22) PUBG opskins updated
-2018-03-02 10:18:31,372 - root - INFO - (2.80) H1Z1 opskins updated
-2018-03-02 10:18:42,834 - root - INFO - Start
-2018-03-02 10:18:45,207 - root - INFO - (2.26) PUBG opskins updated
-2018-03-02 10:18:45,748 - root - INFO - (2.80) H1Z1 opskins updated
-2018-03-02 10:18:53,425 - root - INFO - (10.48) CS:GO opskins updated
-2018-03-02 10:19:16,625 - root - INFO - (1.41) PUBG opskins updated
-2018-03-02 10:19:17,423 - root - INFO - (1.67) H1Z1 opskins updated
-2018-03-02 10:19:47,616 - root - INFO - (24.19) CS:GO opskins updated
-2018-03-02 10:19:47,658 - root - INFO - (1.03) PUBG opskins updated
-2018-03-02 10:19:48,826 - root - INFO - (1.40) H1Z1 opskins updated
+2018-03-02 23:37:26,542 - root - INFO - Start
+2018-03-02 23:37:27,477 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.opskins.com
+2018-03-02 23:37:27,669 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.opskins.com
+2018-03-02 23:37:27,830 - urllib3.connectionpool - DEBUG - https://api.opskins.com:443 "GET /IPricing/GetAllLowestListPrices/v1?appid=578080 HTTP/1.1" 200 None
+2018-03-02 23:37:28,036 - urllib3.connectionpool - DEBUG - https://api.opskins.com:443 "GET /IPricing/GetAllLowestListPrices/v1?appid=433850 HTTP/1.1" 200 None
+2018-03-02 23:37:29,362 - root - INFO - (2.65) PUBG opskins updated
+2018-03-02 23:37:30,161 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): cs.money
+2018-03-02 23:37:30,201 - root - INFO - (3.49) H1Z1 opskins updated
+2018-03-02 23:37:30,333 - urllib3.connectionpool - DEBUG - http://cs.money:80 "GET /load_bots_inventory HTTP/1.1" 301 None
+2018-03-02 23:37:30,350 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): cs.money
+2018-03-02 23:37:30,536 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.opskins.com
+2018-03-02 23:37:30,628 - urllib3.connectionpool - DEBUG - https://cs.money:443 "GET /load_bots_inventory HTTP/1.1" 200 None
+2018-03-02 23:37:30,778 - urllib3.connectionpool - DEBUG - https://api.opskins.com:443 "GET /IPricing/GetAllLowestListPrices/v1?appid=730 HTTP/1.1" 200 None
+2018-03-02 23:37:37,291 - chardet.charsetprober - DEBUG - MacCyrillic confidence = 0.0, below negative shortcut threshhold 0.05
+2018-03-02 23:37:37,519 - chardet.charsetprober - DEBUG - IBM866 confidence = 0.0, below negative shortcut threshhold 0.05
+2018-03-02 23:37:40,645 - chardet.charsetprober - DEBUG - windows-1255 confidence = 0.0, below negative shortcut threshhold 0.05
+2018-03-02 23:37:40,865 - chardet.charsetprober - DEBUG - windows-1255 confidence = 0.0, below negative shortcut threshhold 0.05
+2018-03-02 23:37:43,290 - chardet.charsetprober - DEBUG - utf-8  confidence = 0.99
+2018-03-02 23:37:43,290 - chardet.charsetprober - DEBUG - SHIFT_JIS Japanese confidence = 0.01
+2018-03-02 23:37:43,290 - chardet.charsetprober - DEBUG - EUC-JP Japanese confidence = 0.01
+2018-03-02 23:37:43,291 - chardet.charsetprober - DEBUG - GB2312 Chinese confidence = 0.01
+2018-03-02 23:37:43,291 - chardet.charsetprober - DEBUG - EUC-KR Korean confidence = 0.01
+2018-03-02 23:37:43,291 - chardet.charsetprober - DEBUG - CP949 Korean confidence = 0.01
+2018-03-02 23:37:43,291 - chardet.charsetprober - DEBUG - Big5 Chinese confidence = 0.01
+2018-03-02 23:37:43,292 - chardet.charsetprober - DEBUG - EUC-TW Taiwan confidence = 0.01
+2018-03-02 23:37:43,292 - chardet.charsetprober - DEBUG - windows-1251 Russian confidence = 0.01
+2018-03-02 23:37:43,292 - chardet.charsetprober - DEBUG - KOI8-R Russian confidence = 0.01
+2018-03-02 23:37:43,293 - chardet.charsetprober - DEBUG - ISO-8859-5 Russian confidence = 0.0
+2018-03-02 23:37:43,293 - chardet.charsetprober - DEBUG - MacCyrillic not active
+2018-03-02 23:37:43,293 - chardet.charsetprober - DEBUG - IBM866 not active
+2018-03-02 23:37:43,294 - chardet.charsetprober - DEBUG - IBM855 Russian confidence = 0.0
+2018-03-02 23:37:43,294 - chardet.charsetprober - DEBUG - ISO-8859-7 Greek confidence = 0.0
+2018-03-02 23:37:43,294 - chardet.charsetprober - DEBUG - windows-1253 Greek confidence = 0.0
+2018-03-02 23:37:43,295 - chardet.charsetprober - DEBUG - ISO-8859-5 Bulgairan confidence = 0.0
+2018-03-02 23:37:43,295 - chardet.charsetprober - DEBUG - windows-1251 Bulgarian confidence = 0.01
+2018-03-02 23:37:43,295 - chardet.charsetprober - DEBUG - TIS-620 Thai confidence = 0.0
+2018-03-02 23:37:43,295 - chardet.charsetprober - DEBUG - ISO-8859-9 Turkish confidence = 0.45244773650256986
+2018-03-02 23:37:43,296 - chardet.charsetprober - DEBUG - windows-1255 Hebrew confidence = 0.0
+2018-03-02 23:37:43,296 - chardet.charsetprober - DEBUG - windows-1255 not active
+2018-03-02 23:37:43,296 - chardet.charsetprober - DEBUG - windows-1255 not active
+2018-03-02 23:37:43,296 - chardet.charsetprober - DEBUG - utf-8  confidence = 0.99
+2018-03-02 23:37:43,297 - chardet.charsetprober - DEBUG - SHIFT_JIS Japanese confidence = 0.01
+2018-03-02 23:37:43,297 - chardet.charsetprober - DEBUG - EUC-JP Japanese confidence = 0.01
+2018-03-02 23:37:43,297 - chardet.charsetprober - DEBUG - GB2312 Chinese confidence = 0.01
+2018-03-02 23:37:43,297 - chardet.charsetprober - DEBUG - EUC-KR Korean confidence = 0.01
+2018-03-02 23:37:43,298 - chardet.charsetprober - DEBUG - CP949 Korean confidence = 0.01
+2018-03-02 23:37:43,298 - chardet.charsetprober - DEBUG - Big5 Chinese confidence = 0.01
+2018-03-02 23:37:43,298 - chardet.charsetprober - DEBUG - EUC-TW Taiwan confidence = 0.01
+2018-03-02 23:37:44,535 - root - INFO - (17.82) CS:GO csmoney updated
+2018-03-02 23:37:59,784 - urllib3.connectionpool - DEBUG - https://api.opskins.com:443 "GET /IPricing/GetAllLowestListPrices/v1?appid=578080 HTTP/1.1" 200 None
+2018-03-02 23:38:00,343 - root - INFO - (0.98) PUBG opskins updated
+2018-03-02 23:38:00,799 - urllib3.connectionpool - DEBUG - https://api.opskins.com:443 "GET /IPricing/GetAllLowestListPrices/v1?appid=433850 HTTP/1.1" 200 None
+2018-03-02 23:38:01,700 - root - INFO - (34.99) CS:GO opskins updated
+2018-03-02 23:38:02,149 - root - INFO - (1.95) H1Z1 opskins updated
+2018-03-02 23:38:16,732 - urllib3.connectionpool - DEBUG - Resetting dropped connection: cs.money
+2018-03-02 23:38:16,894 - urllib3.connectionpool - DEBUG - http://cs.money:80 "GET /load_bots_inventory HTTP/1.1" 301 None
+2018-03-02 23:38:17,007 - urllib3.connectionpool - DEBUG - https://cs.money:443 "GET /load_bots_inventory HTTP/1.1" 200 None
+2018-03-02 23:38:24,203 - chardet.charsetprober - DEBUG - MacCyrillic confidence = 0.0, below negative shortcut threshhold 0.05
+2018-03-02 23:38:24,418 - chardet.charsetprober - DEBUG - IBM866 confidence = 0.0, below negative shortcut threshhold 0.05
+2018-03-02 23:38:27,539 - chardet.charsetprober - DEBUG - windows-1255 confidence = 0.0, below negative shortcut threshhold 0.05
+2018-03-02 23:38:27,803 - chardet.charsetprober - DEBUG - windows-1255 confidence = 0.0, below negative shortcut threshhold 0.05
+2018-03-02 23:38:30,233 - chardet.charsetprober - DEBUG - utf-8  confidence = 0.99
+2018-03-02 23:38:30,234 - chardet.charsetprober - DEBUG - SHIFT_JIS Japanese confidence = 0.01
+2018-03-02 23:38:30,234 - chardet.charsetprober - DEBUG - EUC-JP Japanese confidence = 0.01
+2018-03-02 23:38:30,234 - chardet.charsetprober - DEBUG - GB2312 Chinese confidence = 0.01
+2018-03-02 23:38:30,235 - chardet.charsetprober - DEBUG - EUC-KR Korean confidence = 0.01
+2018-03-02 23:38:30,235 - chardet.charsetprober - DEBUG - CP949 Korean confidence = 0.01
+2018-03-02 23:38:30,235 - chardet.charsetprober - DEBUG - Big5 Chinese confidence = 0.01
+2018-03-02 23:38:30,236 - chardet.charsetprober - DEBUG - EUC-TW Taiwan confidence = 0.01
+2018-03-02 23:38:30,236 - chardet.charsetprober - DEBUG - windows-1251 Russian confidence = 0.01
+2018-03-02 23:38:30,236 - chardet.charsetprober - DEBUG - KOI8-R Russian confidence = 0.01
+2018-03-02 23:38:30,237 - chardet.charsetprober - DEBUG - ISO-8859-5 Russian confidence = 0.0
+2018-03-02 23:38:30,237 - chardet.charsetprober - DEBUG - MacCyrillic not active
+2018-03-02 23:38:30,237 - chardet.charsetprober - DEBUG - IBM866 not active
+2018-03-02 23:38:30,237 - chardet.charsetprober - DEBUG - IBM855 Russian confidence = 0.0
+2018-03-02 23:38:30,238 - chardet.charsetprober - DEBUG - ISO-8859-7 Greek confidence = 0.0
+2018-03-02 23:38:30,238 - chardet.charsetprober - DEBUG - windows-1253 Greek confidence = 0.0
+2018-03-02 23:38:30,238 - chardet.charsetprober - DEBUG - ISO-8859-5 Bulgairan confidence = 0.0
+2018-03-02 23:38:30,238 - chardet.charsetprober - DEBUG - windows-1251 Bulgarian confidence = 0.01
+2018-03-02 23:38:30,238 - chardet.charsetprober - DEBUG - TIS-620 Thai confidence = 0.0
+2018-03-02 23:38:30,239 - chardet.charsetprober - DEBUG - ISO-8859-9 Turkish confidence = 0.4519057437293141
+2018-03-02 23:38:30,239 - chardet.charsetprober - DEBUG - windows-1255 Hebrew confidence = 0.0
+2018-03-02 23:38:30,239 - chardet.charsetprober - DEBUG - windows-1255 not active
+2018-03-02 23:38:30,240 - chardet.charsetprober - DEBUG - windows-1255 not active
+2018-03-02 23:38:30,240 - chardet.charsetprober - DEBUG - utf-8  confidence = 0.99
+2018-03-02 23:38:30,240 - chardet.charsetprober - DEBUG - SHIFT_JIS Japanese confidence = 0.01
+2018-03-02 23:38:30,240 - chardet.charsetprober - DEBUG - EUC-JP Japanese confidence = 0.01
+2018-03-02 23:38:30,241 - chardet.charsetprober - DEBUG - GB2312 Chinese confidence = 0.01
+2018-03-02 23:38:30,241 - chardet.charsetprober - DEBUG - EUC-KR Korean confidence = 0.01
+2018-03-02 23:38:30,241 - chardet.charsetprober - DEBUG - CP949 Korean confidence = 0.01
+2018-03-02 23:38:30,242 - chardet.charsetprober - DEBUG - Big5 Chinese confidence = 0.01
+2018-03-02 23:38:30,242 - chardet.charsetprober - DEBUG - EUC-TW Taiwan confidence = 0.01
+2018-03-02 23:38:30,772 - urllib3.connectionpool - DEBUG - https://api.opskins.com:443 "GET /IPricing/GetAllLowestListPrices/v1?appid=578080 HTTP/1.1" 200 None
+2018-03-02 23:38:31,251 - root - INFO - (16.71) CS:GO csmoney updated
+2018-03-02 23:38:31,454 - root - INFO - (1.11) PUBG opskins updated
+2018-03-02 23:38:32,821 - urllib3.connectionpool - DEBUG - https://api.opskins.com:443 "GET /IPricing/GetAllLowestListPrices/v1?appid=433850 HTTP/1.1" 200 None
+2018-03-02 23:38:33,868 - urllib3.connectionpool - DEBUG - https://api.opskins.com:443 "GET /IPricing/GetAllLowestListPrices/v1?appid=730 HTTP/1.1" 200 None
+2018-03-02 23:38:34,341 - root - INFO - (2.19) H1Z1 opskins updated
+2018-03-02 23:38:54,802 - root - INFO - (23.10) CS:GO opskins updated
+2018-03-02 23:39:01,861 - urllib3.connectionpool - DEBUG - https://api.opskins.com:443 "GET /IPricing/GetAllLowestListPrices/v1?appid=578080 HTTP/1.1" 200 None
+2018-03-02 23:39:02,411 - root - INFO - (0.96) PUBG opskins updated
+2018-03-02 23:39:02,945 - urllib3.connectionpool - DEBUG - Resetting dropped connection: cs.money
+2018-03-02 23:39:03,083 - urllib3.connectionpool - DEBUG - http://cs.money:80 "GET /load_bots_inventory HTTP/1.1" 301 None
+2018-03-02 23:39:03,181 - urllib3.connectionpool - DEBUG - https://cs.money:443 "GET /load_bots_inventory HTTP/1.1" 200 None
+2018-03-02 23:39:05,114 - urllib3.connectionpool - DEBUG - https://api.opskins.com:443 "GET /IPricing/GetAllLowestListPrices/v1?appid=433850 HTTP/1.1" 200 None
+2018-03-02 23:39:06,779 - root - INFO - (2.44) H1Z1 opskins updated
+2018-03-02 23:39:09,512 - chardet.charsetprober - DEBUG - MacCyrillic confidence = 0.0, below negative shortcut threshhold 0.05
+2018-03-02 23:39:09,742 - chardet.charsetprober - DEBUG - IBM866 confidence = 0.0, below negative shortcut threshhold 0.05
+2018-03-02 23:39:12,867 - chardet.charsetprober - DEBUG - windows-1255 confidence = 0.0, below negative shortcut threshhold 0.05
+2018-03-02 23:39:13,086 - chardet.charsetprober - DEBUG - windows-1255 confidence = 0.0, below negative shortcut threshhold 0.05
+2018-03-02 23:39:15,640 - chardet.charsetprober - DEBUG - utf-8  confidence = 0.99
+2018-03-02 23:39:15,642 - chardet.charsetprober - DEBUG - SHIFT_JIS Japanese confidence = 0.01
+2018-03-02 23:39:15,643 - chardet.charsetprober - DEBUG - EUC-JP Japanese confidence = 0.01
+2018-03-02 23:39:15,643 - chardet.charsetprober - DEBUG - GB2312 Chinese confidence = 0.01
+2018-03-02 23:39:15,644 - chardet.charsetprober - DEBUG - EUC-KR Korean confidence = 0.01
+2018-03-02 23:39:15,644 - chardet.charsetprober - DEBUG - CP949 Korean confidence = 0.01
+2018-03-02 23:39:15,644 - chardet.charsetprober - DEBUG - Big5 Chinese confidence = 0.01
+2018-03-02 23:39:15,644 - chardet.charsetprober - DEBUG - EUC-TW Taiwan confidence = 0.01
+2018-03-02 23:39:15,645 - chardet.charsetprober - DEBUG - windows-1251 Russian confidence = 0.01
+2018-03-02 23:39:15,645 - chardet.charsetprober - DEBUG - KOI8-R Russian confidence = 0.01
+2018-03-02 23:39:15,645 - chardet.charsetprober - DEBUG - ISO-8859-5 Russian confidence = 0.0
+2018-03-02 23:39:15,645 - chardet.charsetprober - DEBUG - MacCyrillic not active
+2018-03-02 23:39:15,646 - chardet.charsetprober - DEBUG - IBM866 not active
+2018-03-02 23:39:15,647 - chardet.charsetprober - DEBUG - IBM855 Russian confidence = 0.0
+2018-03-02 23:39:15,647 - chardet.charsetprober - DEBUG - ISO-8859-7 Greek confidence = 0.0
+2018-03-02 23:39:15,648 - chardet.charsetprober - DEBUG - windows-1253 Greek confidence = 0.0
+2018-03-02 23:39:15,648 - chardet.charsetprober - DEBUG - ISO-8859-5 Bulgairan confidence = 0.0
+2018-03-02 23:39:15,648 - chardet.charsetprober - DEBUG - windows-1251 Bulgarian confidence = 0.01
+2018-03-02 23:39:15,649 - chardet.charsetprober - DEBUG - TIS-620 Thai confidence = 0.0
+2018-03-02 23:39:15,649 - chardet.charsetprober - DEBUG - ISO-8859-9 Turkish confidence = 0.4520275031795411
+2018-03-02 23:39:15,649 - chardet.charsetprober - DEBUG - windows-1255 Hebrew confidence = 0.0
+2018-03-02 23:39:15,649 - chardet.charsetprober - DEBUG - windows-1255 not active
+2018-03-02 23:39:15,650 - chardet.charsetprober - DEBUG - windows-1255 not active
+2018-03-02 23:39:15,650 - chardet.charsetprober - DEBUG - utf-8  confidence = 0.99
+2018-03-02 23:39:15,650 - chardet.charsetprober - DEBUG - SHIFT_JIS Japanese confidence = 0.01
+2018-03-02 23:39:15,650 - chardet.charsetprober - DEBUG - EUC-JP Japanese confidence = 0.01
+2018-03-02 23:39:15,651 - chardet.charsetprober - DEBUG - GB2312 Chinese confidence = 0.01
+2018-03-02 23:39:15,651 - chardet.charsetprober - DEBUG - EUC-KR Korean confidence = 0.01
+2018-03-02 23:39:15,651 - chardet.charsetprober - DEBUG - CP949 Korean confidence = 0.01
+2018-03-02 23:39:15,651 - chardet.charsetprober - DEBUG - Big5 Chinese confidence = 0.01
+2018-03-02 23:39:15,651 - chardet.charsetprober - DEBUG - EUC-TW Taiwan confidence = 0.01
+2018-03-02 23:39:17,135 - root - INFO - (15.88) CS:GO csmoney updated

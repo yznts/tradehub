@@ -63,7 +63,7 @@ class PubgOpskinsParserProcess(multiprocessing.Process):
                 bulk.execute()
 
                 # Write last update time
-                self.r_meta.hset("last-updates", "{0}-{1}".format('h1z1', 'opskins'), int(time.time()))
+                self.r_meta.hset("last-updates", "{0}-{1}".format('pubg', 'opskins'), int(time.time()))
 
                 # Log
                 logging.info('({0:.2f}) PUBG opskins updated'.format(time.time() - start_time))

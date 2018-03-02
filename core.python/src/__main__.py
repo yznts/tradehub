@@ -8,7 +8,6 @@ logging.basicConfig(
     filename='res/log.txt',
     level=logging.DEBUG
 )
-logging.getLogger('requests').setLevel(logging.CRITICAL)
 
 
 if __name__ == '__main__':
@@ -32,11 +31,13 @@ if __name__ == '__main__':
     from processes.parsers_legacy.csgo.opskins import CsgoOpskinsParserProcess
     from processes.parsers_legacy.pubg.opskins import PubgOpskinsParserProcess
     from processes.parsers_legacy.h1z1.opskins import H1z1OpskinsParserProcess
+    from processes.parsers_legacy.csgo.csmoney import CsgoCsmoneyParserProcess
 
     parsers = [
         CsgoOpskinsParserProcess,
         PubgOpskinsParserProcess,
-        H1z1OpskinsParserProcess
+        H1z1OpskinsParserProcess,
+        CsgoCsmoneyParserProcess
     ]
 
 
