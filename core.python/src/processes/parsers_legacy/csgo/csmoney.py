@@ -59,9 +59,15 @@ class CsgoCsmoneyParserProcess(multiprocessing.Process):
                     # Pass if not in full list
                     if name not in i_list:
                         continue
+                    # Pass if with overprice
+                    if 'ar' in item:
+                        continue
                     # Update data
-                    bulk.hset(name, 'csmoney-price', item['p'])
+                    bulk.hset(name, 'csmoney-price', float(item['p']))
                     bulk.hset(name, 'csmoney-available', 1)
+                
+                # Save
+                bulk.execute()
 
                 # Write last update time
                 self.r_meta.hset("last-updates", "{0}-{1}".format('csgo', 'csmoney'), int(time.time()))
