@@ -26,13 +26,17 @@
     "delays": {
         "parsers": {
             "csgo": {
-                "opskins": 130
+                "opskins": 130,
+                "csmoney": 5,
+                "tradeit": 5
             },
             "pubg": {
-                "opskins": 130
+                "opskins": 130,
+                "tradeit": 5
             },
             "h1z1": {
-                "opskins": 130
+                "opskins": 130,
+                "tradeit": 5
             }
         },
 

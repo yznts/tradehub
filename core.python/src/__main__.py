@@ -29,15 +29,21 @@ if __name__ == '__main__':
     # -------------------------
 
     from processes.parsers_legacy.csgo.opskins import CsgoOpskinsParserProcess
-    from processes.parsers_legacy.pubg.opskins import PubgOpskinsParserProcess
-    from processes.parsers_legacy.h1z1.opskins import H1z1OpskinsParserProcess
     from processes.parsers_legacy.csgo.csmoney import CsgoCsmoneyParserProcess
+    from processes.parsers_legacy.csgo.tradeit import CsgoTradeitParserProcess
+    from processes.parsers_legacy.pubg.opskins import PubgOpskinsParserProcess
+    from processes.parsers_legacy.pubg.tradeit import PubgTradeitParserProcess
+    from processes.parsers_legacy.h1z1.opskins import H1z1OpskinsParserProcess
+    from processes.parsers_legacy.h1z1.tradeit import H1z1TradeitParserProcess
 
     parsers = [
         CsgoOpskinsParserProcess,
+        CsgoCsmoneyParserProcess,
+        CsgoTradeitParserProcess,
         PubgOpskinsParserProcess,
+        PubgTradeitParserProcess,
         H1z1OpskinsParserProcess,
-        CsgoCsmoneyParserProcess
+        H1z1TradeitParserProcess,
     ]
 
 

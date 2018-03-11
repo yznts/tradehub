@@ -1,17 +1,17 @@
 import multiprocessing
-import cfscrape
-import time
 import json
-import redis
+import requests
 import logging
+import redis
+import time
 
 
-class CsgoCsmoneyParserProcess(multiprocessing.Process):
-    
+class CsgoTradeitParserProcess(multiprocessing.Process):
+
     def __init__(self, config):
         multiprocessing.Process.__init__(self)
         self.config = config
-        self.http = cfscrape.create_scraper()
+        self.http = requests.session()
         rconf = self.config.redis_debug if self.config.debug else self.config.redis
         self.r_meta = redis.StrictRedis(
             host=rconf.host,
@@ -33,7 +33,7 @@ class CsgoCsmoneyParserProcess(multiprocessing.Process):
             "MW": "Minimal Wear",
             "FN": "Factory New",
         }
-    
+
     def run(self):
         while True:
             try:
@@ -46,35 +46,34 @@ class CsgoCsmoneyParserProcess(multiprocessing.Process):
 
                 # Drop old
                 for name in self.r_data.keys('*'):
-                    bulk.hset(name, 'csmoney-available', 0)
-                
+                    bulk.hset(name, 'tradeitgg-available', 0)
+
                 # Request new data
-                resp = self.http.get('http://cs.money/load_bots_inventory')
-                items = json.loads(resp.text)
+                resp = self.http.get('https://tradeit.gg/compressedstatic')
+                data = json.loads(resp.text)
+                items = data[0]['730']['items']
 
                 # Iterate items
-                for item in items:
-                    # Name fix
-                    name = item['m'] if 'e' not in item else '{0} ({1})'.format(item['m'], self.items_quality[item['e']])
-                    # Pass if not in full list
+                for name, info in items.items():
+                    # Fix name
+                    name = name.split('_')[1]
+                    if 'e' in info:
+                        name = '{0} ({1})'.format(name, self.items_quality[info['e']])
                     if name not in i_list:
                         continue
-                    # Pass if with overprice
-                    if 'ar' in item:
-                        continue
-                    # Update data
-                    bulk.hset(name, 'csmoney-price', float(item['p']))
-                    bulk.hset(name, 'csmoney-available', 1)
-                
+                    # Write to bulk
+                    bulk.hset(name, 'tradeitgg-price', float(info.get("p"))/100)
+                    bulk.hset(name, 'tradeitgg-available', 1)
+
                 # Save
                 bulk.execute()
 
                 # Write last update time
-                self.r_meta.hset("last-updates", "{0}-{1}".format('csgo', 'csmoney'), int(time.time()))
+                self.r_meta.hset("last-updates", "{0}-{1}".format('csgo', 'tradeitgg'), int(time.time()))
 
                 # Log
-                logging.info('({0:.2f}) CS:GO csmoney updated'.format(time.time() - start_time))
-                time.sleep(self.config.delays.parsers.csgo.csmoney)
+                logging.info('({0:.2f}) CS:GO tradeit updated'.format(time.time() - start_time))
+                time.sleep(self.config.delays.parsers.csgo.tradeit)
 
             except Exception as e:
-                print(e)
+                logging.info('CS:GO tradeit error: {0}'.format(e))
