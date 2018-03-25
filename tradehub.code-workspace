@@ -1,10 +1,10 @@
 {
 	"folders": [
 		{
-			"path": "core.python"
+			"path": "core"
+		},
+		{
+			"path": "panel"
 		}
-	],
-	"settings": {
-		"python.pythonPath": "${workspaceFolder}/venv/bin/python3.6"
-	}
+	]
 }

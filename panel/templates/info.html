@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+
+{% block title %}
+    TT - Info
+{% endblock %}
+
+{% block css %}
+    <link rel="stylesheet" href="/static/css/info.css">
+{% endblock %}
+
+{% block js %}
+{% endblock %}
+
+{% block content %}
+    <div class="container content">
+        <div class="row">
+            {# Iterate games with services info #}
+            {% for game, services in icount.items() %}
+                <div class="col-md-4">
+                    <h2>{{ game.upper() }}</h2>
+                    <table class="table">
+                        {# Iterate services with item num #}
+                        {% for service, items_count in services.items() %}
+                            <tr>
+                                <td style="text-align: left">{{ service }}</td>
+                                <td style="text-align: right">{{ items_count }}</td>
+                            </tr>
+                        {% endfor %}
+                    </table>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+{% endblock %}

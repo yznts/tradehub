@@ -1,0 +1,44 @@
+
+/* Controls */
+.controls {
+    margin-top: 20px;
+}
+.controls #btn-update {
+    margin-right: 30px;
+}
+.controls .last-update-timer {
+    margin-left: 30px;
+    color: #999;
+}
+
+/* Modals */
+#modal-rates .col-md-6 div {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+#modal-filters h4 {
+    margin-top: 20px;
+}
+
+/* Table */
+.table-wrapper {
+}
+.table-wrapper h2 {
+    text-align: center;
+    margin-top: 10%;
+}
+.last-update {
+    display: block;
+    font-size: 9px!important;
+    color: #aaa;
+}
+.clipboard {
+    border: none;
+    outline: none;
+    background: none;
+    cursor: copy;
+    font-size: 0.8em;
+}
+.unavailable {
+    color: #aaa;
+}

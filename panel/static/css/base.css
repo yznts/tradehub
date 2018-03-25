@@ -1,0 +1,11 @@
+
+.navbar-brand {
+    margin-right: 50px;
+}
+
+.nav-link {
+    border-bottom: 1px solid transparent; 
+}
+.nav-link:hover:not(.disabled) {
+    border-bottom: 1px solid #868e96;
+}

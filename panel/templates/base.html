@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>{% block title %} Trade Tools {% endblock %}</title>        
+    
+    {# Meta #}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    {# CSS #}
+    <link rel="stylesheet" href="/static/libs/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/css/base.css">
+    {% block css %}
+    {% endblock %}
+
+</head>
+
+<body>
+
+    {# Navbar #}
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <span class="navbar-brand">Trade Tools (Beta stage 1)</span>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="/info">Info</a>
+            </li>
+            <li>
+                <span class="separator nav-link disabled">|</span>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" target="_blank" href="/static/plugin/plugin.zip">Plugin</a>
+            </li>
+            <li>
+                <span class="separator nav-link disabled">|</span>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="/table/csgo">CSGO</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="/table/pubg">PUBG</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="/table/h1z1">H1Z1</a>
+            </li>
+        </ul>
+    </nav>
+
+    {# Content #}
+    <div>
+        {% block content %}
+        {% endblock %}
+    </div>
+    
+
+    {# JS #}
+    <script src="/static/libs/jquery/jquery.min.js"></script>
+    <script src="/static/js/base.js"></script>
+    {% block js %}
+    {% endblock %}
+
+</body>
+
+</html>

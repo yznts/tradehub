@@ -1,0 +1,1 @@
+gunicorn -D -b 0.0.0.0:80 website:app

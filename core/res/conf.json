@@ -1,0 +1,66 @@
+{
+    "conf_name": "main.release",
+
+    "configs": {
+
+        "main.release": {
+            "cl_host": "localhost",
+            "cl_port": "23414",
+            "cl_api_key": "484d0758-8d1a-4f01-8c50-26098c507252",
+
+            "legacy_api_host": "localhost",
+            "legacy_api_port": "2087",
+
+            "enabled": {
+                "cl": true,
+                "la": true,
+
+                "csgo": {
+                    "cs.money":         true,
+                    "loot.farm":        true,
+                    "cs.deals":         true,
+                    "opskins.com":      true,
+                    "beefun.shop":      true,
+                    "tradeit.gg":       true,
+                    "c5game.com":       true
+                },
+                "pubg": {
+                    "opskins.com":      true,
+                    "tradeit.gg":       true
+                },
+                "h1z1": {
+                    "opskins.com":      true,
+                    "tradeit.gg":       true
+                },
+                "meta": {
+                    "currencies":       true
+                }
+            },
+
+            "delays": {
+                "csgo": {
+                    "cs.money":         5,
+                    "loot.farm":        30,
+                    "cs.deals":         10,
+                    "opskins.com":      30,
+                    "beefun.shop":      5,
+                    "tradeit.gg":       5,
+                    "c5game.com":       5
+                },
+                "pubg": {
+                    "opskins.com":      30,
+                    "tradeit.gg":       5
+                },
+                "h1z1": {
+                    "opskins.com":      30,
+                    "tradeit.gg":       5
+                },
+                "meta": {
+                    "currencies": 720
+                },
+                "error": 60
+            }
+        }
+        
+    }
+}
