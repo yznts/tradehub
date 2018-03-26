@@ -21,14 +21,23 @@ legacy_codenames = {
         'opskins.com': 'opskins',
         'beefun.shop': 'beefun',
         'tradeit.gg': 'tradeitgg',
+        'csgosell.com': 'csgosell',
+        'skinsjar.com': 'skinsjar',
+        'swap.gg': 'swapgg',
+        'tradeskinsfast.com': 'tradeskinsfast',
         'c5game.com(sale)': 'c5game-s',
         'c5game.com(purchase)': 'c5game-p'
     },
     'pubg': {
         'opskins.com': 'opskins',
         'tradeit.gg': 'tradeitgg',
+        'loot.farm': 'lootfarm',
+        'c5game.com(sale)': 'c5game-s',
+        'c5game.com(purchase)': 'c5game-p'
     },
     'h1z1': {
+        'c5game.com(sale)': 'c5game-s',
+        'c5game.com(purchase)': 'c5game-p',
         'opskins.com': 'opskins',
         'tradeit.gg': 'tradeitgg'
     }

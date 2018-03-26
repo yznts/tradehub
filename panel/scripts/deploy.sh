@@ -1,4 +1,4 @@
 
 #!/bin/bash
 
-rsync -avz --exclude=venv ../panel root@159.89.4.69:~/
+rsync -avz --exclude=venv ../panel root@167.99.132.141:~/

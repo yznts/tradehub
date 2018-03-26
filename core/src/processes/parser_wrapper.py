@@ -11,6 +11,8 @@ from modules import custom_log
 
 
 def parser_wrapper(**kwargs):
+
+    time.sleep(0.3)
     
     storage = kwargs.get('storage')
     proxy = kwargs.get('proxy')

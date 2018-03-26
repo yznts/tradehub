@@ -43,10 +43,18 @@ if __name__ == '__main__':
     import parsers.csgo.lootfarm
     import parsers.csgo.opskins
     import parsers.csgo.tradeit
+    import parsers.csgo.csgosell
+    import parsers.csgo.skinsjar
+    import parsers.csgo.swapgg
+    import parsers.csgo.tradeskinsfast
 
+    import parsers.pubg.c5game
+    import parsers.pubg.lootfarm
     import parsers.pubg.opskins
     import parsers.pubg.tradeit
+    
 
+    import parsers.h1z1.c5game
     import parsers.h1z1.opskins
     import parsers.h1z1.tradeit
     
@@ -122,8 +130,51 @@ if __name__ == '__main__':
             'market': 'tradeit.gg',
             'parser': parsers.csgo.tradeit.tradeit,
         }) if conf.enabled.csgo['tradeit.gg'] else None,
+        (parser_wrapper, {
+            'storage': storage,
+            'proxy': None,
+            'game': 'csgo',
+            'market': 'csgosell.com',
+            'parser': parsers.csgo.csgosell.csgosell,
+        }) if conf.enabled.csgo['csgosell.com'] else None,
+        (parser_wrapper, {
+            'storage': storage,
+            'proxy': None,
+            'game': 'csgo',
+            'market': 'skinsjar.com',
+            'parser': parsers.csgo.skinsjar.skinsjar,
+        }) if conf.enabled.csgo['skinsjar.com'] else None,
+        (parser_wrapper, {
+            'storage': storage,
+            'proxy': None,
+            'game': 'csgo',
+            'market': 'swap.gg',
+            'parser': parsers.csgo.swapgg.swapgg,
+        }) if conf.enabled.csgo['swap.gg'] else None,
+        (parser_wrapper, {
+            'storage': storage,
+            'proxy': None,
+            'game': 'csgo',
+            'market': 'tradeskinsfast.com',
+            'parser': parsers.csgo.tradeskinsfast.tradeskinsfast,
+        }) if conf.enabled.csgo['tradeskinsfast.com'] else None,
 
-
+        (parser_wrapper, {
+            'storage': storage,
+            'proxy': None,
+            'game': 'pubg',
+            'market': 'loot.farm',
+            'parser': parsers.pubg.lootfarm.lootfarm,
+        }) if conf.enabled.pubg['loot.farm'] else None,
+        (parser_wrapper, {
+            'storage': storage,
+            'proxy': None,
+            'game': 'pubg',
+            'market': 'c5game.com',
+            'parser': parsers.pubg.c5game.c5game,
+            'sale_purchase': True,
+            'proxy': 'Dqjyqm:aDHhft@185.232.171.109:9137',
+        }) if conf.enabled.pubg['c5game.com'] else None,
         (parser_wrapper, {
             'storage': storage,
             'proxy': None,
@@ -139,7 +190,15 @@ if __name__ == '__main__':
             'parser': parsers.pubg.tradeit.tradeit,
         }) if conf.enabled.pubg['tradeit.gg'] else None,
 
-
+        (parser_wrapper, {
+            'storage': storage,
+            'proxy': None,
+            'game': 'h1z1',
+            'market': 'c5game.com',
+            'parser': parsers.h1z1.c5game.c5game,
+            'sale_purchase': True,
+            'proxy': 'Dqjyqm:aDHhft@185.232.171.109:9137',
+        }) if conf.enabled.h1z1['c5game.com'] else None,
         (parser_wrapper, {
             'storage': storage,
             'proxy': None,
