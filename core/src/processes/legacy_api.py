@@ -55,6 +55,8 @@ class _LegacyAPI:
         
         self.app = bottle.Bottle()
 
+        bottle.BaseRequest.MEMFILE_MAX = 99999999999999999
+
         self.app.add_hook('after_request', self.hook_cors)
 
         self.app.route('/services/games', 'GET', callback=self.handler_s_games)
