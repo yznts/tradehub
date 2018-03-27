@@ -222,7 +222,7 @@ class _LegacyAPI:
                 "s1-price": s1_price,
                 "s2-price": s2_price,
                 "s1-s2-rate": 100-((s1_price/s2_price_after_commission)*100) if s1_price and s2_price else 0,
-                "s2-s1-rate": ((s1_price_after_commission/s2_price)*100)-100 if s1_price and s2_price else 0
+                "s2-s1-rate": ((s1_price_after_commission/s2_price)*100)-100 if s1_price and s2_price else 0,
             }
         
         return resp
@@ -269,6 +269,8 @@ class _LegacyAPI:
             s1_price = info.get('{0}|price'.format(s1_name))
             s2_price = info.get('{0}|price'.format(s2_name))
 
+            s1_link = info.get('{0}|link'.format(s1_name))
+
             if s1_price:
                 s1_price = float(s1_price)
                 s1_price_after_commission = s1_price * s1_commission
@@ -289,7 +291,8 @@ class _LegacyAPI:
                 "s1-price": s1_price,
                 "s2-price": s2_price,
                 "s1-s2-rate": 100-((s1_price/s2_price_after_commission)*100) if s1_price and s2_price else 0,
-                "s2-s1-rate": ((s1_price_after_commission/s2_price)*100)-100 if s1_price and s2_price else 0
+                "s2-s1-rate": ((s1_price_after_commission/s2_price)*100)-100 if s1_price and s2_price else 0,
+                "s1-link": s1_link
             }
         
         print(resp)
