@@ -4,6 +4,7 @@ import requests
 import json
 import logging
 import time
+import urllib.parse
 
 # pylint: disable=E0401
 
@@ -70,6 +71,7 @@ categories = [
 ]
 
 url_template = "https://www.c5game.com/csgo/default/result.html?csgo_filter_category={0}&page={1}"
+url_search = "https://www.c5game.com/csgo/default/result.html?k={0}"
 
 def c5game(wrapper_kwargs, scraper):
 
@@ -162,9 +164,15 @@ def _parse_page(args, retries=0):
             if direction == 'selling':
                 upd[name]['c5game.com(sale)|price'] = price / wrapper_kwargs.get('CNY')
                 upd[name]['c5game.com(sale)|available'] = True
+                upd[name]['c5game.com(sale)|link'] = url_search.format(
+                    urllib.parse.quote_plus(name)
+                )
             elif direction == 'purchaseing':
                 upd[name]['c5game.com(purchase)|price'] = price / wrapper_kwargs.get('CNY')
                 upd[name]['c5game.com(purchase)|available'] = True
+                upd[name]['c5game.com(purchase)|link'] = url_search.format(
+                    urllib.parse.quote_plus(name)
+                )
         
         return upd
 

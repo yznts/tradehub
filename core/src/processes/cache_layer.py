@@ -29,6 +29,17 @@ class _CacheLayer:
         self.app.route('/ping', 'GET', self.handler_ping)
         self.app.route('/set', 'PUT', self.handler_set)
         self.app.route('/get', 'GET', self.handler_get)
+
+        self.app.add_hook('after_request', self.hook_cors)
+
+    def hook_cors(self):
+        """
+        You need to add some headers to each request.
+        Don't use the wildcard '*' for Access-Control-Allow-Origin in production.
+        """
+        bottle.response.headers['Access-Control-Allow-Origin'] = '*'
+        bottle.response.headers['Access-Control-Allow-Methods'] = 'PUT, GET, POST, DELETE, OPTIONS'
+        bottle.response.headers['Access-Control-Allow-Headers'] = '*'
     
     def hanlder_before(self):
         if bottle.request.query.get('api_key') != self.api_key:

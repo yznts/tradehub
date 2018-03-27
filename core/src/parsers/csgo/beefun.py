@@ -11,7 +11,8 @@ def beefun(wrapper_kwargs, scraper):
             'query': '{ robots { id name csgoInventory { id asset { id assetid ownerId class { id name nameColor marketHashName iconUrl inspectId stattrak type exterior nameTag stickers { name iconUrl __typename } allowTradeNumber __typename } paint { id index wear __typename } priceForRobot __typename } reserved __typename } __typename } }',
             'variables': {},
             'operationName': None
-        }
+        },
+        timeout=60
     )
     data = json.loads(resp.text)
     data = data["data"]

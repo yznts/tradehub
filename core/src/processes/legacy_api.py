@@ -5,11 +5,13 @@ import multiprocessing
 import bottle
 import requests
 import json
+import logging
 
 
 def legacy_api(**kwargs):
     la = _LegacyAPI(kwargs.get('storage'))
     la.run()
+
 
 
 # For making fields compatible with old codenames
@@ -43,6 +45,8 @@ legacy_codenames = {
     }
 }
 
+bottle.hook
+
 
 class _LegacyAPI:
 
@@ -50,6 +54,8 @@ class _LegacyAPI:
         self.storage = storage
         
         self.app = bottle.Bottle()
+
+        self.app.add_hook('after_request', self.hook_cors)
 
         self.app.route('/services/games', 'GET', callback=self.handler_s_games)
         self.app.route('/services/available/<game>', 'GET', callback=self.handler_s_available)
@@ -63,8 +69,21 @@ class _LegacyAPI:
         self.app.route('/rates/all/<game>', 'GET', self.handler_rates_all)
         self.app.route('/rates/by_names/<game>', 'POST', self.handler_rates_by_names)
 
+        self.app.route('/ping', 'GET', self.handler_ping)
         self.app.route('/version', 'GET', self.handler_ver)
+        self.app.route('/test', 'POST', self.test)
 
+    def test(self):
+        return 'test'
+
+    def hook_cors(self):
+        """
+        You need to add some headers to each request.
+        Don't use the wildcard '*' for Access-Control-Allow-Origin in production.
+        """
+        bottle.response.headers['Access-Control-Allow-Origin'] = '*'
+        bottle.response.headers['Access-Control-Allow-Methods'] = 'PUT, GET, POST, DELETE, OPTIONS'
+        bottle.response.headers['Access-Control-Allow-Headers'] = '*'
 
     def handler_s_games(self):
         bottle.response.content_type = 'application/json'
@@ -210,10 +229,10 @@ class _LegacyAPI:
 
     
     def handler_rates_by_names(self, game):
-        s1_name = bottle.request.query["s1_name"]
-        s2_name = bottle.request.query["s2_name"]
-        s1_commission = bottle.request.query["s1_commission"]
-        s2_commission = bottle.request.query["s2_commission"]
+        s1_name = bottle.request.forms.get("s1_name")
+        s2_name = bottle.request.forms.get("s2_name")
+        s1_commission = bottle.request.forms.get("s1_commission")
+        s2_commission = bottle.request.forms.get("s2_commission")
         names = bottle.request.forms.get("names")
         # Fix JS issues
         names = names.replace("â", "★")
@@ -271,6 +290,8 @@ class _LegacyAPI:
                 "s2-s1-rate": ((s1_price_after_commission/s2_price)*100)-100 if s1_price and s2_price else 0
             }
         
+        print(resp)
+        
         return resp
 
     
@@ -278,6 +299,8 @@ class _LegacyAPI:
     def handler_ver(self):
         return 'legacy'
 
+    def handler_ping(self):
+        return 'pong'
 
     def run(self):
         self.app.run(host=self.storage.conf.legacy_api_host, port=self.storage.conf.legacy_api_port)

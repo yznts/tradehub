@@ -1,0 +1,33 @@
+
+
+.rates-node {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 35%;
+
+    background: rgba(0,0,0,0.3);
+    color: white;
+
+    font-size: 13px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.control-buttons-wrapper {
+    background-color: #423c46;
+    font-family: "Proxima Nova", sans-serif;
+    color: #fff;
+    text-align: center;
+    padding: 0 10px 10px;
+}
+.control-buttons-wrapper button {
+    background-color: #342f38;
+    padding: 5px;
+    margin-right: 10px;
+    float: left;
+}
+.control-buttons-wrapper span {
+    padding: 5px;
+    float: right;
+}

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Ext</title>
+
+    <!-- Meta -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../../libs/pure/pure.css">
+    <link rel="stylesheet" href="main.css">
+
+</head>
+<body>
+    
+    <div class="wrapper">
+            
+        <div class="pure-form pure-form-stacked">
+            <fieldset>
+                <legend>
+                    <span class="legend-text">Access settings</span>
+                    <button class="pure-button button-xsmall menu-trigger" id="access-settings-trigger">show/hide</button>
+                </legend>
+
+                <div id="access-settings-block">
+                    <label for="server-address">Server address</label>
+                    <input class="full-width commission" id="server-address" type="text" placeholder="Address...">
+                </div>
+
+            </fieldset>
+        </div>
+
+        <div id="trade-block">
+
+            <div class="pure-form pure-form-stacked">
+                <fieldset>
+                    <legend>
+                        <span class="legend-text">Commissions</span>
+                        <button class="pure-button button-xsmall menu-trigger" id="commissions-settings-trigger">show/hide</button>
+                    </legend>
+
+                    <div id="commissions-settings-block" class="disabled-trigger">
+                        <label for="s1-commission">S1</label>
+                        <input class="full-width commission" id="s1-commission" type="number" step="0.5" value="0">
+
+                        <label for="s2-commission">S2</label>
+                        <input class="full-width commission" id="s2-commission" type="number" step="0.5" value="0">
+                    </div>
+                </fieldset>
+            </div>
+
+            <div class="pure-form services-wrapper">
+                <h1><span id="current-service">Not supported</span> <span>(S2)</span> </h1>
+
+                <label for="compare-service">Game</label>
+                <select class="full-width" id="compare-game"></select>
+                <label for="compare-service">Service (S1)</label>
+                <select class="full-width" id="compare-service"></select>
+            </div>
+
+            <div class="control-buttons-wrapper">
+                <button class="button-xlarge pure-button pure-button-primary pure-button-disabled" id="button-update">Update</button>
+                <div class="sort-buttons-wrapper">
+                    <button class="button-large pure-button" id="sort-s1-s2">S1->S2</button>
+                    <button class="button-large pure-button" id="sort-s2-s1">S2->S1</button>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    
+
+    <!-- JS -->
+
+    <!-- Libs -->
+    <script src="../../libs/jquery/jquery.min.js"></script>
+    <script src="../../libs/flow/flow.js"></script>
+    
+    <!-- Shared -->
+    <script src="../shared/settings.js"></script>
+    <script src="../shared/api.js"></script>
+    <script src="../shared/pipe.js"></script>
+
+    <!-- Popup -->
+    <script src="js/actions.js"></script>
+    <script src="js/bindings.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+</html>

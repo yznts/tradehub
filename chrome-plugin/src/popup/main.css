@@ -1,0 +1,87 @@
+select {
+    padding: 0!important;
+}
+.button-xsmall {
+    font-size: 70%;
+}
+.button-small {
+    font-size: 85%;
+}
+.button-large {
+    font-size: 110%;
+}
+.button-xlarge {
+    font-size: 125%;
+}
+.menu-trigger {
+    float: right;
+}
+.full-width {
+    width: 100%;
+}
+.disabled {
+    display: none;
+}
+.input-bad {
+    border-color: rgb(237, 129, 123) !important;
+}
+.input-good {
+    border-color: rgb(123, 237, 124) !important;
+}
+
+body {
+    padding: 10px;
+    min-width: 300px;
+    min-height: 100px;
+}
+
+.pure-form legend {
+    font-size: 14px;
+    position: relative;
+}
+.pure-form .legend-text {
+    position: absolute;
+    bottom: 5px;
+}
+
+#accept-access-key {
+    margin-top: 0.27em;
+    margin-bottom: 0.27em;
+    margin-left: 5px;
+    width: 93%;
+}
+
+.services-wrapper {
+    margin-top: 10px;
+}
+.services-wrapper {
+    text-align: center;
+}
+.services-wrapper #compare-service {
+    min-width: 100px;
+}
+
+.control-buttons-wrapper {
+    text-align: center;
+    margin-top: 25px;
+}
+
+#button-update {
+    width: 50%;
+}
+
+
+.sort-buttons-wrapper {
+    margin-top: 5px;
+}
+
+.sort-buttons-wrapper button {
+    width: 24.5%;
+}
+
+#access-settings-block,
+#commissions-settings-block,
+#trade-block
+{
+    display: none;
+}

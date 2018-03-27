@@ -5,6 +5,9 @@
 		},
 		{
 			"path": "panel"
+		},
+		{
+			"path": "chrome-plugin"
 		}
 	]
 }

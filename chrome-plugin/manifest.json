@@ -1,0 +1,178 @@
+{
+    "manifest_version": 2,
+    
+      "name": "Trade Tools",
+      "description": "",
+      "version": "0.7.0",
+
+      "permissions": [
+        "storage"
+      ],
+    
+      "browser_action": {
+        "default_icon": "res/icon.png",
+        "default_popup": "src/popup/index.html"
+      },
+
+      "content_scripts": [
+        {
+          "matches": ["*://www.c5game.com/*"],
+          "css": ["src/content/c5game-cny-converter/custom.css"],
+          "js": [
+            "libs/jquery/jquery.min.js",
+            "src/shared/settings.js",
+            "src/shared/api.js",
+            "src/content/c5game-cny-converter/main.js"
+          ]
+        },
+        {
+          "matches": ["*://www.igxe.cn/*"],
+          "js": [
+            "libs/jquery/jquery.min.js",
+            "src/shared/settings.js",
+            "src/shared/api.js",
+            "src/content/igxe-cny-converter/main.js"
+          ]
+        },
+        {
+          "matches": ["*://cs.money/*"],
+          "css": ["src/content/csmoney/custom.css"],
+          "js": [
+            "libs/jquery/jquery.min.js",
+            "libs/flow/flow.js",
+            "src/shared/settings.js",
+            "src/shared/pipe.js",
+            "src/shared/api.js",
+            "src/content/csmoney/const.js",
+            "src/content/csmoney/actions.js",
+            "src/content/csmoney/bindings.js",
+            "src/content/csmoney/main.js"
+          ]
+        },
+        {
+          "matches": ["*://cs.deals/*"],
+          "css": ["src/content/csdeals/custom.css"],
+          "js": [
+            "libs/jquery/jquery.min.js",
+            "libs/flow/flow.js",
+            "src/shared/settings.js",
+            "src/shared/pipe.js",
+            "src/shared/api.js",
+            "src/content/csdeals/const.js",
+            "src/content/csdeals/actions.js",
+            "src/content/csdeals/bindings.js",
+            "src/content/csdeals/main.js"
+          ]
+        },
+        {
+          "matches": ["*://www.csgosum.com/*"],
+          "css": ["src/content/csgosum/custom.css"],
+          "js": [
+            "libs/jquery/jquery.min.js",
+            "libs/flow/flow.js",
+            "src/shared/settings.js",
+            "src/shared/pipe.js",
+            "src/shared/api.js",
+            "src/content/csgosum/const.js",
+            "src/content/csgosum/actions.js",
+            "src/content/csgosum/bindings.js",
+            "src/content/csgosum/main.js"
+          ]
+        },
+        {
+          "matches": ["*://loot.farm/*"],
+          "css": ["src/content/lootfarm/custom.css"],
+          "js": [
+            "libs/jquery/jquery.min.js",
+            "libs/flow/flow.js",
+            "src/shared/settings.js",
+            "src/shared/pipe.js",
+            "src/shared/api.js",
+            "src/content/lootfarm/const.js",
+            "src/content/lootfarm/actions.js",
+            "src/content/lootfarm/bindings.js",
+            "src/content/lootfarm/main.js"
+          ]
+        },
+        {
+          "matches": ["*://skinsjar.com/*"],
+          "css": ["src/content/skinsjar/custom.css"],
+          "js": [
+            "libs/jquery/jquery.min.js",
+            "libs/flow/flow.js",
+            "src/shared/items_quality.js",
+            "src/shared/settings.js",
+            "src/shared/pipe.js",
+            "src/shared/api.js",
+            "src/content/skinsjar/const.js",
+            "src/content/skinsjar/actions.js",
+            "src/content/skinsjar/bindings.js",
+            "src/content/skinsjar/main.js"
+          ]
+        },
+        {
+          "matches": ["*://skin.trade/*"],
+          "css": ["src/content/skintrade/custom.css"],
+          "js": [
+            "libs/jquery/jquery.min.js",
+            "libs/flow/flow.js",
+            "src/shared/items_quality.js",
+            "src/shared/settings.js",
+            "src/shared/pipe.js",
+            "src/shared/api.js",
+            "src/content/skintrade/const.js",
+            "src/content/skintrade/actions.js",
+            "src/content/skintrade/bindings.js",
+            "src/content/skintrade/main.js"
+          ]
+        },
+        {
+          "matches": ["*://tradeskinsfast.com/*"],
+          "css": ["src/content/tradeskinsfast/custom.css"],
+          "js": [
+            "libs/jquery/jquery.min.js",
+            "libs/flow/flow.js",
+            "src/shared/items_quality.js",
+            "src/shared/settings.js",
+            "src/shared/pipe.js",
+            "src/shared/api.js",
+            "src/content/tradeskinsfast/const.js",
+            "src/content/tradeskinsfast/actions.js",
+            "src/content/tradeskinsfast/bindings.js",
+            "src/content/tradeskinsfast/main.js"
+          ]
+        },
+        {
+          "matches": ["*://tradeit.gg/*"],
+          "css": ["src/content/tradeitgg/custom.css"],
+          "js": [
+            "libs/jquery/jquery.min.js",
+            "libs/flow/flow.js",
+            "src/shared/items_quality.js",
+            "src/shared/settings.js",
+            "src/shared/pipe.js",
+            "src/shared/api.js",
+            "src/content/tradeitgg/const.js",
+            "src/content/tradeitgg/actions.js",
+            "src/content/tradeitgg/bindings.js",
+            "src/content/tradeitgg/main.js"
+          ]
+        },
+        {
+          "matches": ["*://csgosell.com/*"],
+          "css": ["src/content/csgosell/custom.css"],
+          "js": [
+            "libs/jquery/jquery.min.js",
+            "libs/flow/flow.js",
+            "src/shared/items_quality.js",
+            "src/shared/settings.js",
+            "src/shared/pipe.js",
+            "src/shared/api.js",
+            "src/content/csgosell/const.js",
+            "src/content/csgosell/actions.js",
+            "src/content/csgosell/bindings.js",
+            "src/content/csgosell/main.js"
+          ]
+        }
+      ]
+  }
