@@ -91,6 +91,9 @@ def _parse_page(args, retries=0):
             # Extract info
             name = item.find('p', {'class': 'name'}).find('span').get_text().strip()
             price = float(item.find('span', {'class': 'price'}).get_text().replace('￥', '').strip())
+            link = 'https://www.c5game.com{0}'.format(
+                item.find('p', {'class': 'name'}).find('a')['href']
+            )
             direction = item['class'][0].strip()
 
             # Set fields
@@ -99,9 +102,11 @@ def _parse_page(args, retries=0):
             if direction == 'selling':
                 upd[name]['c5game.com(sale)|price'] = price / wrapper_kwargs.get('CNY')
                 upd[name]['c5game.com(sale)|available'] = True
+                upd[name]['c5game.com(sale)|link'] = link
             elif direction == 'purchaseing':
                 upd[name]['c5game.com(purchase)|price'] = price / wrapper_kwargs.get('CNY')
                 upd[name]['c5game.com(purchase)|available'] = True
+                upd[name]['c5game.com(purchase)|link'] = link
         
         return upd
 

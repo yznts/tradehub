@@ -32,12 +32,14 @@
                     "c5game.com":       true,
                     "loot.farm":        true,
                     "opskins.com":      true,
-                    "tradeit.gg":       true
+                    "tradeit.gg":       true,
+                    "swap.gg":          true
                 },
                 "h1z1": {
                     "c5game.com":       true,
                     "opskins.com":      true,
-                    "tradeit.gg":       true
+                    "tradeit.gg":       true,
+                    "swap.gg":          true
                 },
                 "meta": {
                     "currencies":       true
@@ -62,12 +64,14 @@
                     "c5game.com":       5,
                     "loot.farm":        20,
                     "opskins.com":      20,
-                    "tradeit.gg":       20
+                    "tradeit.gg":       20,
+                    "swap.gg":          20
                 },
                 "h1z1": {
                     "c5game.com":       5,
                     "opskins.com":      30,
-                    "tradeit.gg":       5
+                    "tradeit.gg":       5,
+                    "swap.gg":          20
                 },
                 "meta": {
                     "currencies":       720

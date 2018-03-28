@@ -52,11 +52,13 @@ if __name__ == '__main__':
     import parsers.pubg.lootfarm
     import parsers.pubg.opskins
     import parsers.pubg.tradeit
+    import parsers.pubg.swapgg
     
 
     import parsers.h1z1.c5game
     import parsers.h1z1.opskins
     import parsers.h1z1.tradeit
+    import parsers.h1z1.swapgg
     
 
     procs = [
@@ -189,6 +191,13 @@ if __name__ == '__main__':
             'market': 'tradeit.gg',
             'parser': parsers.pubg.tradeit.tradeit,
         }) if conf.enabled.pubg['tradeit.gg'] else None,
+        (parser_wrapper, {
+            'storage': storage,
+            'proxy': None,
+            'game': 'pubg',
+            'market': 'swap.gg',
+            'parser': parsers.pubg.swapgg.swapgg,
+        }) if conf.enabled.pubg['swap.gg'] else None,
 
         (parser_wrapper, {
             'storage': storage,
@@ -213,6 +222,13 @@ if __name__ == '__main__':
             'market': 'tradeit.gg',
             'parser': parsers.h1z1.tradeit.tradeit,
         }) if conf.enabled.h1z1['tradeit.gg'] else None,
+        (parser_wrapper, {
+            'storage': storage,
+            'proxy': None,
+            'game': 'h1z1',
+            'market': 'swap.gg',
+            'parser': parsers.h1z1.swapgg.swapgg,
+        }) if conf.enabled.h1z1['swap.gg'] else None,
         
     ]
 
