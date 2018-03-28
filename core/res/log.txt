@@ -1,20 +1,8 @@
-2018-03-26 16:18:56,421 - root - INFO - Start
-2018-03-26 16:18:56,501 - root - INFO - STATUS 1:True cache_layer {'storage': <DictProxy object, typeid 'dict' at 0x10088eb38>}
-2018-03-26 16:18:56,502 - root - INFO - STATUS 2:True legacy_api {'storage': <DictProxy object, typeid 'dict' at 0x10088eb38>}
-2018-03-26 16:18:56,502 - root - INFO - STATUS 3:True parser_wrapper {'storage': <DictProxy object, typeid 'dict' at 0x10088eb38>, 'proxy': None, 'game': 'meta', 'market': 'currencies', 'parser': <function currencies at 0x101acee18>}
-2018-03-26 16:18:56,502 - root - INFO - STATUS 4:True parser_wrapper {'storage': <DictProxy object, typeid 'dict' at 0x10088eb38>, 'proxy': 'Dqjyqm:aDHhft@185.232.171.109:9137', 'game': 'h1z1', 'market': 'c5game.com', 'parser': <function c5game at 0x1024ae598>, 'sale_purchase': True}
-2018-03-26 16:18:56,842 - root - INFO - No CNY
-2018-03-26 16:18:56,843 - root - INFO - 0.033 	 h1z1:c5game.com upd loaded
-2018-03-26 16:18:56,846 - root - INFO - 0.000 	 h1z1:c5game.com av dropped
-2018-03-26 16:18:56,849 - root - INFO - 0.003 	 h1z1:c5game.com server cache updated
-2018-03-26 16:18:56,852 - root - INFO - 0.003 	 h1z1:c5game.com last time updated
-2018-03-26 16:18:56,958 - root - INFO - 0.150 	 meta:currencies upd loaded
-2018-03-26 16:18:56,984 - root - INFO - 0.000 	 meta:currencies av dropped
-2018-03-26 16:18:56,989 - root - INFO - 0.004 	 meta:currencies server cache updated
-2018-03-26 16:18:56,992 - root - INFO - 0.002 	 meta:currencies last time updated
-2018-03-26 16:19:04,801 - root - INFO - 2.940 	 h1z1:c5game.com pages links generated
-2018-03-26 16:19:09,503 - root - INFO - 7.650 	 h1z1:c5game.com upd loaded
-2018-03-26 16:19:09,506 - root - INFO - 0.000 	 h1z1:c5game.com av dropped
-2018-03-26 16:19:09,515 - root - INFO - 0.008 	 h1z1:c5game.com server cache updated
-2018-03-26 16:19:09,520 - root - INFO - 0.005 	 h1z1:c5game.com last time updated
-2018-03-26 16:19:15,543 - root - INFO - 1.016 	 h1z1:c5game.com pages links generated
+2018-03-29 02:18:39,918 - root - INFO - Start
+2018-03-29 02:18:40,007 - root - INFO - STATUS 1:True cache_layer {'storage': <DictProxy object, typeid 'dict' at 0x10e77bb38>}
+2018-03-29 02:18:40,007 - root - INFO - STATUS 2:True legacy_api {'storage': <DictProxy object, typeid 'dict' at 0x10e77bb38>}
+2018-03-29 02:18:40,008 - root - INFO - STATUS 3:True parser_wrapper {'storage': <DictProxy object, typeid 'dict' at 0x10e77bb38>, 'proxy': None, 'game': 'pubg', 'market': 'tradeit.gg', 'parser': <function tradeit at 0x10fd417b8>}
+2018-03-29 02:18:41,879 - root - INFO - 1.563 	 pubg:tradeit.gg upd loaded
+2018-03-29 02:18:41,895 - root - INFO - 0.000 	 pubg:tradeit.gg av dropped
+2018-03-29 02:18:41,898 - root - INFO - 0.003 	 pubg:tradeit.gg server cache updated
+2018-03-29 02:18:41,902 - root - INFO - 0.003 	 pubg:tradeit.gg last time updated

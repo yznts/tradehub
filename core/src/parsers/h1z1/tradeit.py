@@ -1,5 +1,7 @@
 import json
 
+from modules import nested_data
+
 items_quality = {
     "BS": "Battle-Scarred",
     "WW": "Well-Worn",
@@ -13,7 +15,9 @@ def tradeit(wrapper_kwargs, scraper):
     # Get data
     resp = scraper.get('https://tradeit.gg/compressedstatic')
     data = json.loads(resp.text)
-    items = data[0]['433850']['items']
+    items = {}
+    for bot in data:
+        items = nested_data.merge(items, bot['433850']['items'])
 
     # Cache update
     upd = {wrapper_kwargs.get('game'): {}}
