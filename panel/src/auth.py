@@ -2,28 +2,33 @@ from functools import wraps
 from flask import request, Response
 import json
 import dateparser
-from datetime import datetime
+import datetime
+import urllib.parse
+import requests
 
 
 def check_auth(username, password):
     """This function is called to check if a username /
     password combination is valid.
     """
-    # Load users file
-    with open("/var/users.json") as f:
-        users = json.load(f)
-    # Find user
-    user = users.get(username)
+    # Load user
+    user = requests.get('https://openatlas.tk/openapi/user?'+urllib.parse.urlencode({
+        'username': username,
+        'password': password
+    }))
+    user = json.loads(user.text)
     if not user:
-        print("User not exists: ", user)
         return False
-    # Check password
-    if user.get("password") != password:
-        print("Password incorrect")
+    # Load sub
+    sub = None
+    for s in user['subs']:
+        if s['sid'] == 1592:
+            sub = s
+    if not sub:
         return False
     # Check expire date
-    if dateparser.parse(user.get("expire"), settings={'DATE_ORDER': 'DMY'}) < datetime.now():
-        print("Expired")
+    expire = datetime.datetime.fromtimestamp(sub['expire']['$date']/1000)
+    if expire < datetime.datetime.now():
         return False
 
     return True
