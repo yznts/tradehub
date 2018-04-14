@@ -33,3 +33,4 @@ This method must be available on parent:
 ```
 <parent>/openapi/user?username=...&password...
 ```
+Also core part is used through custom cache layer
