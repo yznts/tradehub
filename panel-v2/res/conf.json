@@ -1,0 +1,29 @@
+{
+    "conf_name": "release",
+
+    "configs": {
+
+        "debug": {
+            "debug": true,
+            "secret": "jd8gnaA76SFs4dg1jnASF",
+
+            "title": "TradeHub",
+
+            "parent": "https://openatlas.tk",
+            "cache_layer_address": "http://direct.tradehub.tk:23414",
+            "cache_layer_api_key": "484d0758-8d1a-4f01-8c50-26098c507252"
+        },
+
+        "release": {
+            "debug": false,
+            "secret": "jd8gnaA76SFs4dg1jnASF",
+
+            "title": "TradeHub",
+
+            "parent": "https://openatlas.tk",
+            "cache_layer_address": "http://localhost:23414",
+            "cache_layer_api_key": "484d0758-8d1a-4f01-8c50-26098c507252"
+        }
+
+    }
+}

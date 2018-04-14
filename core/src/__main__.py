@@ -1,7 +1,6 @@
 import json
 import box
 import multiprocessing
-import cfscrape
 import logging
 import time
 
@@ -59,10 +58,8 @@ if __name__ == '__main__':
     import parsers.h1z1.opskins
     import parsers.h1z1.tradeit
     import parsers.h1z1.swapgg
-    
 
     procs = [
-
 
         (cache_layer, {
             'storage': storage,
@@ -90,7 +87,6 @@ if __name__ == '__main__':
         }) if conf.enabled.csgo['beefun.shop'] else None,
         (parser_wrapper, {
             'storage': storage,
-            'proxy': None,
             'game': 'csgo',
             'market': 'c5game.com',
             'parser': parsers.csgo.c5game.c5game,
@@ -170,7 +166,6 @@ if __name__ == '__main__':
         }) if conf.enabled.pubg['loot.farm'] else None,
         (parser_wrapper, {
             'storage': storage,
-            'proxy': None,
             'game': 'pubg',
             'market': 'c5game.com',
             'parser': parsers.pubg.c5game.c5game,
@@ -201,7 +196,6 @@ if __name__ == '__main__':
 
         (parser_wrapper, {
             'storage': storage,
-            'proxy': None,
             'game': 'h1z1',
             'market': 'c5game.com',
             'parser': parsers.h1z1.c5game.c5game,

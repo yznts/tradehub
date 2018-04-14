@@ -13,7 +13,6 @@ def legacy_api(**kwargs):
     la.run()
 
 
-
 # For making fields compatible with old codenames
 legacy_codenames = {
     'csgo': {
@@ -44,8 +43,6 @@ legacy_codenames = {
         'tradeit.gg': 'tradeitgg'
     }
 }
-
-bottle.hook
 
 
 class _LegacyAPI:
@@ -228,8 +225,6 @@ class _LegacyAPI:
         return resp
 
 
-
-    
     def handler_rates_by_names(self, game):
         s1_name = bottle.request.forms.get("s1_name")
         s2_name = bottle.request.forms.get("s2_name")

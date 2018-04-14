@@ -1,4 +1,27 @@
 
-.controls {
-    width: 100%;
+
+#meta {
+    width: 250px;
+}
+
+.markets-modal-body {
+    padding-top: 1rem;
+    padding-left: 40px !important;
+}
+.filters-modal-body {
+    padding: 30px !important;
+}
+
+.not-av {
+    color: #ccc;
+}
+
+td a {
+    color: black;
+    text-decoration: underline;
+}
+
+td .copy {
+    padding: 0px 5px;
+    margin: 0px 5px;
 }

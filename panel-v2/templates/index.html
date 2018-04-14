@@ -1,10 +1,29 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>$Title$</title>
-</head>
-<body>
-$END$
-</body>
-</html>
+{% extends 'base.html' %}
+
+{% block content %}
+    <div class="markets row">
+        {% for game, markets in games.items() %}
+            <div class="col-sm-4">
+                <h1>{{ game.upper() }}</h1>
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>Market</th>
+                            <th>Last update</th>
+                            <th>Items</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for market, counter in markets.items() %}
+                            <tr>
+                                <td>{{ market }}</td>
+                                <td class="">{{ last_updates[game][market] | ctime }}</td>
+                                <td class="text-right">{{ counter }}</td>
+                            </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        {% endfor %}
+    </div>
+{% endblock %}

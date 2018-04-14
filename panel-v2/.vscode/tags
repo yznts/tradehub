@@ -1,0 +1,203 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BOX_PARAMETERS	../venv/bin/box.py	/^BOX_PARAMETERS = ('default_box', 'default_box_attr', 'conversion_box',$/;"	kind:variable	line:45
+Blueprint	../src/controllers/index.py	/^from flask import Blueprint, render_template$/;"	kind:namespace	line:1
+Blueprint	../src/controllers/table.py	/^from flask import Blueprint, render_template, request$/;"	kind:namespace	line:1
+Box	../venv/bin/box.py	/^class Box(dict):$/;"	kind:class	line:250
+BoxError	../venv/bin/box.py	/^class BoxError(Exception):$/;"	kind:class	line:53
+BoxKeyError	../venv/bin/box.py	/^class BoxKeyError(BoxError, KeyError, AttributeError):$/;"	kind:class	line:57
+BoxList	../venv/bin/box.py	/^class BoxList(list):$/;"	kind:class	line:701
+ConfigBox	../venv/bin/box.py	/^class ConfigBox(Box):$/;"	kind:class	line:876
+DebugToolbarExtension	../app.py	/^from flask_debugtoolbar import DebugToolbarExtension$/;"	kind:namespace	line:2
+Flask	../app.py	/^from flask import Flask, g$/;"	kind:namespace	line:1
+Iterable	../venv/bin/box.py	/^    Iterable = (tuple, list)$/;"	kind:variable	line:22
+Iterable	../venv/bin/box.py	/^    from collections import Iterable, Mapping$/;"	kind:namespace	line:19
+Mapping	../venv/bin/box.py	/^    Mapping = dict$/;"	kind:variable	line:21
+Mapping	../venv/bin/box.py	/^    from collections import Iterable, Mapping$/;"	kind:namespace	line:19
+OrderedDict	../src/controllers/index.py	/^from collections import OrderedDict$/;"	kind:namespace	line:4
+Response	../src/modules/basic_auth.py	/^from flask import request, Response$/;"	kind:namespace	line:2
+SBox	../venv/bin/box.py	/^class SBox(Box):$/;"	kind:class	line:998
+__all__	../venv/bin/box.py	/^__all__ = ['Box', 'ConfigBox', 'BoxList', 'SBox',$/;"	kind:variable	line:40
+__author__	../venv/bin/box.py	/^__author__ = 'Chris Griffith'$/;"	kind:variable	line:42
+__box_config	../venv/bin/box.py	/^    def __box_config(self):$/;"	kind:member	line:434
+__convert_and_store	../venv/bin/box.py	/^    def __convert_and_store(self, item, value):$/;"	kind:member	line:441
+__copy__	../venv/bin/box.py	/^    def __copy__(self):$/;"	kind:member	line:392
+__copy__	../venv/bin/box.py	/^    def __copy__(self):$/;"	kind:member	line:751
+__create_lineage	../venv/bin/box.py	/^    def __create_lineage(self):$/;"	kind:member	line:470
+__deepcopy__	../venv/bin/box.py	/^    def __deepcopy__(self, memodict=None):$/;"	kind:member	line:395
+__deepcopy__	../venv/bin/box.py	/^    def __deepcopy__(self, memodict=None):$/;"	kind:member	line:754
+__delattr__	../venv/bin/box.py	/^    def __delattr__(self, item):$/;"	kind:member	line:551
+__delitem__	../venv/bin/box.py	/^    def __delitem__(self, key):$/;"	kind:member	line:546
+__dir__	../venv/bin/box.py	/^    def __dir__(self):$/;"	kind:member	line:342
+__dir__	../venv/bin/box.py	/^    def __dir__(self):$/;"	kind:member	line:902
+__getattr__	../venv/bin/box.py	/^    def __getattr__(self, item):$/;"	kind:member	line:478
+__getattr__	../venv/bin/box.py	/^    def __getattr__(self, item):$/;"	kind:member	line:894
+__getitem__	../venv/bin/box.py	/^    def __getitem__(self, item):$/;"	kind:member	line:407
+__getstate__	../venv/bin/box.py	/^    def __getstate__(self):$/;"	kind:member	line:735
+__hash__	../venv/bin/box.py	/^    def __hash__(self):$/;"	kind:member	line:332
+__init__	../venv/bin/box.py	/^    def __init__(self, *args, **kwargs):$/;"	kind:member	line:282
+__init__	../venv/bin/box.py	/^    def __init__(self, iterable=None, box_class=Box, **box_options):$/;"	kind:member	line:707
+__new__	../venv/bin/box.py	/^    def __new__(cls, *args, **kwargs):$/;"	kind:member	line:273
+__repr__	../venv/bin/box.py	/^    def __repr__(self):$/;"	kind:member	line:1020
+__repr__	../venv/bin/box.py	/^    def __repr__(self):$/;"	kind:member	line:565
+__repr__	../venv/bin/box.py	/^    def __repr__(self):$/;"	kind:member	line:745
+__repr__	../venv/bin/box.py	/^    def __repr__(self):$/;"	kind:member	line:994
+__setattr__	../venv/bin/box.py	/^    def __setattr__(self, key, value):$/;"	kind:member	line:515
+__setitem__	../venv/bin/box.py	/^    def __setitem__(self, key, value):$/;"	kind:member	line:505
+__setstate__	../venv/bin/box.py	/^    def __setstate__(self, state):$/;"	kind:member	line:403
+__setstate__	../venv/bin/box.py	/^    def __setstate__(self, state):$/;"	kind:member	line:740
+__str__	../venv/bin/box.py	/^    def __str__(self):$/;"	kind:member	line:568
+__str__	../venv/bin/box.py	/^    def __str__(self):$/;"	kind:member	line:748
+__version__	../venv/bin/box.py	/^__version__ = '3.1.1'$/;"	kind:variable	line:43
+_all_cap_re	../venv/bin/box.py	/^_all_cap_re = re.compile('([a-z0-9])([A-Z])')$/;"	kind:variable	line:50
+_camel_killer	../venv/bin/box.py	/^def _camel_killer(attr):$/;"	kind:function	line:158
+_conversion_checks	../venv/bin/box.py	/^def _conversion_checks(item, keys, box_config, check_only=False,$/;"	kind:function	line:188
+_first_cap_re	../venv/bin/box.py	/^_first_cap_re = re.compile('(.)([A-Z][a-z]+)')$/;"	kind:variable	line:49
+_from_json	../venv/bin/box.py	/^def _from_json(json_string=None, filename=None,$/;"	kind:function	line:75
+_from_yaml	../venv/bin/box.py	/^def _from_yaml(yaml_string=None, filename=None,$/;"	kind:function	line:106
+_get_box_config	../venv/bin/box.py	/^def _get_box_config(cls, kwargs):$/;"	kind:function	line:231
+_protected_keys	../venv/bin/box.py	/^    _protected_keys = dir({}) + ['to_dict', 'bool', 'int', 'float',$/;"	kind:variable	line:889
+_protected_keys	../venv/bin/box.py	/^    _protected_keys = dir({}) + ['to_dict', 'tree_view', 'to_json', 'to_yaml',$/;"	kind:variable	line:1003
+_protected_keys	../venv/bin/box.py	/^    _protected_keys = dir({}) + ['to_dict', 'tree_view', 'to_json', 'to_yaml',$/;"	kind:variable	line:270
+_recursive_tuples	../venv/bin/box.py	/^def _recursive_tuples(iterable, box_class, recreate_tuples=False, **kwargs):$/;"	kind:function	line:175
+_safe_attr	../venv/bin/box.py	/^def _safe_attr(attr, camel_killer=False, replacement_char='x'):$/;"	kind:function	line:129
+_safe_key	../venv/bin/box.py	/^def _safe_key(key):$/;"	kind:function	line:122
+_to_json	../venv/bin/box.py	/^def _to_json(obj, filename=None,$/;"	kind:function	line:63
+_to_yaml	../venv/bin/box.py	/^def _to_yaml(obj, filename=None, default_flow_style=False,$/;"	kind:function	line:91
+app	../app.py	/^app = Flask(__name__)$/;"	kind:variable	line:10
+app.py	../app.py	1;"	kind:file	line:1
+append	../venv/bin/box.py	/^    def append(self, p_object):$/;"	kind:member	line:715
+authenticate	../src/modules/basic_auth.py	/^def authenticate():$/;"	kind:function	line:38
+basestring	../venv/bin/box.py	/^    basestring = str$/;"	kind:variable	line:36
+basic_auth.py	../src/modules/basic_auth.py	1;"	kind:file	line:1
+before_request	../app.py	/^def before_request():$/;"	kind:function	line:24
+bool	../venv/bin/box.py	/^    def bool(self, item, default=None):$/;"	kind:member	line:907
+box	../src/modules/config.py	/^import box$/;"	kind:namespace	line:2
+box.py	../venv/bin/box.py	1;"	kind:file	line:1
+box_it_up	../venv/bin/box.py	/^    def box_it_up(self):$/;"	kind:member	line:320
+box_it_up	../venv/bin/box.py	/^    def box_it_up(self):$/;"	kind:member	line:870
+bp	../src/controllers/index.py	/^bp = Blueprint('index', __name__)$/;"	kind:variable	line:8
+bp	../src/controllers/static.py	/^bp = flask.Blueprint('static', __name__)$/;"	kind:variable	line:3
+bp	../src/controllers/table.py	/^bp = Blueprint('table', __name__)$/;"	kind:variable	line:8
+cfg	../src/modules/config.py	/^    cfg = json.load(f)$/;"	kind:variable	line:6
+chardetect	../venv/bin/chardetect	1;"	kind:file	line:1
+check_auth	../src/modules/basic_auth.py	/^def check_auth(username, password):$/;"	kind:function	line:11
+collections	../venv/bin/box.py	/^import collections$/;"	kind:namespace	line:13
+config	../app.py	/^from src.modules.config import config$/;"	kind:namespace	line:6
+config	../src/controllers/index.py	/^from src.modules.config import config$/;"	kind:namespace	line:6
+config	../src/controllers/table.py	/^from src.modules.config import config$/;"	kind:namespace	line:5
+config	../src/modules/basic_auth.py	/^from src.modules.config import config$/;"	kind:namespace	line:8
+config	../src/modules/config.py	/^config = box.Box(cfg['configs'][cfg['conf_name']])$/;"	kind:variable	line:8
+config.py	../src/modules/config.py	1;"	kind:file	line:1
+controllers	../app.py	/^import src.controllers.index$/;"	kind:namespace	line:38
+controllers	../app.py	/^import src.controllers.static$/;"	kind:namespace	line:37
+controllers	../app.py	/^import src.controllers.table$/;"	kind:namespace	line:39
+copy	../venv/bin/box.py	/^    def copy(self):$/;"	kind:member	line:389
+copy	../venv/bin/box.py	/^import copy$/;"	kind:namespace	line:14
+datetime	../app.py	/^import datetime$/;"	kind:namespace	line:3
+datetime	../src/modules/basic_auth.py	/^import datetime$/;"	kind:namespace	line:4
+decorated	../src/modules/basic_auth.py	/^    def decorated(*args, **kwargs):$/;"	kind:function	line:48
+dict	../venv/bin/box.py	/^    def dict(self):$/;"	kind:member	line:1008
+easy_install	../venv/bin/easy_install	1;"	kind:file	line:1
+easy_install-3.6	../venv/bin/easy_install-3.6	1;"	kind:file	line:1
+extend	../venv/bin/box.py	/^    def extend(self, iterable):$/;"	kind:member	line:723
+flask	../src/controllers/static.py	/^import flask$/;"	kind:namespace	line:1
+flask	../venv/bin/flask	1;"	kind:file	line:1
+float	../venv/bin/box.py	/^    def float(self, item, default=None):$/;"	kind:member	line:945
+from_json	../venv/bin/box.py	/^    def from_json(cls, json_string=None, filename=None, encoding="utf-8",$/;"	kind:member	line:799
+from_json	../venv/bin/box.py	/^    def from_json(cls, json_string=None, filename=None,$/;"	kind:member	line:630
+from_yaml	../venv/bin/box.py	/^        def from_yaml(cls, yaml_string=None, filename=None,$/;"	kind:function	line:675
+from_yaml	../venv/bin/box.py	/^        def from_yaml(cls, yaml_string=None, filename=None,$/;"	kind:function	line:845
+g	../app.py	/^from flask import Flask, g$/;"	kind:namespace	line:1
+get	../venv/bin/box.py	/^    def get(self, key, default=None):$/;"	kind:member	line:379
+getboolean	../venv/bin/box.py	/^    def getboolean(self, item, default=None):$/;"	kind:member	line:985
+getfloat	../venv/bin/box.py	/^    def getfloat(self, item, default=None):$/;"	kind:member	line:991
+getint	../venv/bin/box.py	/^    def getint(self, item, default=None):$/;"	kind:member	line:988
+index	../app.py	/^import src.controllers.index$/;"	kind:namespace	line:38
+index	../src/controllers/index.py	/^def index():$/;"	kind:function	line:12
+index.py	../src/controllers/index.py	1;"	kind:file	line:1
+insert	../venv/bin/box.py	/^    def insert(self, index, p_object):$/;"	kind:member	line:727
+int	../venv/bin/box.py	/^    def int(self, item, default=None):$/;"	kind:member	line:930
+items	../venv/bin/box.py	/^    def items(self):$/;"	kind:member	line:431
+json	../src/controllers/index.py	/^import json$/;"	kind:namespace	line:3
+json	../src/controllers/table.py	/^import json$/;"	kind:namespace	line:3
+json	../src/modules/basic_auth.py	/^import json$/;"	kind:namespace	line:3
+json	../src/modules/config.py	/^import json$/;"	kind:namespace	line:1
+json	../venv/bin/box.py	/^    def json(self):$/;"	kind:member	line:1012
+json	../venv/bin/box.py	/^import json$/;"	kind:namespace	line:10
+kwlist	../venv/bin/box.py	/^from keyword import kwlist$/;"	kind:namespace	line:15
+list	../venv/bin/box.py	/^    def list(self, item, default=None, spliter=",", strip=True, mod=None):$/;"	kind:member	line:960
+load_entry_point	../venv/bin/easy_install	/^from pkg_resources import load_entry_point$/;"	kind:namespace	line:6
+load_entry_point	../venv/bin/easy_install-3.6	/^from pkg_resources import load_entry_point$/;"	kind:namespace	line:6
+load_entry_point	../venv/bin/pip	/^from pkg_resources import load_entry_point$/;"	kind:namespace	line:6
+load_entry_point	../venv/bin/pip3	/^from pkg_resources import load_entry_point$/;"	kind:namespace	line:6
+load_entry_point	../venv/bin/pip3.6	/^from pkg_resources import load_entry_point$/;"	kind:namespace	line:6
+main	../venv/bin/chardetect	/^from chardet.cli.chardetect import main$/;"	kind:namespace	line:7
+main	../venv/bin/flask	/^from flask.cli import main$/;"	kind:namespace	line:7
+open	../venv/bin/box.py	/^    from io import open$/;"	kind:namespace	line:38
+parse	../src/modules/basic_auth.py	/^import urllib.parse$/;"	kind:namespace	line:5
+pip	../venv/bin/pip	1;"	kind:file	line:1
+pip3	../venv/bin/pip3	1;"	kind:file	line:1
+pip3.6	../venv/bin/pip3.6	1;"	kind:file	line:1
+re	../venv/bin/box.py	/^import re$/;"	kind:namespace	line:12
+re	../venv/bin/chardetect	/^import re$/;"	kind:namespace	line:4
+re	../venv/bin/easy_install	/^import re$/;"	kind:namespace	line:4
+re	../venv/bin/easy_install-3.6	/^import re$/;"	kind:namespace	line:4
+re	../venv/bin/flask	/^import re$/;"	kind:namespace	line:4
+re	../venv/bin/pip	/^import re$/;"	kind:namespace	line:4
+re	../venv/bin/pip3	/^import re$/;"	kind:namespace	line:4
+re	../venv/bin/pip3.6	/^import re$/;"	kind:namespace	line:4
+render_template	../src/controllers/index.py	/^from flask import Blueprint, render_template$/;"	kind:namespace	line:1
+render_template	../src/controllers/table.py	/^from flask import Blueprint, render_template, request$/;"	kind:namespace	line:1
+request	../src/controllers/table.py	/^from flask import Blueprint, render_template, request$/;"	kind:namespace	line:1
+request	../src/modules/basic_auth.py	/^from flask import request, Response$/;"	kind:namespace	line:2
+requests	../src/controllers/index.py	/^import requests$/;"	kind:namespace	line:2
+requests	../src/controllers/table.py	/^import requests$/;"	kind:namespace	line:2
+requests	../src/modules/basic_auth.py	/^import requests$/;"	kind:namespace	line:6
+requires_auth	../src/controllers/table.py	/^from src.modules.basic_auth import requires_auth$/;"	kind:namespace	line:6
+requires_auth	../src/modules/basic_auth.py	/^def requires_auth(f):$/;"	kind:function	line:46
+ruamel	../venv/bin/box.py	/^        import ruamel.yaml as yaml$/;"	kind:namespace	line:30
+setdefault	../venv/bin/box.py	/^    def setdefault(self, item, default=None):$/;"	kind:member	line:604
+src	../app.py	/^import src.controllers.index$/;"	kind:namespace	line:38
+src	../app.py	/^import src.controllers.static$/;"	kind:namespace	line:37
+src	../app.py	/^import src.controllers.table$/;"	kind:namespace	line:39
+static	../app.py	/^import src.controllers.static$/;"	kind:namespace	line:37
+static.py	../src/controllers/static.py	1;"	kind:file	line:1
+static_files	../src/controllers/static.py	/^def static_files(path):$/;"	kind:function	line:7
+string	../venv/bin/box.py	/^import string$/;"	kind:namespace	line:8
+sys	../venv/bin/box.py	/^import sys$/;"	kind:namespace	line:9
+sys	../venv/bin/chardetect	/^import sys$/;"	kind:namespace	line:5
+sys	../venv/bin/easy_install	/^import sys$/;"	kind:namespace	line:5
+sys	../venv/bin/easy_install-3.6	/^import sys$/;"	kind:namespace	line:5
+sys	../venv/bin/flask	/^import sys$/;"	kind:namespace	line:5
+sys	../venv/bin/pip	/^import sys$/;"	kind:namespace	line:5
+sys	../venv/bin/pip3	/^import sys$/;"	kind:namespace	line:5
+sys	../venv/bin/pip3.6	/^import sys$/;"	kind:namespace	line:5
+table	../app.py	/^import src.controllers.table$/;"	kind:namespace	line:39
+table	../src/controllers/table.py	/^def table(game):$/;"	kind:function	line:13
+table.py	../src/controllers/table.py	1;"	kind:file	line:1
+time	../app.py	/^import time$/;"	kind:namespace	line:4
+timectime	../app.py	/^def timectime(s):$/;"	kind:function	line:31
+to_dict	../venv/bin/box.py	/^    def to_dict(self):$/;"	kind:member	line:571
+to_json	../venv/bin/box.py	/^    def to_json(self, filename=None,$/;"	kind:member	line:615
+to_json	../venv/bin/box.py	/^    def to_json(self, filename=None,$/;"	kind:member	line:775
+to_list	../venv/bin/box.py	/^    def to_list(self):$/;"	kind:member	line:762
+to_yaml	../venv/bin/box.py	/^        def to_yaml(self, filename=None, default_flow_style=False,$/;"	kind:function	line:657
+to_yaml	../venv/bin/box.py	/^        def to_yaml(self, filename=None, default_flow_style=False,$/;"	kind:function	line:827
+toolbar	../app.py	/^    toolbar = DebugToolbarExtension(app)$/;"	kind:variable	line:19
+update	../venv/bin/box.py	/^    def update(self, item=None, **kwargs):$/;"	kind:member	line:588
+urllib	../src/modules/basic_auth.py	/^import urllib.parse$/;"	kind:namespace	line:5
+uuid4	../venv/bin/box.py	/^from uuid import uuid4$/;"	kind:namespace	line:11
+values	../venv/bin/box.py	/^    def values(self):$/;"	kind:member	line:428
+warnings	../venv/bin/box.py	/^import warnings$/;"	kind:namespace	line:16
+wraps	../src/modules/basic_auth.py	/^from functools import wraps$/;"	kind:namespace	line:1
+yaml	../venv/bin/box.py	/^        def yaml(self):$/;"	kind:function	line:1017
+yaml	../venv/bin/box.py	/^        import ruamel.yaml as yaml$/;"	kind:namespace	line:30
+yaml	../venv/bin/box.py	/^        yaml = None$/;"	kind:variable	line:32
+yaml	../venv/bin/box.py	/^    import yaml$/;"	kind:namespace	line:27
+yaml_support	../venv/bin/box.py	/^        yaml_support = False$/;"	kind:variable	line:33
+yaml_support	../venv/bin/box.py	/^yaml_support = True$/;"	kind:variable	line:24
