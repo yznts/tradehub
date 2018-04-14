@@ -1,0 +1,194 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    {{ g.config.title }} - {{ game.upper() }}
+{% endblock %}
+
+{% block css %}
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.16/css/dataTables.bootstrap4.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/select/1.2.5/css/select.bootstrap4.min.css">
+    <link rel="stylesheet" href="/static/css/table.css">
+{% endblock %}
+
+{% block js %}
+    <script src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.16/js/dataTables.bootstrap4.min.js"></script>
+    <script src="https://cdn.datatables.net/select/1.2.5/js/dataTables.select.min.js"></script>
+    <script src="/static/js/table.js"></script>
+{% endblock %}
+
+{% block content %}
+    <div class="rates-table">
+
+        {# Settings/controls #}
+        <form method="post">
+
+            {# Modals for options #}
+
+            <div class="modal fade" id="modal-markets" tabindex="-1" role="dialog" aria-labelledby="modal-markets-label" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Markets</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body markets-modal-body">
+                            <div class="row">
+                                {% for market in markets %}
+                                    <div class="col-sm-6">
+                                        <input type="checkbox" class="form-check-input" id="service_{{ market }}"
+                                               value="{{ market }}" name="markets"
+                                               {{ 'checked' if market in form.getlist('markets') }}>
+                                        <label class="form-check-label" for="service_{{ market }}">{{ market }}</label>
+                                    </div>
+                                {% endfor %}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="modal-rates" tabindex="-1" role="dialog" aria-labelledby="modal-rates-label" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Rates</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body rates-modal-body">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div>
+                                        <label for="rates-s1">S1</label>
+                                        <select class="custom-select" name="rates-s1" id="rates-s1">
+                                            <option selected value> -- select an option -- </option>
+                                            {% for market in markets %}
+                                                <option value="{{ market }}" {{ 'selected' if market == form['rates-s1'] else None }}>{{ market }}</option>
+                                            {% endfor %}
+                                        </select>
+                                    </div>
+                                    <div>
+                                        <label for="rates-s2">S2</label>
+                                        <select class="custom-select" name="rates-s2" id="rates-s2">
+                                            <option selected value> -- select an option -- </option>
+                                            {% for market in markets %}
+                                                <option value="{{ market }}" {{ 'selected' if market == form['rates-s2'] else None }}>{{ market }}</option>
+                                            {% endfor %}
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <div>
+                                        <label for="rates-s1-commission">S1 commission</label>
+                                        <input class="form-control" type="number" id="rates-s1-commission" name="rates-s1-commission" step=any value="{{ form.get('rates-s1-commission') }}">
+                                    </div>
+                                    <div>
+                                        <label for="rates-s2-commission">S2 commission</label>
+                                        <input class="form-control" type="number" id="rates-s2-commission" name="rates-s2-commission" step=any value="{{ form.get('rates-s2-commission') }}">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="modal-filters" tabindex="-1" role="dialog" aria-labelledby="modal-filters-label" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Filters</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body filters-modal-body">
+                            <div>
+                                <h4>Price</h4>
+                                <label class="w-100" for="filters-price-target">Target</label>
+                                <select class="custom-select" name="filters-price-target" id="filters-price-target">
+                                    <option selected value> -- select an option -- </option>
+                                    {% for market in markets %}
+                                        <option value="{{ market }}" {{ 'selected' if market == form['filters-price-target'] else None }}>{{ market }}</option>
+                                    {% endfor %}
+                                </select>
+                                <div class="row mt-2">
+                                    <div class="col-sm-6">
+                                        <label for="filters-price-from">From</label>
+                                        <input class="form-control" type="number" step=any name="filters-price-from" id="filters-price-from" value="{{ form.get('filters-price-from') }}">
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <label for="filters-price-to">To</label>
+                                        <input class="form-control" type="number" step=any name="filters-price-to" id="filters-price-to" value="{{ form.get('filters-price-to') }}">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mt-3">
+                                <h4>Rates</h4>
+                                <span>S1->S2</span>
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <label for="filters-rates-s12-from">From</label>
+                                        <input class="form-control" type="number" step=any name="filters-rates-s12-from" id="filters-rates-s12-from" value="{{ form.get('filters-rates-s12-from') }}">
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <label for="filters-rates-s12-to">To</label>
+                                        <input class="form-control" type="number" step=any name="filters-rates-s12-to" id="filters-rates-s12-to" value="{{ form.get('filters-rates-s12-to') }}">
+                                    </div>
+                                </div>
+                                <span class="pt-3">S2->S1</span>
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <label for="filters-rates-s21-from">From</label>
+                                        <input class="form-control" type="number" step=any name="filters-rates-s21-from" id="filters-rates-s21-from" value="{{ form.get('filters-rates-s21-from') }}">
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <label for="filters-rates-s21-to">To</label>
+                                        <input class="form-control" type="number" step=any name="filters-rates-s21-to" id="filters-rates-s21-to" value="{{ form.get('filters-rates-s21-to') }}">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            {# Controls group #}
+            <div class="text-center w-100 pt-3">
+                <div class="btn-group">
+                    <button class="btn btn-primary" type="submit">Update</button>
+                    <button class="btn btn-outline-primary" type="button" data-target="#modal-markets" data-toggle="modal">Markets</button>
+                    <button class="btn btn-outline-primary" type="button" data-target="#modal-rates" data-toggle="modal">Rates</button>
+                    <button class="btn btn-outline-primary" type="button" data-target="#modal-filters" data-toggle="modal">Filters</button>
+                    <button class="btn btn-outline-dark" type="button" disabled id="meta">
+                        <span id="timer">0</span>s
+                        |
+                        <span id="request-time">Request time: {{ g.request_time() }}</span>
+                    </button>
+                </div>
+            </div>
+
+        </form>
+
+
+        {# Table #}
+        {% if datatable == '{}' %}
+        <div class="lead text-center mt-4">Params not provided</div>
+        {% else %}
+            <table id="dt" class="table table-striped table-bordered" width="100%"></table>
+            {% autoescape false %}
+                <script>
+                    let game = "{{ game }}";
+                    let dt = {{ datatable }};
+                </script>
+            {% endautoescape %}
+        {% endif %}
+
+    </div>
+{% endblock %}

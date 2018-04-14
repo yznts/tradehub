@@ -1,54 +1,27 @@
 # Tradehub (private project)
 
+
 ## Map
-1. Overview
-2. Install
-3. Supported markets
+1. [Overview](##overview)
+2. [Server setup](##server-setup-(centos-7.x))
+3. [Supported markets](##supported-markets)
+
 
 ## Overview
 Private project, created for arbitrage trading with plugin/table. Main task: compare markets and show price difference in percents(include commission).
 
-## Install (CentOS 7.x)
 
-### Core
-1. Copy sources to server
-```
-rsync -avz core root@<host>:~/
-```
-2. Install IUS
+## Server setup (CentOS 7.x)
+1. Install IUS
 ```
 curl http://setup.ius.io | sh
 ```
-3. Install Python and deps
+2. Install Python and deps
 ```
 yum groupinstall -y development
 yum -y install python36u python36u-pip python36u-devel
-pip3.6 install -r core/res/requirements.txt
-```
-4. Edit config
-```
-core/res/conf.json
-```
-5. Run
-```
-cd core
-nohup python3.6 src &
 ```
 
-### Panel (if the server is the same)
-1. Copy sources to server
-```
-rsync -avz panel root@<host>:~/
-```
-2. Install deps
-```
-pip3.6 install -r panel/requirements.txt
-```
-3. Run
-```
-cd panel
-sh scripts/start.sh
-```
 
 ## Supported markets
 
