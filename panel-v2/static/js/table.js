@@ -17,8 +17,8 @@ function updateTimer() {
 
 function InitDatatable() {
     let table = $('#dt');
-    table.DataTable(dt);
-    table.removeClass('dataTable');
+    table = table.DataTable(dt);
+    $("#dt").removeClass('dataTable');
     $('#dt_wrapper').click(postProcessor);
     postProcessor();
 }

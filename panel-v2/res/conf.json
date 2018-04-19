@@ -10,7 +10,7 @@
             "title": "TradeHub",
 
             "parent": "https://openatlas.tk",
-            "cache_layer_address": "http://direct.tradehub.tk:23414",
+            "cache_layer_address": "http://localhost:23414",
             "cache_layer_api_key": "484d0758-8d1a-4f01-8c50-26098c507252"
         },
 

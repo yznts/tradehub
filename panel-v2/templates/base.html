@@ -26,13 +26,16 @@
                     <a class="navbar-brand" href="{{ url_for('index.index') }}">{{ g.config.title }}</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ url_for('table.table', game='csgo') }}">CSGO</a>
+                    <a class="nav-link disabled" onclick="return false;" href="{{ url_for('table.table', game='csgo') }}">CSGO</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="{{ url_for('table.table', game='h1z1') }}">H1Z1</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="{{ url_for('table.table', game='pubg') }}">PUBG</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ url_for('table.table', game='dota2') }}">DOTA2</a>
                 </li>
                 <li class="nav-item">
                     <span class="navbar-text ml-2 mr-2">|</span>

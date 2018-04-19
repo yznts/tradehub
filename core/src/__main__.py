@@ -3,6 +3,8 @@ import box
 import multiprocessing
 import logging
 import time
+import pyotp
+
 
 # Config logging
 logging.basicConfig(
@@ -23,9 +25,18 @@ if __name__ == '__main__':
         temp = json.load(f)
         conf = box.Box(temp['configs'][temp['conf_name']])
 
+
     # Shared info for processes
     storage = multiprocessing.Manager().dict()
     storage.conf = conf
+
+
+    # Bitskins specific
+    import pyotp
+
+    bs_secret = 'SULLU4WD7RXCGPGU'
+    bs_token = pyotp.TOTP(bs_secret)
+
 
     # Processes declaration
 
@@ -46,6 +57,10 @@ if __name__ == '__main__':
     import parsers.csgo.skinsjar
     import parsers.csgo.swapgg
     import parsers.csgo.tradeskinsfast
+
+    import parsers.dota2.opskins
+    import parsers.dota2.dotamoney
+    import parsers.dota2.bitskins
 
     import parsers.pubg.c5game
     import parsers.pubg.lootfarm
@@ -77,6 +92,9 @@ if __name__ == '__main__':
             'parser': parsers.meta.currencies.currencies,
         }) if conf.enabled.meta.currencies else None,
 
+        # ---------------------
+        # CSGO
+        # ---------------------
 
         (parser_wrapper, {
             'storage': storage,
@@ -157,6 +175,41 @@ if __name__ == '__main__':
             'parser': parsers.csgo.tradeskinsfast.tradeskinsfast,
         }) if conf.enabled.csgo['tradeskinsfast.com'] else None,
 
+
+        # ---------------------
+        # Dota 2
+        # ---------------------
+
+        (parser_wrapper, {
+            'storage': storage,
+            'proxy': None,
+            'game': 'dota2',
+            'market': 'opskins.com',
+            'parser': parsers.dota2.opskins.opskins
+        }) if conf.enabled.dota2['opskins.com'] else None,
+        (parser_wrapper, {
+            'storage': storage,
+            'proxy': None,
+            'game': 'dota2',
+            'market': 'dota.money',
+            'parser': parsers.dota2.dotamoney.dotamoney
+        }) if conf.enabled.dota2['dota.money'] else None,
+        (parser_wrapper, {
+            'storage': storage,
+            'proxy': None,
+            'bs-token': bs_token,
+            'bs-api-key': conf['bitskins-api-key'],
+            'game': 'dota2',
+            'market': 'bitskins.com',
+            'sale_purchase': False,
+            'parser': parsers.dota2.bitskins.bitskins
+        }),
+
+
+        # ---------------------
+        # PUBG
+        # ---------------------
+
         (parser_wrapper, {
             'storage': storage,
             'proxy': None,
@@ -193,6 +246,10 @@ if __name__ == '__main__':
             'market': 'swap.gg',
             'parser': parsers.pubg.swapgg.swapgg,
         }) if conf.enabled.pubg['swap.gg'] else None,
+
+        # ---------------------
+        # H1Z1
+        # ---------------------
 
         (parser_wrapper, {
             'storage': storage,
