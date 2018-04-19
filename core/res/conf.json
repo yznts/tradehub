@@ -11,35 +11,43 @@
             "legacy_api_host": "0.0.0.0",
             "legacy_api_port": "2087",
 
+            "bitskins-secret": "SULLU4WD7RXCGPGU",
+            "bitskins-api-key": "6651e3e2-5842-4538-8b91-12f67211fabe",
+
             "enabled": {
                 "cl": true,
                 "la": true,
 
                 "csgo": {
-                    "cs.money":         true,
-                    "loot.farm":        true,
-                    "cs.deals":         true,
-                    "opskins.com":      true,
-                    "beefun.shop":      true,
-                    "tradeit.gg":       true,
-                    "c5game.com":       true,
-                    "csgosell.com":     true,
-                    "skinsjar.com":     true,
-                    "swap.gg":          true,
-                    "tradeskinsfast.com": true
+                    "cs.money":         false,
+                    "loot.farm":        false,
+                    "cs.deals":         false,
+                    "opskins.com":      false,
+                    "beefun.shop":      false,
+                    "tradeit.gg":       false,
+                    "c5game.com":       false,
+                    "csgosell.com":     false,
+                    "skinsjar.com":     false,
+                    "swap.gg":          false,
+                    "tradeskinsfast.com": false
+                },
+                "dota2": {
+                    "opskins.com":      false,
+                    "dota.money":       false,
+                    "bitskins.com":     false
                 },
                 "pubg": {
-                    "c5game.com":       true,
-                    "loot.farm":        true,
-                    "opskins.com":      true,
-                    "tradeit.gg":       true,
-                    "swap.gg":          true
+                    "c5game.com":       false,
+                    "loot.farm":        false,
+                    "opskins.com":      false,
+                    "tradeit.gg":       false,
+                    "swap.gg":          false
                 },
                 "h1z1": {
-                    "c5game.com":       true,
-                    "opskins.com":      true,
-                    "tradeit.gg":       true,
-                    "swap.gg":          true
+                    "c5game.com":       false,
+                    "opskins.com":      false,
+                    "tradeit.gg":       false,
+                    "swap.gg":          false
                 },
                 "meta": {
                     "currencies":       true
@@ -59,6 +67,11 @@
                     "skinsjar.com":     20,
                     "swap.gg":          20,
                     "tradeskinsfast.com": 20
+                },
+                "dota2": {
+                    "opskins.com":      5,
+                    "dota.money":       5,
+                    "bitskins.com":     5
                 },
                 "pubg": {
                     "c5game.com":       5,

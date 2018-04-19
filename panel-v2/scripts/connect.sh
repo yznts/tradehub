@@ -1,3 +1,3 @@
 
 
-ssh -l root direct.tradehub.tk
+ssh -l root 167.99.140.45

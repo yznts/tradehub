@@ -1,3 +1,3 @@
 #!/bin/bash
 
-rsync -avz --exclude=venv ../core root@167.99.132.141:~/
+rsync -avz --exclude=venv ../core root@167.99.140.45:~/

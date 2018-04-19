@@ -120,9 +120,9 @@ def table(game):
             items = filtered_items
 
         # Table generate
-        datatable['columns'] = [{'title': 'Name', 'type': 'text', 'width': 1000}] + [{'title': x, 'type': 'number', 'width': 0} for x in request.form.getlist('markets')]
-        if rates_flag: datatable['columns'].append({'title': 'S1->S2', 'type': 'number', 'width': 0})
-        if rates_flag: datatable['columns'].append({'title': 'S2->S1', 'type': 'number', 'width': 0})
+        datatable['columns'] = [{'title': 'Name', 'type': 'text', 'className': 'table-max-width'}] + [{'title': x, 'type': 'number'} for x in request.form.getlist('markets')]
+        if rates_flag: datatable['columns'].append({'title': 'S1->S2', 'type': 'number'})
+        if rates_flag: datatable['columns'].append({'title': 'S2->S1', 'type': 'number'})
         datatable['data'] = []
         for item_name, item_fields in items.items():
             dt_row = []

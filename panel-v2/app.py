@@ -1,5 +1,6 @@
 from flask import Flask, g
 from flask_debugtoolbar import DebugToolbarExtension
+from flask_htmlmin import HTMLMIN
 import datetime
 import time
 
@@ -9,11 +10,15 @@ from src.modules.config import config
 # Init
 app = Flask(__name__)
 
+
 # Config
 app.debug = config.debug
 app.secret_key = config.secret
+app.config['MINIFY_PAGE'] = True
+
 
 # Extensions
+HTMLMIN(app)
 if config.debug:
     app.config['DEBUG_TB_PROFILER_ENABLED'] = True
     toolbar = DebugToolbarExtension(app)
