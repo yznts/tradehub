@@ -45,6 +45,7 @@ if __name__ == '__main__':
     from processes.legacy_api import legacy_api
 
     import parsers.meta.currencies
+    import parsers.meta.c5game_id
 
     import parsers.csgo.beefun
     import parsers.csgo.c5game
@@ -67,6 +68,7 @@ if __name__ == '__main__':
     import parsers.pubg.opskins
     import parsers.pubg.tradeit
     import parsers.pubg.swapgg
+    import parsers.pubg.bitskins
     
 
     import parsers.h1z1.c5game
@@ -89,8 +91,17 @@ if __name__ == '__main__':
             'proxy': None,
             'game': 'meta',
             'market': 'currencies',
+            'drop_av': False,
             'parser': parsers.meta.currencies.currencies,
         }) if conf.enabled.meta.currencies else None,
+        (parser_wrapper, {
+            'storage': storage,
+            'game': 'meta',
+            'market': 'c5game.com(id)',
+            'drop_av': False,
+            'parser': parsers.meta.c5game_id.c5game_id,
+            'proxy': 'Dqjyqm:aDHhft@185.232.171.109:9137',
+        }) if conf.enabled.meta['c5game.com(id)'] else None,
 
         # ---------------------
         # CSGO
@@ -174,8 +185,7 @@ if __name__ == '__main__':
             'market': 'tradeskinsfast.com',
             'parser': parsers.csgo.tradeskinsfast.tradeskinsfast,
         }) if conf.enabled.csgo['tradeskinsfast.com'] else None,
-
-
+        
         # ---------------------
         # Dota 2
         # ---------------------
@@ -203,7 +213,7 @@ if __name__ == '__main__':
             'market': 'bitskins.com',
             'sale_purchase': False,
             'parser': parsers.dota2.bitskins.bitskins
-        }),
+        }) if conf.enabled.dota2['bitskins.com'] else None,
 
 
         # ---------------------
@@ -246,6 +256,16 @@ if __name__ == '__main__':
             'market': 'swap.gg',
             'parser': parsers.pubg.swapgg.swapgg,
         }) if conf.enabled.pubg['swap.gg'] else None,
+        (parser_wrapper, {
+            'storage': storage,
+            'proxy': None,
+            'bs-token': bs_token,
+            'bs-api-key': conf['bitskins-api-key'],
+            'game': 'pubg',
+            'market': 'bitskins.com',
+            'sale_purchase': False,
+            'parser': parsers.pubg.bitskins.bitskins
+        }) if conf.enabled.pubg['bitskins.com'] else None,
 
         # ---------------------
         # H1Z1

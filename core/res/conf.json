@@ -37,11 +37,12 @@
                     "bitskins.com":     false
                 },
                 "pubg": {
-                    "c5game.com":       false,
+                    "c5game.com":       true,
                     "loot.farm":        false,
                     "opskins.com":      false,
                     "tradeit.gg":       false,
-                    "swap.gg":          false
+                    "swap.gg":          false,
+                    "bitskins.com":     true
                 },
                 "h1z1": {
                     "c5game.com":       false,
@@ -50,7 +51,8 @@
                     "swap.gg":          false
                 },
                 "meta": {
-                    "currencies":       true
+                    "currencies":       true,
+                    "c5game.com(id)":   false
                 }
             },
 
@@ -69,7 +71,8 @@
                     "tradeskinsfast.com": 20
                 },
                 "dota2": {
-                    "opskins.com":      5,
+                    "c5game.com":       5,
+                    "opskins.com":      20,
                     "dota.money":       5,
                     "bitskins.com":     5
                 },
@@ -78,7 +81,8 @@
                     "loot.farm":        20,
                     "opskins.com":      20,
                     "tradeit.gg":       20,
-                    "swap.gg":          20
+                    "swap.gg":          20,
+                    "bitskins.com":     5
                 },
                 "h1z1": {
                     "c5game.com":       5,
@@ -87,7 +91,8 @@
                     "swap.gg":          20
                 },
                 "meta": {
-                    "currencies":       720
+                    "currencies":       720,
+                    "c5game.com(id)":   720
                 },
                 "error": 60
             }
