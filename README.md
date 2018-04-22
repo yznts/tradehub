@@ -26,19 +26,19 @@ yum -y install python36u python36u-pip python36u-devel
 ## Supported markets
 
 ### Parsers
-| CSGO | H1Z1 | PUBG |
-| - | - | - |
-| c5game.com(purchase) | c5game.com(purchase) | c5game.com(purchase) |
-| c5game.com(sale) | c5game.com(sale) | c5game.com(sale) |
-| tradeit.gg | tradeit.gg | tradeit.gg |
-| opskins.com | opskins.com | opskins.com |
-| swap.gg | swap.gg | swap.gg |
-| loot.farm |  | loot.farm  |
-| cs.money |  |  |
-| cs.deals |  |  |
-| csgosell.com |  |  |
-| skinsjar.com |  |  |
-| tradeskinsfast.com |  |  |
+| CSGO | H1Z1 | PUBG | DOTA2 |
+| - | - | - | - |
+| c5game.com(purchase) | c5game.com(purchase) | c5game.com(purchase) | bitskins.com |
+| c5game.com(sale) | c5game.com(sale) | c5game.com(sale) | dota.money |
+| tradeit.gg | tradeit.gg | tradeit.gg | opskins.com |
+| opskins.com | opskins.com | opskins.com | |
+| swap.gg | swap.gg | swap.gg | |
+| loot.farm |  | loot.farm  | |
+| cs.money |  |  | |
+| cs.deals |  |  | |
+| csgosell.com |  |  | |
+| skinsjar.com |  |  | |
+| tradeskinsfast.com |  |  | |
 
 ### Plugin
 | Markets |
