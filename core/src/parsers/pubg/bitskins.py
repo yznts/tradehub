@@ -11,7 +11,7 @@ def bitskins(wrapper_kwargs, scraper):
     upd = {wrapper_kwargs.get('game'): {}}
     
     # Get data
-    resp = requests.get('https://bitskins.com/api/v1/get_price_data_for_items_on_sale/?api_key={0}&code={1}&app_id=570'.format(
+    resp = requests.get('https://bitskins.com/api/v1/get_price_data_for_items_on_sale/?api_key={0}&code={1}&app_id=578080'.format(
         wrapper_kwargs['bs-api-key'],
         token
     ))
@@ -30,7 +30,7 @@ def bitskins(wrapper_kwargs, scraper):
         upd[wrapper_kwargs.get('game')][name]['{0}|link'.format(wrapper_kwargs.get('market'))] = 'https://bitskins.com/?'+ \
             urllib.parse.urlencode({
                 'market_hash_name': name,
-                'appid': 570,
+                'appid': 578080,
                 'sort_by': 'price',
                 'order': 'asc'
             })

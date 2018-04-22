@@ -20,10 +20,10 @@ def parser_wrapper(**kwargs):
     market = kwargs.get('market')
     parser = kwargs.get('parser')
 
-    drop_av = kwargs.get('drop_av') or True
-    update_cache = kwargs.get('update_cache') or True
-    update_time = kwargs.get('update_time') or True
-    sale_purchase = kwargs.get('sale_purchase') or False
+    drop_av = kwargs.get('drop_av') if kwargs.get('drop_av') is not None else True
+    update_cache = kwargs.get('update_cache') if kwargs.get('update_cache') is not None else True
+    update_time = kwargs.get('update_time') if kwargs.get('update_time') is not None else True
+    sale_purchase = kwargs.get('sale_purchase') if kwargs.get('sale_purchase') is not None else False
 
     scraper = cfscrape.create_scraper()
 
