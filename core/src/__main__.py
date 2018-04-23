@@ -62,6 +62,8 @@ if __name__ == '__main__':
     import parsers.dota2.opskins
     import parsers.dota2.dotamoney
     import parsers.dota2.bitskins
+    import parsers.dota2.lootfarm
+    import parsers.dota2.tradeit
 
     import parsers.pubg.c5game
     import parsers.pubg.lootfarm
@@ -214,6 +216,20 @@ if __name__ == '__main__':
             'sale_purchase': False,
             'parser': parsers.dota2.bitskins.bitskins
         }) if conf.enabled.dota2['bitskins.com'] else None,
+        (parser_wrapper, {
+            'storage': storage,
+            'proxy': None,
+            'game': 'dota2',
+            'market': 'loot.farm',
+            'parser': parsers.dota2.lootfarm.lootfarm,
+        }) if conf.enabled.dota2['loot.farm'] else None,
+        (parser_wrapper, {
+            'storage': storage,
+            'proxy': None,
+            'game': 'dota2',
+            'market': 'tradeit.gg',
+            'parser': parsers.dota2.tradeit.tradeit,
+        }) if conf.enabled.dota2['tradeit.gg'] else None,
 
 
         # ---------------------

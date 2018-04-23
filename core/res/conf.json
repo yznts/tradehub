@@ -34,7 +34,9 @@
                 "dota2": {
                     "opskins.com":      true,
                     "dota.money":       true,
-                    "bitskins.com":     true
+                    "bitskins.com":     true,
+                    "loot.farm":        true,
+                    "tradeit.gg":       true
                 },
                 "pubg": {
                     "c5game.com":       true,
@@ -74,7 +76,9 @@
                     "c5game.com":       5,
                     "opskins.com":      20,
                     "dota.money":       5,
-                    "bitskins.com":     5
+                    "bitskins.com":     5,
+                    "loot.farm":        5,
+                    "tradeit.gg":       5
                 },
                 "pubg": {
                     "c5game.com":       5,
