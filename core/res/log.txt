@@ -1,405 +1,747 @@
-2018-04-23 20:54:25,089 - root - INFO - Start
-2018-04-23 20:54:25,278 - root - INFO - STATUS 1:True cache_layer {'storage': <DictProxy object, typeid 'dict' at 0x103fa5160>}
-2018-04-23 20:54:25,279 - root - INFO - STATUS 2:True legacy_api {'storage': <DictProxy object, typeid 'dict' at 0x103fa5160>}
-2018-04-23 20:54:25,279 - root - INFO - STATUS 3:True parser_wrapper {'storage': <DictProxy object, typeid 'dict' at 0x103fa5160>, 'proxy': None, 'game': 'meta', 'market': 'currencies', 'drop_av': False, 'parser': <function currencies at 0x104835158>}
-2018-04-23 20:54:25,279 - root - INFO - STATUS 4:True parser_wrapper {'storage': <DictProxy object, typeid 'dict' at 0x103fa5160>, 'proxy': None, 'game': 'dota2', 'market': 'opskins.com', 'parser': <function opskins at 0x105015ae8>}
-2018-04-23 20:54:25,280 - root - INFO - STATUS 5:True parser_wrapper {'storage': <DictProxy object, typeid 'dict' at 0x103fa5160>, 'proxy': None, 'game': 'dota2', 'market': 'dota.money', 'parser': <function dotamoney at 0x105015b70>}
-2018-04-23 20:54:25,280 - root - INFO - STATUS 6:True parser_wrapper {'storage': <DictProxy object, typeid 'dict' at 0x103fa5160>, 'proxy': None, 'bs-token': <pyotp.totp.TOTP object at 0x10344bb38>, 'bs-api-key': '6651e3e2-5842-4538-8b91-12f67211fabe', 'game': 'dota2', 'market': 'bitskins.com', 'sale_purchase': False, 'parser': <function bitskins at 0x105015bf8>}
-2018-04-23 20:54:25,280 - root - INFO - STATUS 7:True parser_wrapper {'storage': <DictProxy object, typeid 'dict' at 0x103fa5160>, 'proxy': None, 'game': 'dota2', 'market': 'loot.farm', 'parser': <function lootfarm at 0x105015c80>}
-2018-04-23 20:54:25,280 - root - INFO - STATUS 8:True parser_wrapper {'storage': <DictProxy object, typeid 'dict' at 0x103fa5160>, 'proxy': None, 'game': 'dota2', 'market': 'tradeit.gg', 'parser': <function tradeit at 0x105015d08>}
-2018-04-23 20:54:25,280 - root - INFO - STATUS 9:True parser_wrapper {'storage': <DictProxy object, typeid 'dict' at 0x103fa5160>, 'proxy': None, 'game': 'pubg', 'market': 'loot.farm', 'parser': <function lootfarm at 0x105015d90>}
-2018-04-23 20:54:25,280 - root - INFO - STATUS 10:True parser_wrapper {'storage': <DictProxy object, typeid 'dict' at 0x103fa5160>, 'game': 'pubg', 'market': 'c5game.com', 'parser': <function c5game at 0x105015ea0>, 'sale_purchase': True, 'proxy': 'Dqjyqm:aDHhft@185.232.171.109:9137'}
-2018-04-23 20:54:25,280 - root - INFO - STATUS 11:True parser_wrapper {'storage': <DictProxy object, typeid 'dict' at 0x103fa5160>, 'proxy': None, 'game': 'pubg', 'market': 'opskins.com', 'parser': <function opskins at 0x1050220d0>}
-2018-04-23 20:54:25,280 - root - INFO - STATUS 12:True parser_wrapper {'storage': <DictProxy object, typeid 'dict' at 0x103fa5160>, 'proxy': None, 'game': 'pubg', 'market': 'tradeit.gg', 'parser': <function tradeit at 0x1050221e0>}
-2018-04-23 20:54:25,280 - root - INFO - STATUS 13:True parser_wrapper {'storage': <DictProxy object, typeid 'dict' at 0x103fa5160>, 'proxy': None, 'game': 'pubg', 'market': 'swap.gg', 'parser': <function swapgg at 0x105022268>}
-2018-04-23 20:54:25,280 - root - INFO - STATUS 14:True parser_wrapper {'storage': <DictProxy object, typeid 'dict' at 0x103fa5160>, 'proxy': None, 'bs-token': <pyotp.totp.TOTP object at 0x10344bb38>, 'bs-api-key': '6651e3e2-5842-4538-8b91-12f67211fabe', 'game': 'pubg', 'market': 'bitskins.com', 'sale_purchase': False, 'parser': <function bitskins at 0x1050222f0>}
-2018-04-23 20:54:25,281 - root - INFO - STATUS 15:True parser_wrapper {'storage': <DictProxy object, typeid 'dict' at 0x103fa5160>, 'game': 'h1z1', 'market': 'c5game.com', 'parser': <function c5game at 0x105022400>, 'sale_purchase': True, 'proxy': 'Dqjyqm:aDHhft@185.232.171.109:9137'}
-2018-04-23 20:54:25,281 - root - INFO - STATUS 16:True parser_wrapper {'storage': <DictProxy object, typeid 'dict' at 0x103fa5160>, 'proxy': None, 'game': 'h1z1', 'market': 'opskins.com', 'parser': <function opskins at 0x105022378>}
-2018-04-23 20:54:25,281 - root - INFO - STATUS 17:True parser_wrapper {'storage': <DictProxy object, typeid 'dict' at 0x103fa5160>, 'proxy': None, 'game': 'h1z1', 'market': 'tradeit.gg', 'parser': <function tradeit at 0x105022598>}
-2018-04-23 20:54:25,281 - root - INFO - STATUS 18:True parser_wrapper {'storage': <DictProxy object, typeid 'dict' at 0x103fa5160>, 'proxy': None, 'game': 'h1z1', 'market': 'swap.gg', 'parser': <function swapgg at 0x105022620>}
-2018-04-23 20:54:25,651 - root - INFO - No CNY
-2018-04-23 20:54:25,651 - root - INFO - 0.086 	 pubg:c5game.com upd loaded
-2018-04-23 20:54:25,651 - root - INFO - No CNY
-2018-04-23 20:54:25,652 - root - INFO - 0.059 	 h1z1:c5game.com upd loaded
-2018-04-23 20:54:25,656 - root - INFO - 0.000 	 pubg:c5game.com av dropped
-2018-04-23 20:54:25,657 - root - INFO - 0.000 	 h1z1:c5game.com av dropped
-2018-04-23 20:54:25,660 - root - INFO - 0.004 	 pubg:c5game.com server cache updated
-2018-04-23 20:54:25,661 - root - INFO - 0.003 	 h1z1:c5game.com server cache updated
-2018-04-23 20:54:25,664 - root - INFO - 0.003 	 pubg:c5game.com last time updated
-2018-04-23 20:54:25,665 - root - INFO - 0.003 	 h1z1:c5game.com last time updated
-2018-04-23 20:54:25,792 - root - INFO - 0.268 	 meta:currencies upd loaded
-2018-04-23 20:54:25,814 - root - INFO - 0.003 	 meta:currencies server cache updated
-2018-04-23 20:54:25,817 - root - INFO - 0.003 	 meta:currencies last time updated
-2018-04-23 20:54:25,889 - root - INFO - 0.305 	 h1z1:opskins.com upd loaded
-2018-04-23 20:54:25,894 - root - INFO - 0.000 	 h1z1:opskins.com av dropped
-2018-04-23 20:54:25,895 - root - INFO - 0.327 	 pubg:opskins.com upd loaded
-2018-04-23 20:54:25,896 - root - INFO - 0.336 	 pubg:loot.farm upd loaded
-2018-04-23 20:54:25,901 - root - INFO - 0.006 	 h1z1:opskins.com server cache updated
-2018-04-23 20:54:25,904 - root - INFO - 0.000 	 pubg:opskins.com av dropped
-2018-04-23 20:54:25,904 - root - INFO - 0.000 	 pubg:loot.farm av dropped
-2018-04-23 20:54:25,910 - root - INFO - 0.009 	 h1z1:opskins.com last time updated
-2018-04-23 20:54:25,912 - root - INFO - 0.008 	 pubg:opskins.com server cache updated
-2018-04-23 20:54:25,919 - root - INFO - 0.014 	 pubg:loot.farm server cache updated
-2018-04-23 20:54:25,921 - root - INFO - 0.008 	 pubg:opskins.com last time updated
-2018-04-23 20:54:25,923 - root - INFO - 0.004 	 pubg:loot.farm last time updated
-2018-04-23 20:54:26,184 - root - INFO - 0.607 	 pubg:bitskins.com upd loaded
-2018-04-23 20:54:26,211 - root - INFO - 0.000 	 pubg:bitskins.com av dropped
-2018-04-23 20:54:26,220 - root - INFO - 0.008 	 pubg:bitskins.com server cache updated
-2018-04-23 20:54:26,224 - root - INFO - 0.004 	 pubg:bitskins.com last time updated
-2018-04-23 20:54:26,272 - root - INFO - 0.746 	 dota2:opskins.com upd loaded
-2018-04-23 20:54:26,275 - root - INFO - 0.000 	 dota2:opskins.com av dropped
-2018-04-23 20:54:26,324 - root - INFO - 0.048 	 dota2:opskins.com server cache updated
-2018-04-23 20:54:26,327 - root - INFO - 0.003 	 dota2:opskins.com last time updated
-2018-04-23 20:54:26,789 - root - INFO - 1.236 	 dota2:loot.farm upd loaded
-2018-04-23 20:54:26,871 - root - INFO - 0.007 	 dota2:loot.farm av dropped
-2018-04-23 20:54:27,003 - root - INFO - 0.132 	 dota2:loot.farm server cache updated
-2018-04-23 20:54:27,007 - root - INFO - 0.003 	 dota2:loot.farm last time updated
-2018-04-23 20:54:29,064 - root - INFO - 3.522 	 dota2:bitskins.com upd loaded
-2018-04-23 20:54:29,167 - root - INFO - 0.006 	 dota2:bitskins.com av dropped
-2018-04-23 20:54:29,302 - root - INFO - 0.135 	 dota2:bitskins.com server cache updated
-2018-04-23 20:54:29,308 - root - INFO - 0.006 	 dota2:bitskins.com last time updated
-2018-04-23 20:54:31,131 - root - INFO - 5.599 	 dota2:dota.money upd loaded
-2018-04-23 20:54:31,311 - root - INFO - 0.008 	 dota2:dota.money av dropped
-2018-04-23 20:54:31,403 - root - INFO - 0.092 	 dota2:dota.money server cache updated
-2018-04-23 20:54:31,484 - root - INFO - 0.080 	 dota2:dota.money last time updated
-2018-04-23 20:54:32,135 - root - INFO - 0.909 	 pubg:bitskins.com upd loaded
-2018-04-23 20:54:32,142 - root - INFO - 0.000 	 pubg:bitskins.com av dropped
-2018-04-23 20:54:32,148 - root - INFO - 0.006 	 pubg:bitskins.com server cache updated
-2018-04-23 20:54:32,152 - root - INFO - 0.003 	 pubg:bitskins.com last time updated
-2018-04-23 20:54:32,926 - root - INFO - 0.919 	 dota2:loot.farm upd loaded
-2018-04-23 20:54:33,102 - root - INFO - 0.004 	 dota2:loot.farm av dropped
-2018-04-23 20:54:33,208 - root - INFO - 0.106 	 dota2:loot.farm server cache updated
-2018-04-23 20:54:33,213 - root - INFO - 0.005 	 dota2:loot.farm last time updated
-2018-04-23 20:54:34,295 - root - INFO - 8.715 	 pubg:swap.gg upd loaded
-2018-04-23 20:54:34,316 - root - INFO - 0.000 	 pubg:swap.gg av dropped
-2018-04-23 20:54:34,321 - root - INFO - 0.005 	 pubg:swap.gg server cache updated
-2018-04-23 20:54:34,326 - root - INFO - 0.005 	 pubg:swap.gg last time updated
-2018-04-23 20:54:34,327 - root - INFO - 8.743 	 h1z1:swap.gg upd loaded
-2018-04-23 20:54:34,347 - root - INFO - 0.000 	 h1z1:swap.gg av dropped
-2018-04-23 20:54:34,354 - root - INFO - 0.006 	 h1z1:swap.gg server cache updated
-2018-04-23 20:54:34,357 - root - INFO - 0.003 	 h1z1:swap.gg last time updated
-2018-04-23 20:54:34,566 - root - INFO - 3.890 	 h1z1:c5game.com pages links generated
-2018-04-23 20:54:34,769 - root - INFO - 4.094 	 pubg:c5game.com pages links generated
-2018-04-23 20:54:37,478 - root - INFO - 3.169 	 dota2:bitskins.com upd loaded
-2018-04-23 20:54:37,637 - root - INFO - 0.005 	 dota2:bitskins.com av dropped
-2018-04-23 20:54:37,747 - root - INFO - 0.110 	 dota2:bitskins.com server cache updated
-2018-04-23 20:54:37,752 - root - INFO - 0.004 	 dota2:bitskins.com last time updated
-2018-04-23 20:54:39,031 - root - INFO - 0.817 	 dota2:loot.farm upd loaded
-2018-04-23 20:54:39,215 - root - INFO - 2.061 	 pubg:bitskins.com upd loaded
-2018-04-23 20:54:39,226 - root - INFO - 0.000 	 pubg:bitskins.com av dropped
-2018-04-23 20:54:39,236 - root - INFO - 0.010 	 pubg:bitskins.com server cache updated
-2018-04-23 20:54:39,244 - root - INFO - 0.007 	 pubg:bitskins.com last time updated
-2018-04-23 20:54:39,280 - root - INFO - 0.018 	 dota2:loot.farm av dropped
-2018-04-23 20:54:39,385 - root - INFO - 0.104 	 dota2:loot.farm server cache updated
-2018-04-23 20:54:39,389 - root - INFO - 0.004 	 dota2:loot.farm last time updated
-2018-04-23 20:54:40,115 - root - INFO - 9.450 	 pubg:c5game.com upd loaded
-2018-04-23 20:54:40,125 - root - INFO - 0.001 	 pubg:c5game.com av dropped
-2018-04-23 20:54:40,142 - root - INFO - 0.016 	 pubg:c5game.com server cache updated
-2018-04-23 20:54:40,146 - root - INFO - 0.004 	 pubg:c5game.com last time updated
-2018-04-23 20:54:40,859 - root - INFO - 10.194 	 h1z1:c5game.com upd loaded
-2018-04-23 20:54:40,867 - root - INFO - 0.001 	 h1z1:c5game.com av dropped
-2018-04-23 20:54:40,884 - root - INFO - 0.017 	 h1z1:c5game.com server cache updated
-2018-04-23 20:54:40,887 - root - INFO - 0.003 	 h1z1:c5game.com last time updated
-2018-04-23 20:54:45,362 - root - INFO - 0.972 	 dota2:loot.farm upd loaded
-2018-04-23 20:54:45,476 - root - INFO - 1.232 	 pubg:bitskins.com upd loaded
-2018-04-23 20:54:45,489 - root - INFO - 0.000 	 pubg:bitskins.com av dropped
-2018-04-23 20:54:45,497 - root - INFO - 0.008 	 pubg:bitskins.com server cache updated
-2018-04-23 20:54:45,500 - root - INFO - 0.003 	 pubg:bitskins.com last time updated
-2018-04-23 20:54:45,531 - root - INFO - 0.004 	 dota2:loot.farm av dropped
-2018-04-23 20:54:45,630 - root - INFO - 0.099 	 dota2:loot.farm server cache updated
-2018-04-23 20:54:45,635 - root - INFO - 0.004 	 dota2:loot.farm last time updated
-2018-04-23 20:54:45,955 - root - ERROR - ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response',))
-Traceback (most recent call last):
-  File "/Users/yzinets/Desktop/tradehub/core/venv/lib/python3.6/site-packages/requests/packages/urllib3/connectionpool.py", line 385, in _make_request
-    httplib_response = conn.getresponse(buffering=True)
-TypeError: getresponse() got an unexpected keyword argument 'buffering'
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/Users/yzinets/Desktop/tradehub/core/venv/lib/python3.6/site-packages/requests/packages/urllib3/connectionpool.py", line 578, in urlopen
-    chunked=chunked)
-  File "/Users/yzinets/Desktop/tradehub/core/venv/lib/python3.6/site-packages/requests/packages/urllib3/connectionpool.py", line 387, in _make_request
-    httplib_response = conn.getresponse()
-  File "/usr/local/Cellar/python/3.6.4_3/Frameworks/Python.framework/Versions/3.6/lib/python3.6/http/client.py", line 1331, in getresponse
-    response.begin()
-  File "/usr/local/Cellar/python/3.6.4_3/Frameworks/Python.framework/Versions/3.6/lib/python3.6/http/client.py", line 297, in begin
-    version, status, reason = self._read_status()
-  File "/usr/local/Cellar/python/3.6.4_3/Frameworks/Python.framework/Versions/3.6/lib/python3.6/http/client.py", line 266, in _read_status
-    raise RemoteDisconnected("Remote end closed connection without"
-http.client.RemoteDisconnected: Remote end closed connection without response
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/Users/yzinets/Desktop/tradehub/core/venv/lib/python3.6/site-packages/requests/adapters.py", line 403, in send
-    timeout=timeout
-  File "/Users/yzinets/Desktop/tradehub/core/venv/lib/python3.6/site-packages/requests/packages/urllib3/connectionpool.py", line 623, in urlopen
-    _stacktrace=sys.exc_info()[2])
-  File "/Users/yzinets/Desktop/tradehub/core/venv/lib/python3.6/site-packages/requests/packages/urllib3/util/retry.py", line 255, in increment
-    raise six.reraise(type(error), error, _stacktrace)
-  File "/Users/yzinets/Desktop/tradehub/core/venv/lib/python3.6/site-packages/requests/packages/urllib3/packages/six.py", line 309, in reraise
-    raise value.with_traceback(tb)
-  File "/Users/yzinets/Desktop/tradehub/core/venv/lib/python3.6/site-packages/requests/packages/urllib3/connectionpool.py", line 578, in urlopen
-    chunked=chunked)
-  File "/Users/yzinets/Desktop/tradehub/core/venv/lib/python3.6/site-packages/requests/packages/urllib3/connectionpool.py", line 387, in _make_request
-    httplib_response = conn.getresponse()
-  File "/usr/local/Cellar/python/3.6.4_3/Frameworks/Python.framework/Versions/3.6/lib/python3.6/http/client.py", line 1331, in getresponse
-    response.begin()
-  File "/usr/local/Cellar/python/3.6.4_3/Frameworks/Python.framework/Versions/3.6/lib/python3.6/http/client.py", line 297, in begin
-    version, status, reason = self._read_status()
-  File "/usr/local/Cellar/python/3.6.4_3/Frameworks/Python.framework/Versions/3.6/lib/python3.6/http/client.py", line 266, in _read_status
-    raise RemoteDisconnected("Remote end closed connection without"
-requests.packages.urllib3.exceptions.ProtocolError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response',))
-
-During handling of the above exception, another exception occurred:
-
+2018-04-28 00:47:51,763 - root - INFO - Start
+2018-04-28 00:47:51,923 - root - INFO - STATUS 1:True cache_layer {'storage': <DictProxy object, typeid 'dict' at 0x7fe9f19a6160>}
+2018-04-28 00:47:51,925 - root - INFO - STATUS 2:True legacy_api {'storage': <DictProxy object, typeid 'dict' at 0x7fe9f19a6160>}
+2018-04-28 00:47:51,927 - root - INFO - STATUS 3:True parser_wrapper {'game': 'meta', 'market': 'currencies', 'storage': <DictProxy object, typeid 'dict' at 0x7fe9f19a6160>, 'parser': <function currencies at 0x7fe9f0e6d6a8>, 'drop_av': False, 'proxy': None}
+2018-04-28 00:47:51,928 - root - INFO - STATUS 4:True parser_wrapper {'game': 'meta', 'market': 'c5game.com(id)', 'storage': <DictProxy object, typeid 'dict' at 0x7fe9f19a6160>, 'parser': <function c5game_id at 0x7fe9f0e6dea0>, 'drop_av': False, 'proxy': 'Dqjyqm:aDHhft@185.232.171.109:9137'}
+2018-04-28 00:47:51,929 - root - INFO - STATUS 5:True parser_wrapper {'game': 'dota2', 'market': 'loot.farm', 'storage': <DictProxy object, typeid 'dict' at 0x7fe9f19a6160>, 'parser': <function lootfarm at 0x7fe9f01322f0>, 'proxy': None}
+2018-04-28 00:47:51,932 - root - INFO - STATUS 6:True parser_wrapper {'game': 'dota2', 'market': 'c5game.com', 'storage': <DictProxy object, typeid 'dict' at 0x7fe9f19a6160>, 'parser': <function c5game at 0x7fe9f0132400>, 'proxy': 'Dqjyqm:aDHhft@185.232.171.109:9137', 'sale_purchase': True}
+2018-04-28 00:47:52,268 - root - ERROR - One of needed params is None
 Traceback (most recent call last):
   File "src/processes/parser_wrapper.py", line 41, in parser_wrapper
     upd = parser(kwargs, scraper)
-  File "src/parsers/pubg/lootfarm.py", line 8, in lootfarm
-    resp = scraper.get('https://loot.farm/fullpricePUBG.json')
-  File "/Users/yzinets/Desktop/tradehub/core/venv/lib/python3.6/site-packages/requests/sessions.py", line 487, in get
-    return self.request('GET', url, **kwargs)
-  File "/Users/yzinets/Desktop/tradehub/core/venv/lib/python3.6/site-packages/cfscrape/__init__.py", line 62, in request
-    resp = super(CloudflareScraper, self).request(method, url, *args, **kwargs)
-  File "/Users/yzinets/Desktop/tradehub/core/venv/lib/python3.6/site-packages/requests/sessions.py", line 475, in request
-    resp = self.send(prep, **send_kwargs)
-  File "/Users/yzinets/Desktop/tradehub/core/venv/lib/python3.6/site-packages/requests/sessions.py", line 585, in send
-    r = adapter.send(request, **kwargs)
-  File "/Users/yzinets/Desktop/tradehub/core/venv/lib/python3.6/site-packages/requests/adapters.py", line 453, in send
-    raise ConnectionError(err, request=request)
-requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response',))
-2018-04-23 20:54:46,077 - root - INFO - 0.156 	 pubg:opskins.com upd loaded
-2018-04-23 20:54:46,089 - root - INFO - 0.000 	 pubg:opskins.com av dropped
-2018-04-23 20:54:46,096 - root - INFO - 0.007 	 pubg:opskins.com server cache updated
-2018-04-23 20:54:46,099 - root - INFO - 0.003 	 pubg:opskins.com last time updated
-2018-04-23 20:54:46,200 - root - INFO - 9.715 	 dota2:dota.money upd loaded
-2018-04-23 20:54:46,360 - root - INFO - 0.007 	 dota2:dota.money av dropped
-2018-04-23 20:54:46,456 - root - INFO - 1.301 	 pubg:c5game.com pages links generated
-2018-04-23 20:54:46,461 - root - INFO - 0.101 	 dota2:dota.money server cache updated
-2018-04-23 20:54:46,467 - root - INFO - 0.006 	 dota2:dota.money last time updated
-2018-04-23 20:54:46,634 - root - INFO - 3.882 	 dota2:bitskins.com upd loaded
-2018-04-23 20:54:46,809 - root - INFO - 0.010 	 dota2:bitskins.com av dropped
-2018-04-23 20:54:46,916 - root - INFO - 0.106 	 dota2:bitskins.com server cache updated
-2018-04-23 20:54:46,920 - root - INFO - 0.004 	 dota2:bitskins.com last time updated
-2018-04-23 20:54:47,017 - root - INFO - 1.122 	 h1z1:c5game.com pages links generated
-2018-04-23 20:54:47,356 - root - INFO - 1.028 	 dota2:opskins.com upd loaded
-2018-04-23 20:54:47,514 - root - INFO - 0.002 	 dota2:opskins.com av dropped
-2018-04-23 20:54:47,619 - root - INFO - 0.105 	 dota2:opskins.com server cache updated
-2018-04-23 20:54:47,624 - root - INFO - 0.005 	 dota2:opskins.com last time updated
-2018-04-23 20:54:50,134 - root - INFO - 4.987 	 pubg:c5game.com upd loaded
-2018-04-23 20:54:50,147 - root - INFO - 0.000 	 pubg:c5game.com av dropped
-2018-04-23 20:54:50,160 - root - INFO - 0.012 	 pubg:c5game.com server cache updated
-2018-04-23 20:54:50,164 - root - INFO - 0.004 	 pubg:c5game.com last time updated
-2018-04-23 20:54:51,450 - root - INFO - 0.950 	 pubg:bitskins.com upd loaded
-2018-04-23 20:54:51,460 - root - INFO - 0.000 	 pubg:bitskins.com av dropped
-2018-04-23 20:54:51,468 - root - INFO - 0.007 	 pubg:bitskins.com server cache updated
-2018-04-23 20:54:51,471 - root - INFO - 0.003 	 pubg:bitskins.com last time updated
-2018-04-23 20:54:51,544 - root - INFO - 0.909 	 dota2:loot.farm upd loaded
-2018-04-23 20:54:51,723 - root - INFO - 0.004 	 dota2:loot.farm av dropped
-2018-04-23 20:54:51,791 - root - INFO - 5.904 	 h1z1:c5game.com upd loaded
-2018-04-23 20:54:51,816 - root - INFO - 0.093 	 dota2:loot.farm server cache updated
-2018-04-23 20:54:51,823 - root - INFO - 0.007 	 dota2:loot.farm last time updated
-2018-04-23 20:54:51,832 - root - INFO - 0.001 	 h1z1:c5game.com av dropped
-2018-04-23 20:54:51,848 - root - INFO - 0.016 	 h1z1:c5game.com server cache updated
-2018-04-23 20:54:51,852 - root - INFO - 0.003 	 h1z1:c5game.com last time updated
-2018-04-23 20:54:53,179 - root - INFO - 27.603 	 pubg:tradeit.gg upd loaded
-2018-04-23 20:54:53,209 - root - INFO - 0.000 	 pubg:tradeit.gg av dropped
-2018-04-23 20:54:53,221 - root - INFO - 0.011 	 pubg:tradeit.gg server cache updated
-2018-04-23 20:54:53,229 - root - INFO - 0.008 	 pubg:tradeit.gg last time updated
-2018-04-23 20:54:53,714 - root - INFO - 28.130 	 h1z1:tradeit.gg upd loaded
-2018-04-23 20:54:53,741 - root - INFO - 0.000 	 h1z1:tradeit.gg av dropped
-2018-04-23 20:54:53,749 - root - INFO - 0.007 	 h1z1:tradeit.gg server cache updated
-2018-04-23 20:54:53,752 - root - INFO - 0.003 	 h1z1:tradeit.gg last time updated
-2018-04-23 20:54:54,012 - root - INFO - 2.091 	 dota2:bitskins.com upd loaded
-2018-04-23 20:54:54,053 - root - INFO - 28.497 	 dota2:tradeit.gg upd loaded
-2018-04-23 20:54:54,185 - root - INFO - 0.005 	 dota2:bitskins.com av dropped
-2018-04-23 20:54:54,258 - root - INFO - 0.006 	 dota2:tradeit.gg av dropped
-2018-04-23 20:54:54,295 - root - INFO - 0.109 	 dota2:bitskins.com server cache updated
-2018-04-23 20:54:54,375 - root - INFO - 0.117 	 dota2:tradeit.gg server cache updated
-2018-04-23 20:54:54,378 - root - INFO - 0.082 	 dota2:bitskins.com last time updated
-2018-04-23 20:54:54,379 - root - INFO - 0.004 	 dota2:tradeit.gg last time updated
-2018-04-23 20:54:54,780 - root - INFO - 3.312 	 dota2:dota.money upd loaded
-2018-04-23 20:54:54,984 - root - INFO - 0.007 	 dota2:dota.money av dropped
-2018-04-23 20:54:55,065 - root - INFO - 0.081 	 dota2:dota.money server cache updated
-2018-04-23 20:54:55,069 - root - INFO - 0.004 	 dota2:dota.money last time updated
-2018-04-23 20:54:55,286 - root - INFO - STATUS 1:True cache_layer {'storage': <DictProxy object, typeid 'dict' at 0x103fa5160>}
-2018-04-23 20:54:55,286 - root - INFO - STATUS 2:True legacy_api {'storage': <DictProxy object, typeid 'dict' at 0x103fa5160>}
-2018-04-23 20:54:55,287 - root - INFO - STATUS 3:True parser_wrapper {'storage': <DictProxy object, typeid 'dict' at 0x103fa5160>, 'proxy': None, 'game': 'meta', 'market': 'currencies', 'drop_av': False, 'parser': <function currencies at 0x104835158>}
-2018-04-23 20:54:55,287 - root - INFO - STATUS 4:True parser_wrapper {'storage': <DictProxy object, typeid 'dict' at 0x103fa5160>, 'proxy': None, 'game': 'dota2', 'market': 'opskins.com', 'parser': <function opskins at 0x105015ae8>}
-2018-04-23 20:54:55,287 - root - INFO - STATUS 5:True parser_wrapper {'storage': <DictProxy object, typeid 'dict' at 0x103fa5160>, 'proxy': None, 'game': 'dota2', 'market': 'dota.money', 'parser': <function dotamoney at 0x105015b70>}
-2018-04-23 20:54:55,287 - root - INFO - STATUS 6:True parser_wrapper {'storage': <DictProxy object, typeid 'dict' at 0x103fa5160>, 'proxy': None, 'bs-token': <pyotp.totp.TOTP object at 0x10344bb38>, 'bs-api-key': '6651e3e2-5842-4538-8b91-12f67211fabe', 'game': 'dota2', 'market': 'bitskins.com', 'sale_purchase': False, 'parser': <function bitskins at 0x105015bf8>}
-2018-04-23 20:54:55,287 - root - INFO - STATUS 7:True parser_wrapper {'storage': <DictProxy object, typeid 'dict' at 0x103fa5160>, 'proxy': None, 'game': 'dota2', 'market': 'loot.farm', 'parser': <function lootfarm at 0x105015c80>}
-2018-04-23 20:54:55,288 - root - INFO - STATUS 8:True parser_wrapper {'storage': <DictProxy object, typeid 'dict' at 0x103fa5160>, 'proxy': None, 'game': 'dota2', 'market': 'tradeit.gg', 'parser': <function tradeit at 0x105015d08>}
-2018-04-23 20:54:55,288 - root - INFO - STATUS 9:True parser_wrapper {'storage': <DictProxy object, typeid 'dict' at 0x103fa5160>, 'proxy': None, 'game': 'pubg', 'market': 'loot.farm', 'parser': <function lootfarm at 0x105015d90>}
-2018-04-23 20:54:55,288 - root - INFO - STATUS 10:True parser_wrapper {'storage': <DictProxy object, typeid 'dict' at 0x103fa5160>, 'game': 'pubg', 'market': 'c5game.com', 'parser': <function c5game at 0x105015ea0>, 'sale_purchase': True, 'proxy': 'Dqjyqm:aDHhft@185.232.171.109:9137'}
-2018-04-23 20:54:55,288 - root - INFO - STATUS 11:True parser_wrapper {'storage': <DictProxy object, typeid 'dict' at 0x103fa5160>, 'proxy': None, 'game': 'pubg', 'market': 'opskins.com', 'parser': <function opskins at 0x1050220d0>}
-2018-04-23 20:54:55,288 - root - INFO - STATUS 12:True parser_wrapper {'storage': <DictProxy object, typeid 'dict' at 0x103fa5160>, 'proxy': None, 'game': 'pubg', 'market': 'tradeit.gg', 'parser': <function tradeit at 0x1050221e0>}
-2018-04-23 20:54:55,288 - root - INFO - STATUS 13:True parser_wrapper {'storage': <DictProxy object, typeid 'dict' at 0x103fa5160>, 'proxy': None, 'game': 'pubg', 'market': 'swap.gg', 'parser': <function swapgg at 0x105022268>}
-2018-04-23 20:54:55,289 - root - INFO - STATUS 14:True parser_wrapper {'storage': <DictProxy object, typeid 'dict' at 0x103fa5160>, 'proxy': None, 'bs-token': <pyotp.totp.TOTP object at 0x10344bb38>, 'bs-api-key': '6651e3e2-5842-4538-8b91-12f67211fabe', 'game': 'pubg', 'market': 'bitskins.com', 'sale_purchase': False, 'parser': <function bitskins at 0x1050222f0>}
-2018-04-23 20:54:55,289 - root - INFO - STATUS 15:True parser_wrapper {'storage': <DictProxy object, typeid 'dict' at 0x103fa5160>, 'game': 'h1z1', 'market': 'c5game.com', 'parser': <function c5game at 0x105022400>, 'sale_purchase': True, 'proxy': 'Dqjyqm:aDHhft@185.232.171.109:9137'}
-2018-04-23 20:54:55,289 - root - INFO - STATUS 16:True parser_wrapper {'storage': <DictProxy object, typeid 'dict' at 0x103fa5160>, 'proxy': None, 'game': 'h1z1', 'market': 'opskins.com', 'parser': <function opskins at 0x105022378>}
-2018-04-23 20:54:55,289 - root - INFO - STATUS 17:True parser_wrapper {'storage': <DictProxy object, typeid 'dict' at 0x103fa5160>, 'proxy': None, 'game': 'h1z1', 'market': 'tradeit.gg', 'parser': <function tradeit at 0x105022598>}
-2018-04-23 20:54:55,290 - root - INFO - STATUS 18:True parser_wrapper {'storage': <DictProxy object, typeid 'dict' at 0x103fa5160>, 'proxy': None, 'game': 'h1z1', 'market': 'swap.gg', 'parser': <function swapgg at 0x105022620>}
-2018-04-23 20:54:56,035 - root - INFO - 0.123 	 h1z1:opskins.com upd loaded
-2018-04-23 20:54:56,052 - root - INFO - 0.000 	 h1z1:opskins.com av dropped
-2018-04-23 20:54:56,061 - root - INFO - 0.008 	 h1z1:opskins.com server cache updated
-2018-04-23 20:54:56,064 - root - INFO - 0.003 	 h1z1:opskins.com last time updated
-2018-04-23 20:54:56,373 - root - INFO - 1.203 	 pubg:c5game.com pages links generated
-2018-04-23 20:54:57,380 - root - INFO - 0.909 	 pubg:bitskins.com upd loaded
-2018-04-23 20:54:57,392 - root - INFO - 0.000 	 pubg:bitskins.com av dropped
-2018-04-23 20:54:57,400 - root - INFO - 0.007 	 pubg:bitskins.com server cache updated
-2018-04-23 20:54:57,402 - root - INFO - 0.003 	 pubg:bitskins.com last time updated
-2018-04-23 20:54:57,762 - root - INFO - 0.937 	 dota2:loot.farm upd loaded
-2018-04-23 20:54:57,978 - root - INFO - 0.005 	 dota2:loot.farm av dropped
-2018-04-23 20:54:58,076 - root - INFO - 0.097 	 dota2:loot.farm server cache updated
-2018-04-23 20:54:58,081 - root - INFO - 0.005 	 dota2:loot.farm last time updated
-2018-04-23 20:54:58,093 - root - INFO - 1.233 	 h1z1:c5game.com pages links generated
-2018-04-23 20:54:58,177 - root - INFO - 3.819 	 h1z1:swap.gg upd loaded
-2018-04-23 20:54:58,192 - root - INFO - 0.000 	 h1z1:swap.gg av dropped
-2018-04-23 20:54:58,200 - root - INFO - 0.007 	 h1z1:swap.gg server cache updated
-2018-04-23 20:54:58,203 - root - INFO - 0.002 	 h1z1:swap.gg last time updated
-2018-04-23 20:54:58,427 - root - INFO - 4.100 	 pubg:swap.gg upd loaded
-2018-04-23 20:54:58,438 - root - INFO - 0.000 	 pubg:swap.gg av dropped
-2018-04-23 20:54:58,444 - root - INFO - 0.005 	 pubg:swap.gg server cache updated
-2018-04-23 20:54:58,447 - root - INFO - 0.003 	 pubg:swap.gg last time updated
-2018-04-23 20:54:59,829 - root - INFO - 4.664 	 pubg:c5game.com upd loaded
-2018-04-23 20:54:59,845 - root - INFO - 0.001 	 pubg:c5game.com av dropped
-2018-04-23 20:54:59,858 - root - INFO - 0.013 	 pubg:c5game.com server cache updated
-2018-04-23 20:54:59,862 - root - INFO - 0.003 	 pubg:c5game.com last time updated
-2018-04-23 20:55:02,684 - root - INFO - 3.306 	 dota2:bitskins.com upd loaded
-2018-04-23 20:55:02,842 - root - INFO - 5.989 	 h1z1:c5game.com upd loaded
-2018-04-23 20:55:02,867 - root - INFO - 0.002 	 h1z1:c5game.com av dropped
-2018-04-23 20:55:02,890 - root - INFO - 0.022 	 h1z1:c5game.com server cache updated
-2018-04-23 20:55:02,895 - root - INFO - 0.004 	 h1z1:c5game.com last time updated
-2018-04-23 20:55:02,985 - root - INFO - 0.006 	 dota2:bitskins.com av dropped
-2018-04-23 20:55:03,133 - root - INFO - 0.147 	 dota2:bitskins.com server cache updated
-2018-04-23 20:55:03,139 - root - INFO - 0.006 	 dota2:bitskins.com last time updated
-2018-04-23 20:55:03,347 - root - INFO - 0.944 	 pubg:bitskins.com upd loaded
-2018-04-23 20:55:03,360 - root - INFO - 0.000 	 pubg:bitskins.com av dropped
-2018-04-23 20:55:03,368 - root - INFO - 0.007 	 pubg:bitskins.com server cache updated
-2018-04-23 20:55:03,371 - root - INFO - 0.003 	 pubg:bitskins.com last time updated
-2018-04-23 20:55:03,837 - root - INFO - 0.756 	 dota2:loot.farm upd loaded
-2018-04-23 20:55:04,034 - root - INFO - 0.005 	 dota2:loot.farm av dropped
-2018-04-23 20:55:04,130 - root - INFO - 0.096 	 dota2:loot.farm server cache updated
-2018-04-23 20:55:04,135 - root - INFO - 0.005 	 dota2:loot.farm last time updated
-2018-04-23 20:55:06,010 - root - INFO - 1.144 	 pubg:c5game.com pages links generated
-2018-04-23 20:55:06,338 - root - INFO - 0.238 	 pubg:opskins.com upd loaded
-2018-04-23 20:55:06,350 - root - INFO - 0.000 	 pubg:opskins.com av dropped
-2018-04-23 20:55:06,358 - root - INFO - 0.008 	 pubg:opskins.com server cache updated
-2018-04-23 20:55:06,361 - root - INFO - 0.003 	 pubg:opskins.com last time updated
-2018-04-23 20:55:06,599 - root - INFO - 6.529 	 dota2:dota.money upd loaded
-2018-04-23 20:55:06,798 - root - INFO - 0.007 	 dota2:dota.money av dropped
-2018-04-23 20:55:06,878 - root - INFO - 0.080 	 dota2:dota.money server cache updated
-2018-04-23 20:55:06,882 - root - INFO - 0.004 	 dota2:dota.money last time updated
-2018-04-23 20:55:08,643 - root - INFO - 1.018 	 dota2:opskins.com upd loaded
-2018-04-23 20:55:08,956 - root - INFO - 0.002 	 dota2:opskins.com av dropped
-2018-04-23 20:55:09,087 - root - INFO - 0.131 	 dota2:opskins.com server cache updated
-2018-04-23 20:55:09,091 - root - INFO - 0.004 	 dota2:opskins.com last time updated
-2018-04-23 20:55:09,146 - root - INFO - 1.246 	 h1z1:c5game.com pages links generated
-2018-04-23 20:55:09,215 - root - INFO - 0.844 	 pubg:bitskins.com upd loaded
-2018-04-23 20:55:09,235 - root - INFO - 0.000 	 pubg:bitskins.com av dropped
-2018-04-23 20:55:09,249 - root - INFO - 0.014 	 pubg:bitskins.com server cache updated
-2018-04-23 20:55:09,256 - root - INFO - 0.006 	 pubg:bitskins.com last time updated
-2018-04-23 20:55:09,474 - root - INFO - 4.611 	 pubg:c5game.com upd loaded
-2018-04-23 20:55:09,498 - root - INFO - 0.000 	 pubg:c5game.com av dropped
-2018-04-23 20:55:09,511 - root - INFO - 0.013 	 pubg:c5game.com server cache updated
-2018-04-23 20:55:09,515 - root - INFO - 0.003 	 pubg:c5game.com last time updated
-2018-04-23 20:55:09,600 - root - INFO - 0.463 	 dota2:loot.farm upd loaded
-2018-04-23 20:55:09,807 - root - INFO - 0.005 	 dota2:loot.farm av dropped
-2018-04-23 20:55:09,913 - root - INFO - 0.105 	 dota2:loot.farm server cache updated
-2018-04-23 20:55:09,918 - root - INFO - 0.005 	 dota2:loot.farm last time updated
-2018-04-23 20:55:11,018 - root - INFO - 2.879 	 dota2:bitskins.com upd loaded
-2018-04-23 20:55:11,210 - root - INFO - 0.005 	 dota2:bitskins.com av dropped
-2018-04-23 20:55:11,327 - root - INFO - 0.117 	 dota2:bitskins.com server cache updated
-2018-04-23 20:55:11,331 - root - INFO - 0.004 	 dota2:bitskins.com last time updated
-2018-04-23 20:55:13,662 - root - INFO - 5.766 	 h1z1:c5game.com upd loaded
-2018-04-23 20:55:13,685 - root - INFO - 0.002 	 h1z1:c5game.com av dropped
-2018-04-23 20:55:13,700 - root - INFO - 0.015 	 h1z1:c5game.com server cache updated
-2018-04-23 20:55:13,706 - root - INFO - 0.006 	 h1z1:c5game.com last time updated
-2018-04-23 20:55:15,017 - root - INFO - 0.760 	 pubg:bitskins.com upd loaded
-2018-04-23 20:55:15,030 - root - INFO - 0.000 	 pubg:bitskins.com av dropped
-2018-04-23 20:55:15,040 - root - INFO - 0.010 	 pubg:bitskins.com server cache updated
-2018-04-23 20:55:15,044 - root - INFO - 0.004 	 pubg:bitskins.com last time updated
-2018-04-23 20:55:15,810 - root - INFO - 1.291 	 pubg:c5game.com pages links generated
-2018-04-23 20:55:15,834 - root - INFO - 0.916 	 dota2:loot.farm upd loaded
-2018-04-23 20:55:16,030 - root - INFO - 0.006 	 dota2:loot.farm av dropped
-2018-04-23 20:55:16,147 - root - INFO - 0.116 	 dota2:loot.farm server cache updated
-2018-04-23 20:55:16,153 - root - INFO - 0.006 	 dota2:loot.farm last time updated
-2018-04-23 20:55:18,207 - root - INFO - 6.324 	 dota2:dota.money upd loaded
-2018-04-23 20:55:18,575 - root - INFO - 0.026 	 dota2:dota.money av dropped
-2018-04-23 20:55:18,736 - root - INFO - 0.158 	 dota2:dota.money server cache updated
-2018-04-23 20:55:18,742 - root - INFO - 0.006 	 dota2:dota.money last time updated
-2018-04-23 20:55:18,929 - root - INFO - 2.596 	 dota2:bitskins.com upd loaded
-2018-04-23 20:55:19,062 - root - INFO - 20.308 	 h1z1:tradeit.gg upd loaded
-2018-04-23 20:55:19,094 - root - INFO - 0.000 	 h1z1:tradeit.gg av dropped
-2018-04-23 20:55:19,110 - root - INFO - 0.014 	 h1z1:tradeit.gg server cache updated
-2018-04-23 20:55:19,116 - root - INFO - 0.005 	 h1z1:tradeit.gg last time updated
-2018-04-23 20:55:19,240 - root - INFO - 0.007 	 dota2:bitskins.com av dropped
-2018-04-23 20:55:19,356 - root - INFO - 4.841 	 pubg:c5game.com upd loaded
-2018-04-23 20:55:19,414 - root - INFO - 0.174 	 dota2:bitskins.com server cache updated
-2018-04-23 20:55:19,423 - root - INFO - 0.008 	 dota2:bitskins.com last time updated
-2018-04-23 20:55:19,429 - root - INFO - 0.001 	 pubg:c5game.com av dropped
-2018-04-23 20:55:19,441 - root - INFO - 0.011 	 pubg:c5game.com server cache updated
-2018-04-23 20:55:19,445 - root - INFO - 0.004 	 pubg:c5game.com last time updated
-2018-04-23 20:55:19,636 - root - INFO - 20.256 	 dota2:tradeit.gg upd loaded
-2018-04-23 20:55:19,830 - root - INFO - 0.007 	 dota2:tradeit.gg av dropped
-2018-04-23 20:55:19,837 - root - INFO - 1.098 	 h1z1:c5game.com pages links generated
-2018-04-23 20:55:19,928 - root - INFO - 0.098 	 dota2:tradeit.gg server cache updated
-2018-04-23 20:55:19,932 - root - INFO - 0.004 	 dota2:tradeit.gg last time updated
-2018-04-23 20:55:20,971 - root - INFO - 0.926 	 pubg:bitskins.com upd loaded
-2018-04-23 20:55:20,985 - root - INFO - 0.000 	 pubg:bitskins.com av dropped
-2018-04-23 20:55:20,994 - root - INFO - 0.009 	 pubg:bitskins.com server cache updated
-2018-04-23 20:55:20,997 - root - INFO - 0.003 	 pubg:bitskins.com last time updated
-2018-04-23 20:55:21,770 - root - INFO - 0.615 	 dota2:loot.farm upd loaded
-2018-04-23 20:55:21,979 - root - INFO - 0.005 	 dota2:loot.farm av dropped
-2018-04-23 20:55:22,084 - root - INFO - 0.105 	 dota2:loot.farm server cache updated
-2018-04-23 20:55:22,089 - root - INFO - 0.004 	 dota2:loot.farm last time updated
-2018-04-23 20:55:22,319 - root - INFO - 4.116 	 h1z1:swap.gg upd loaded
-2018-04-23 20:55:22,340 - root - INFO - 0.001 	 h1z1:swap.gg av dropped
-2018-04-23 20:55:22,349 - root - INFO - 0.009 	 h1z1:swap.gg server cache updated
-2018-04-23 20:55:22,354 - root - INFO - 0.005 	 h1z1:swap.gg last time updated
-2018-04-23 20:55:22,379 - root - INFO - 3.932 	 pubg:swap.gg upd loaded
-2018-04-23 20:55:22,393 - root - INFO - 0.000 	 pubg:swap.gg av dropped
-2018-04-23 20:55:22,400 - root - INFO - 0.006 	 pubg:swap.gg server cache updated
-2018-04-23 20:55:22,404 - root - INFO - 0.004 	 pubg:swap.gg last time updated
-2018-04-23 20:55:24,616 - root - INFO - 5.909 	 h1z1:c5game.com upd loaded
-2018-04-23 20:55:24,634 - root - INFO - 0.001 	 h1z1:c5game.com av dropped
-2018-04-23 20:55:24,648 - root - INFO - 0.014 	 h1z1:c5game.com server cache updated
-2018-04-23 20:55:24,651 - root - INFO - 0.003 	 h1z1:c5game.com last time updated
-2018-04-23 20:55:25,290 - root - INFO - STATUS 1:True cache_layer {'storage': <DictProxy object, typeid 'dict' at 0x103fa5160>}
-2018-04-23 20:55:25,290 - root - INFO - STATUS 2:True legacy_api {'storage': <DictProxy object, typeid 'dict' at 0x103fa5160>}
-2018-04-23 20:55:25,290 - root - INFO - STATUS 3:True parser_wrapper {'storage': <DictProxy object, typeid 'dict' at 0x103fa5160>, 'proxy': None, 'game': 'meta', 'market': 'currencies', 'drop_av': False, 'parser': <function currencies at 0x104835158>}
-2018-04-23 20:55:25,291 - root - INFO - STATUS 4:True parser_wrapper {'storage': <DictProxy object, typeid 'dict' at 0x103fa5160>, 'proxy': None, 'game': 'dota2', 'market': 'opskins.com', 'parser': <function opskins at 0x105015ae8>}
-2018-04-23 20:55:25,291 - root - INFO - STATUS 5:True parser_wrapper {'storage': <DictProxy object, typeid 'dict' at 0x103fa5160>, 'proxy': None, 'game': 'dota2', 'market': 'dota.money', 'parser': <function dotamoney at 0x105015b70>}
-2018-04-23 20:55:25,291 - root - INFO - STATUS 6:True parser_wrapper {'storage': <DictProxy object, typeid 'dict' at 0x103fa5160>, 'proxy': None, 'bs-token': <pyotp.totp.TOTP object at 0x10344bb38>, 'bs-api-key': '6651e3e2-5842-4538-8b91-12f67211fabe', 'game': 'dota2', 'market': 'bitskins.com', 'sale_purchase': False, 'parser': <function bitskins at 0x105015bf8>}
-2018-04-23 20:55:25,291 - root - INFO - STATUS 7:True parser_wrapper {'storage': <DictProxy object, typeid 'dict' at 0x103fa5160>, 'proxy': None, 'game': 'dota2', 'market': 'loot.farm', 'parser': <function lootfarm at 0x105015c80>}
-2018-04-23 20:55:25,291 - root - INFO - STATUS 8:True parser_wrapper {'storage': <DictProxy object, typeid 'dict' at 0x103fa5160>, 'proxy': None, 'game': 'dota2', 'market': 'tradeit.gg', 'parser': <function tradeit at 0x105015d08>}
-2018-04-23 20:55:25,292 - root - INFO - STATUS 9:True parser_wrapper {'storage': <DictProxy object, typeid 'dict' at 0x103fa5160>, 'proxy': None, 'game': 'pubg', 'market': 'loot.farm', 'parser': <function lootfarm at 0x105015d90>}
-2018-04-23 20:55:25,292 - root - INFO - STATUS 10:True parser_wrapper {'storage': <DictProxy object, typeid 'dict' at 0x103fa5160>, 'game': 'pubg', 'market': 'c5game.com', 'parser': <function c5game at 0x105015ea0>, 'sale_purchase': True, 'proxy': 'Dqjyqm:aDHhft@185.232.171.109:9137'}
-2018-04-23 20:55:25,292 - root - INFO - STATUS 11:True parser_wrapper {'storage': <DictProxy object, typeid 'dict' at 0x103fa5160>, 'proxy': None, 'game': 'pubg', 'market': 'opskins.com', 'parser': <function opskins at 0x1050220d0>}
-2018-04-23 20:55:25,292 - root - INFO - STATUS 12:True parser_wrapper {'storage': <DictProxy object, typeid 'dict' at 0x103fa5160>, 'proxy': None, 'game': 'pubg', 'market': 'tradeit.gg', 'parser': <function tradeit at 0x1050221e0>}
-2018-04-23 20:55:25,292 - root - INFO - STATUS 13:True parser_wrapper {'storage': <DictProxy object, typeid 'dict' at 0x103fa5160>, 'proxy': None, 'game': 'pubg', 'market': 'swap.gg', 'parser': <function swapgg at 0x105022268>}
-2018-04-23 20:55:25,292 - root - INFO - STATUS 14:True parser_wrapper {'storage': <DictProxy object, typeid 'dict' at 0x103fa5160>, 'proxy': None, 'bs-token': <pyotp.totp.TOTP object at 0x10344bb38>, 'bs-api-key': '6651e3e2-5842-4538-8b91-12f67211fabe', 'game': 'pubg', 'market': 'bitskins.com', 'sale_purchase': False, 'parser': <function bitskins at 0x1050222f0>}
-2018-04-23 20:55:25,293 - root - INFO - STATUS 15:True parser_wrapper {'storage': <DictProxy object, typeid 'dict' at 0x103fa5160>, 'game': 'h1z1', 'market': 'c5game.com', 'parser': <function c5game at 0x105022400>, 'sale_purchase': True, 'proxy': 'Dqjyqm:aDHhft@185.232.171.109:9137'}
-2018-04-23 20:55:25,293 - root - INFO - STATUS 16:True parser_wrapper {'storage': <DictProxy object, typeid 'dict' at 0x103fa5160>, 'proxy': None, 'game': 'h1z1', 'market': 'opskins.com', 'parser': <function opskins at 0x105022378>}
-2018-04-23 20:55:25,293 - root - INFO - STATUS 17:True parser_wrapper {'storage': <DictProxy object, typeid 'dict' at 0x103fa5160>, 'proxy': None, 'game': 'h1z1', 'market': 'tradeit.gg', 'parser': <function tradeit at 0x105022598>}
-2018-04-23 20:55:25,293 - root - INFO - STATUS 18:True parser_wrapper {'storage': <DictProxy object, typeid 'dict' at 0x103fa5160>, 'proxy': None, 'game': 'h1z1', 'market': 'swap.gg', 'parser': <function swapgg at 0x105022620>}
-2018-04-23 20:55:25,596 - root - INFO - 1.143 	 pubg:c5game.com pages links generated
-2018-04-23 20:55:26,468 - root - INFO - 0.403 	 h1z1:opskins.com upd loaded
-2018-04-23 20:55:26,501 - root - INFO - 0.000 	 h1z1:opskins.com av dropped
-2018-04-23 20:55:26,510 - root - INFO - 0.008 	 h1z1:opskins.com server cache updated
-2018-04-23 20:55:26,513 - root - INFO - 0.003 	 h1z1:opskins.com last time updated
-2018-04-23 20:55:26,745 - root - INFO - 0.747 	 pubg:bitskins.com upd loaded
-2018-04-23 20:55:26,757 - root - INFO - 0.000 	 pubg:bitskins.com av dropped
-2018-04-23 20:55:26,768 - root - INFO - 0.010 	 pubg:bitskins.com server cache updated
-2018-04-23 20:55:26,771 - root - INFO - 0.003 	 pubg:bitskins.com last time updated
-2018-04-23 20:55:26,843 - root - INFO - 0.482 	 pubg:opskins.com upd loaded
-2018-04-23 20:55:26,855 - root - INFO - 0.000 	 pubg:opskins.com av dropped
-2018-04-23 20:55:26,862 - root - INFO - 0.007 	 pubg:opskins.com server cache updated
-2018-04-23 20:55:26,866 - root - INFO - 0.003 	 pubg:opskins.com last time updated
-2018-04-23 20:55:27,935 - root - INFO - 3.511 	 dota2:bitskins.com upd loaded
-2018-04-23 20:55:28,128 - root - INFO - 0.006 	 dota2:bitskins.com av dropped
-2018-04-23 20:55:28,238 - root - INFO - 0.110 	 dota2:bitskins.com server cache updated
-2018-04-23 20:55:28,242 - root - INFO - 0.004 	 dota2:bitskins.com last time updated
+  File "src/parsers/dota2/c5game.py", line 54, in c5game
+    raise Exception('One of needed params is None')
+Exception: One of needed params is None
+2018-04-28 00:47:54,461 - root - INFO - 2.237 	 meta:currencies upd loaded
+2018-04-28 00:47:54,552 - root - INFO - 0.008 	 meta:currencies server cache updated
+2018-04-28 00:47:54,558 - root - INFO - 0.006 	 meta:currencies last time updated
+2018-04-28 00:47:54,836 - root - INFO - 2.603 	 dota2:loot.farm upd loaded
+2018-04-28 00:47:54,840 - root - INFO - 0.000 	 dota2:loot.farm av dropped
+2018-04-28 00:47:54,891 - root - INFO - 0.050 	 dota2:loot.farm server cache updated
+2018-04-28 00:47:54,896 - root - INFO - 0.004 	 dota2:loot.farm last time updated
+2018-04-28 00:48:00,138 - root - INFO - 0.238 	 dota2:loot.farm upd loaded
+2018-04-28 00:48:00,191 - root - INFO - 0.002 	 dota2:loot.farm av dropped
+2018-04-28 00:48:00,278 - root - INFO - 0.087 	 dota2:loot.farm server cache updated
+2018-04-28 00:48:00,284 - root - INFO - 0.006 	 dota2:loot.farm last time updated
+2018-04-28 00:48:05,486 - root - INFO - 0.197 	 dota2:loot.farm upd loaded
+2018-04-28 00:48:05,532 - root - INFO - 0.002 	 dota2:loot.farm av dropped
+2018-04-28 00:48:05,629 - root - INFO - 0.096 	 dota2:loot.farm server cache updated
+2018-04-28 00:48:05,637 - root - INFO - 0.008 	 dota2:loot.farm last time updated
+2018-04-28 00:48:10,833 - root - INFO - 0.192 	 dota2:loot.farm upd loaded
+2018-04-28 00:48:10,893 - root - INFO - 0.002 	 dota2:loot.farm av dropped
+2018-04-28 00:48:10,981 - root - INFO - 0.087 	 dota2:loot.farm server cache updated
+2018-04-28 00:48:10,989 - root - INFO - 0.008 	 dota2:loot.farm last time updated
+2018-04-28 00:48:16,178 - root - INFO - 0.186 	 dota2:loot.farm upd loaded
+2018-04-28 00:48:16,237 - root - INFO - 0.004 	 dota2:loot.farm av dropped
+2018-04-28 00:48:16,335 - root - INFO - 0.098 	 dota2:loot.farm server cache updated
+2018-04-28 00:48:16,341 - root - INFO - 0.006 	 dota2:loot.farm last time updated
+2018-04-28 00:48:21,555 - root - INFO - 0.209 	 dota2:loot.farm upd loaded
+2018-04-28 00:48:21,617 - root - INFO - 0.003 	 dota2:loot.farm av dropped
+2018-04-28 00:48:21,725 - root - INFO - 0.108 	 dota2:loot.farm server cache updated
+2018-04-28 00:48:21,733 - root - INFO - 0.007 	 dota2:loot.farm last time updated
+2018-04-28 00:48:21,958 - root - INFO - STATUS 1:True cache_layer {'storage': <DictProxy object, typeid 'dict' at 0x7fe9f19a6160>}
+2018-04-28 00:48:21,959 - root - INFO - STATUS 2:True legacy_api {'storage': <DictProxy object, typeid 'dict' at 0x7fe9f19a6160>}
+2018-04-28 00:48:21,959 - root - INFO - STATUS 3:True parser_wrapper {'game': 'meta', 'market': 'currencies', 'storage': <DictProxy object, typeid 'dict' at 0x7fe9f19a6160>, 'parser': <function currencies at 0x7fe9f0e6d6a8>, 'drop_av': False, 'proxy': None}
+2018-04-28 00:48:21,959 - root - INFO - STATUS 4:True parser_wrapper {'game': 'meta', 'market': 'c5game.com(id)', 'storage': <DictProxy object, typeid 'dict' at 0x7fe9f19a6160>, 'parser': <function c5game_id at 0x7fe9f0e6dea0>, 'drop_av': False, 'proxy': 'Dqjyqm:aDHhft@185.232.171.109:9137'}
+2018-04-28 00:48:21,959 - root - INFO - STATUS 5:True parser_wrapper {'game': 'dota2', 'market': 'loot.farm', 'storage': <DictProxy object, typeid 'dict' at 0x7fe9f19a6160>, 'parser': <function lootfarm at 0x7fe9f01322f0>, 'proxy': None}
+2018-04-28 00:48:21,959 - root - INFO - STATUS 6:True parser_wrapper {'game': 'dota2', 'market': 'c5game.com', 'storage': <DictProxy object, typeid 'dict' at 0x7fe9f19a6160>, 'parser': <function c5game at 0x7fe9f0132400>, 'proxy': 'Dqjyqm:aDHhft@185.232.171.109:9137', 'sale_purchase': True}
+2018-04-28 00:48:22,316 - root - ERROR - One of needed params is None
+Traceback (most recent call last):
+  File "src/processes/parser_wrapper.py", line 41, in parser_wrapper
+    upd = parser(kwargs, scraper)
+  File "src/parsers/dota2/c5game.py", line 54, in c5game
+    raise Exception('One of needed params is None')
+Exception: One of needed params is None
+2018-04-28 00:48:26,922 - root - INFO - 0.185 	 dota2:loot.farm upd loaded
+2018-04-28 00:48:26,966 - root - INFO - 0.003 	 dota2:loot.farm av dropped
+2018-04-28 00:48:27,050 - root - INFO - 0.084 	 dota2:loot.farm server cache updated
+2018-04-28 00:48:27,058 - root - INFO - 0.007 	 dota2:loot.farm last time updated
+2018-04-28 00:48:32,239 - root - INFO - 0.176 	 dota2:loot.farm upd loaded
+2018-04-28 00:48:32,298 - root - INFO - 0.003 	 dota2:loot.farm av dropped
+2018-04-28 00:48:32,374 - root - INFO - 0.076 	 dota2:loot.farm server cache updated
+2018-04-28 00:48:32,381 - root - INFO - 0.007 	 dota2:loot.farm last time updated
+2018-04-28 00:48:37,589 - root - INFO - 0.204 	 dota2:loot.farm upd loaded
+2018-04-28 00:48:37,648 - root - INFO - 0.002 	 dota2:loot.farm av dropped
+2018-04-28 00:48:37,740 - root - INFO - 0.092 	 dota2:loot.farm server cache updated
+2018-04-28 00:48:37,746 - root - INFO - 0.006 	 dota2:loot.farm last time updated
+2018-04-28 00:48:42,919 - root - INFO - 0.173 	 dota2:loot.farm upd loaded
+2018-04-28 00:48:42,968 - root - INFO - 0.003 	 dota2:loot.farm av dropped
+2018-04-28 00:48:43,058 - root - INFO - 0.090 	 dota2:loot.farm server cache updated
+2018-04-28 00:48:43,063 - root - INFO - 0.005 	 dota2:loot.farm last time updated
+2018-04-28 00:48:48,254 - root - INFO - 0.186 	 dota2:loot.farm upd loaded
+2018-04-28 00:48:48,311 - root - INFO - 0.003 	 dota2:loot.farm av dropped
+2018-04-28 00:48:48,398 - root - INFO - 0.086 	 dota2:loot.farm server cache updated
+2018-04-28 00:48:48,405 - root - INFO - 0.007 	 dota2:loot.farm last time updated
+2018-04-28 00:48:51,985 - root - INFO - STATUS 1:True cache_layer {'storage': <DictProxy object, typeid 'dict' at 0x7fe9f19a6160>}
+2018-04-28 00:48:51,986 - root - INFO - STATUS 2:True legacy_api {'storage': <DictProxy object, typeid 'dict' at 0x7fe9f19a6160>}
+2018-04-28 00:48:51,986 - root - INFO - STATUS 3:True parser_wrapper {'game': 'meta', 'market': 'currencies', 'storage': <DictProxy object, typeid 'dict' at 0x7fe9f19a6160>, 'parser': <function currencies at 0x7fe9f0e6d6a8>, 'drop_av': False, 'proxy': None}
+2018-04-28 00:48:51,987 - root - INFO - STATUS 4:True parser_wrapper {'game': 'meta', 'market': 'c5game.com(id)', 'storage': <DictProxy object, typeid 'dict' at 0x7fe9f19a6160>, 'parser': <function c5game_id at 0x7fe9f0e6dea0>, 'drop_av': False, 'proxy': 'Dqjyqm:aDHhft@185.232.171.109:9137'}
+2018-04-28 00:48:51,987 - root - INFO - STATUS 5:True parser_wrapper {'game': 'dota2', 'market': 'loot.farm', 'storage': <DictProxy object, typeid 'dict' at 0x7fe9f19a6160>, 'parser': <function lootfarm at 0x7fe9f01322f0>, 'proxy': None}
+2018-04-28 00:48:51,988 - root - INFO - STATUS 6:True parser_wrapper {'game': 'dota2', 'market': 'c5game.com', 'storage': <DictProxy object, typeid 'dict' at 0x7fe9f19a6160>, 'parser': <function c5game at 0x7fe9f0132400>, 'proxy': 'Dqjyqm:aDHhft@185.232.171.109:9137', 'sale_purchase': True}
+2018-04-28 00:48:52,367 - root - ERROR - One of needed params is None
+Traceback (most recent call last):
+  File "src/processes/parser_wrapper.py", line 41, in parser_wrapper
+    upd = parser(kwargs, scraper)
+  File "src/parsers/dota2/c5game.py", line 54, in c5game
+    raise Exception('One of needed params is None')
+Exception: One of needed params is None
+2018-04-28 00:48:53,609 - root - INFO - 0.199 	 dota2:loot.farm upd loaded
+2018-04-28 00:48:53,655 - root - INFO - 0.003 	 dota2:loot.farm av dropped
+2018-04-28 00:48:53,742 - root - INFO - 0.087 	 dota2:loot.farm server cache updated
+2018-04-28 00:48:53,749 - root - INFO - 0.007 	 dota2:loot.farm last time updated
+2018-04-28 00:48:58,935 - root - INFO - 0.180 	 dota2:loot.farm upd loaded
+2018-04-28 00:48:58,983 - root - INFO - 0.003 	 dota2:loot.farm av dropped
+2018-04-28 00:48:59,071 - root - INFO - 0.088 	 dota2:loot.farm server cache updated
+2018-04-28 00:48:59,077 - root - INFO - 0.006 	 dota2:loot.farm last time updated
+2018-04-28 00:49:04,301 - root - INFO - 0.220 	 dota2:loot.farm upd loaded
+2018-04-28 00:49:04,345 - root - INFO - 0.002 	 dota2:loot.farm av dropped
+2018-04-28 00:49:04,447 - root - INFO - 0.101 	 dota2:loot.farm server cache updated
+2018-04-28 00:49:04,453 - root - INFO - 0.006 	 dota2:loot.farm last time updated
+2018-04-28 00:49:09,671 - root - INFO - 0.217 	 dota2:loot.farm upd loaded
+2018-04-28 00:49:09,719 - root - INFO - 0.003 	 dota2:loot.farm av dropped
+2018-04-28 00:49:09,800 - root - INFO - 0.081 	 dota2:loot.farm server cache updated
+2018-04-28 00:49:09,806 - root - INFO - 0.005 	 dota2:loot.farm last time updated
+2018-04-28 00:49:15,016 - root - INFO - 0.205 	 dota2:loot.farm upd loaded
+2018-04-28 00:49:15,068 - root - INFO - 0.005 	 dota2:loot.farm av dropped
+2018-04-28 00:49:15,206 - root - INFO - 0.138 	 dota2:loot.farm server cache updated
+2018-04-28 00:49:15,216 - root - INFO - 0.009 	 dota2:loot.farm last time updated
+2018-04-28 00:49:20,400 - root - INFO - 0.179 	 dota2:loot.farm upd loaded
+2018-04-28 00:49:20,446 - root - INFO - 0.002 	 dota2:loot.farm av dropped
+2018-04-28 00:49:20,534 - root - INFO - 0.087 	 dota2:loot.farm server cache updated
+2018-04-28 00:49:20,542 - root - INFO - 0.009 	 dota2:loot.farm last time updated
+2018-04-28 00:49:21,990 - root - INFO - STATUS 1:True cache_layer {'storage': <DictProxy object, typeid 'dict' at 0x7fe9f19a6160>}
+2018-04-28 00:49:21,991 - root - INFO - STATUS 2:True legacy_api {'storage': <DictProxy object, typeid 'dict' at 0x7fe9f19a6160>}
+2018-04-28 00:49:21,991 - root - INFO - STATUS 3:True parser_wrapper {'game': 'meta', 'market': 'currencies', 'storage': <DictProxy object, typeid 'dict' at 0x7fe9f19a6160>, 'parser': <function currencies at 0x7fe9f0e6d6a8>, 'drop_av': False, 'proxy': None}
+2018-04-28 00:49:21,991 - root - INFO - STATUS 4:True parser_wrapper {'game': 'meta', 'market': 'c5game.com(id)', 'storage': <DictProxy object, typeid 'dict' at 0x7fe9f19a6160>, 'parser': <function c5game_id at 0x7fe9f0e6dea0>, 'drop_av': False, 'proxy': 'Dqjyqm:aDHhft@185.232.171.109:9137'}
+2018-04-28 00:49:21,992 - root - INFO - STATUS 5:True parser_wrapper {'game': 'dota2', 'market': 'loot.farm', 'storage': <DictProxy object, typeid 'dict' at 0x7fe9f19a6160>, 'parser': <function lootfarm at 0x7fe9f01322f0>, 'proxy': None}
+2018-04-28 00:49:21,992 - root - INFO - STATUS 6:True parser_wrapper {'game': 'dota2', 'market': 'c5game.com', 'storage': <DictProxy object, typeid 'dict' at 0x7fe9f19a6160>, 'parser': <function c5game at 0x7fe9f0132400>, 'proxy': 'Dqjyqm:aDHhft@185.232.171.109:9137', 'sale_purchase': True}
+2018-04-28 00:49:22,397 - root - ERROR - One of needed params is None
+Traceback (most recent call last):
+  File "src/processes/parser_wrapper.py", line 41, in parser_wrapper
+    upd = parser(kwargs, scraper)
+  File "src/parsers/dota2/c5game.py", line 54, in c5game
+    raise Exception('One of needed params is None')
+Exception: One of needed params is None
+2018-04-28 00:49:25,735 - root - INFO - 0.190 	 dota2:loot.farm upd loaded
+2018-04-28 00:49:25,777 - root - INFO - 0.002 	 dota2:loot.farm av dropped
+2018-04-28 00:49:25,856 - root - INFO - 0.079 	 dota2:loot.farm server cache updated
+2018-04-28 00:49:25,861 - root - INFO - 0.005 	 dota2:loot.farm last time updated
+2018-04-28 00:49:31,046 - root - INFO - 0.180 	 dota2:loot.farm upd loaded
+2018-04-28 00:49:31,088 - root - INFO - 0.003 	 dota2:loot.farm av dropped
+2018-04-28 00:49:31,175 - root - INFO - 0.087 	 dota2:loot.farm server cache updated
+2018-04-28 00:49:31,183 - root - INFO - 0.007 	 dota2:loot.farm last time updated
+2018-04-28 00:49:36,411 - root - INFO - 0.223 	 dota2:loot.farm upd loaded
+2018-04-28 00:49:36,458 - root - INFO - 0.003 	 dota2:loot.farm av dropped
+2018-04-28 00:49:36,552 - root - INFO - 0.094 	 dota2:loot.farm server cache updated
+2018-04-28 00:49:36,560 - root - INFO - 0.008 	 dota2:loot.farm last time updated
+2018-04-28 00:49:41,788 - root - INFO - 0.223 	 dota2:loot.farm upd loaded
+2018-04-28 00:49:41,833 - root - INFO - 0.002 	 dota2:loot.farm av dropped
+2018-04-28 00:49:41,912 - root - INFO - 0.079 	 dota2:loot.farm server cache updated
+2018-04-28 00:49:41,918 - root - INFO - 0.006 	 dota2:loot.farm last time updated
+2018-04-28 00:49:47,128 - root - INFO - 0.204 	 dota2:loot.farm upd loaded
+2018-04-28 00:49:47,178 - root - INFO - 0.003 	 dota2:loot.farm av dropped
+2018-04-28 00:49:47,304 - root - INFO - 0.126 	 dota2:loot.farm server cache updated
+2018-04-28 00:49:47,311 - root - INFO - 0.008 	 dota2:loot.farm last time updated
+2018-04-28 00:49:52,021 - root - INFO - STATUS 1:True cache_layer {'storage': <DictProxy object, typeid 'dict' at 0x7fe9f19a6160>}
+2018-04-28 00:49:52,021 - root - INFO - STATUS 2:True legacy_api {'storage': <DictProxy object, typeid 'dict' at 0x7fe9f19a6160>}
+2018-04-28 00:49:52,021 - root - INFO - STATUS 3:True parser_wrapper {'game': 'meta', 'market': 'currencies', 'storage': <DictProxy object, typeid 'dict' at 0x7fe9f19a6160>, 'parser': <function currencies at 0x7fe9f0e6d6a8>, 'drop_av': False, 'proxy': None}
+2018-04-28 00:49:52,021 - root - INFO - STATUS 4:True parser_wrapper {'game': 'meta', 'market': 'c5game.com(id)', 'storage': <DictProxy object, typeid 'dict' at 0x7fe9f19a6160>, 'parser': <function c5game_id at 0x7fe9f0e6dea0>, 'drop_av': False, 'proxy': 'Dqjyqm:aDHhft@185.232.171.109:9137'}
+2018-04-28 00:49:52,022 - root - INFO - STATUS 5:True parser_wrapper {'game': 'dota2', 'market': 'loot.farm', 'storage': <DictProxy object, typeid 'dict' at 0x7fe9f19a6160>, 'parser': <function lootfarm at 0x7fe9f01322f0>, 'proxy': None}
+2018-04-28 00:49:52,022 - root - INFO - STATUS 6:True parser_wrapper {'game': 'dota2', 'market': 'c5game.com', 'storage': <DictProxy object, typeid 'dict' at 0x7fe9f19a6160>, 'parser': <function c5game at 0x7fe9f0132400>, 'proxy': 'Dqjyqm:aDHhft@185.232.171.109:9137', 'sale_purchase': True}
+2018-04-28 00:49:52,437 - root - ERROR - One of needed params is None
+Traceback (most recent call last):
+  File "src/processes/parser_wrapper.py", line 41, in parser_wrapper
+    upd = parser(kwargs, scraper)
+  File "src/parsers/dota2/c5game.py", line 54, in c5game
+    raise Exception('One of needed params is None')
+Exception: One of needed params is None
+2018-04-28 00:49:52,516 - root - INFO - 0.203 	 dota2:loot.farm upd loaded
+2018-04-28 00:49:52,579 - root - INFO - 0.003 	 dota2:loot.farm av dropped
+2018-04-28 00:49:52,720 - root - INFO - 0.140 	 dota2:loot.farm server cache updated
+2018-04-28 00:49:52,742 - root - INFO - 0.022 	 dota2:loot.farm last time updated
+2018-04-28 00:49:57,922 - root - INFO - 0.176 	 dota2:loot.farm upd loaded
+2018-04-28 00:49:57,967 - root - INFO - 0.002 	 dota2:loot.farm av dropped
+2018-04-28 00:49:58,051 - root - INFO - 0.084 	 dota2:loot.farm server cache updated
+2018-04-28 00:49:58,057 - root - INFO - 0.006 	 dota2:loot.farm last time updated
+2018-04-28 00:50:03,235 - root - INFO - 0.172 	 dota2:loot.farm upd loaded
+2018-04-28 00:50:03,277 - root - INFO - 0.002 	 dota2:loot.farm av dropped
+2018-04-28 00:50:03,370 - root - INFO - 0.093 	 dota2:loot.farm server cache updated
+2018-04-28 00:50:03,377 - root - INFO - 0.007 	 dota2:loot.farm last time updated
+2018-04-28 00:50:08,558 - root - INFO - 0.177 	 dota2:loot.farm upd loaded
+2018-04-28 00:50:08,611 - root - INFO - 0.003 	 dota2:loot.farm av dropped
+2018-04-28 00:50:08,701 - root - INFO - 0.090 	 dota2:loot.farm server cache updated
+2018-04-28 00:50:08,707 - root - INFO - 0.007 	 dota2:loot.farm last time updated
+2018-04-28 00:50:13,887 - root - INFO - 0.174 	 dota2:loot.farm upd loaded
+2018-04-28 00:50:13,942 - root - INFO - 0.004 	 dota2:loot.farm av dropped
+2018-04-28 00:50:14,035 - root - INFO - 0.093 	 dota2:loot.farm server cache updated
+2018-04-28 00:50:14,043 - root - INFO - 0.007 	 dota2:loot.farm last time updated
+2018-04-28 00:50:19,256 - root - INFO - 0.207 	 dota2:loot.farm upd loaded
+2018-04-28 00:50:19,330 - root - INFO - 0.003 	 dota2:loot.farm av dropped
+2018-04-28 00:50:19,422 - root - INFO - 0.092 	 dota2:loot.farm server cache updated
+2018-04-28 00:50:19,431 - root - INFO - 0.009 	 dota2:loot.farm last time updated
+2018-04-28 00:50:22,051 - root - INFO - STATUS 1:True cache_layer {'storage': <DictProxy object, typeid 'dict' at 0x7fe9f19a6160>}
+2018-04-28 00:50:22,051 - root - INFO - STATUS 2:True legacy_api {'storage': <DictProxy object, typeid 'dict' at 0x7fe9f19a6160>}
+2018-04-28 00:50:22,051 - root - INFO - STATUS 3:True parser_wrapper {'game': 'meta', 'market': 'currencies', 'storage': <DictProxy object, typeid 'dict' at 0x7fe9f19a6160>, 'parser': <function currencies at 0x7fe9f0e6d6a8>, 'drop_av': False, 'proxy': None}
+2018-04-28 00:50:22,051 - root - INFO - STATUS 4:True parser_wrapper {'game': 'meta', 'market': 'c5game.com(id)', 'storage': <DictProxy object, typeid 'dict' at 0x7fe9f19a6160>, 'parser': <function c5game_id at 0x7fe9f0e6dea0>, 'drop_av': False, 'proxy': 'Dqjyqm:aDHhft@185.232.171.109:9137'}
+2018-04-28 00:50:22,051 - root - INFO - STATUS 5:True parser_wrapper {'game': 'dota2', 'market': 'loot.farm', 'storage': <DictProxy object, typeid 'dict' at 0x7fe9f19a6160>, 'parser': <function lootfarm at 0x7fe9f01322f0>, 'proxy': None}
+2018-04-28 00:50:22,052 - root - INFO - STATUS 6:True parser_wrapper {'game': 'dota2', 'market': 'c5game.com', 'storage': <DictProxy object, typeid 'dict' at 0x7fe9f19a6160>, 'parser': <function c5game at 0x7fe9f0132400>, 'proxy': 'Dqjyqm:aDHhft@185.232.171.109:9137', 'sale_purchase': True}
+2018-04-28 00:50:22,498 - root - ERROR - One of needed params is None
+Traceback (most recent call last):
+  File "src/processes/parser_wrapper.py", line 41, in parser_wrapper
+    upd = parser(kwargs, scraper)
+  File "src/parsers/dota2/c5game.py", line 54, in c5game
+    raise Exception('One of needed params is None')
+Exception: One of needed params is None
+2018-04-28 00:50:24,622 - root - INFO - 0.189 	 dota2:loot.farm upd loaded
+2018-04-28 00:50:24,672 - root - INFO - 0.002 	 dota2:loot.farm av dropped
+2018-04-28 00:50:24,756 - root - INFO - 0.084 	 dota2:loot.farm server cache updated
+2018-04-28 00:50:24,762 - root - INFO - 0.006 	 dota2:loot.farm last time updated
+2018-04-28 00:50:29,955 - root - INFO - 0.187 	 dota2:loot.farm upd loaded
+2018-04-28 00:50:29,999 - root - INFO - 0.002 	 dota2:loot.farm av dropped
+2018-04-28 00:50:30,080 - root - INFO - 0.081 	 dota2:loot.farm server cache updated
+2018-04-28 00:50:30,088 - root - INFO - 0.008 	 dota2:loot.farm last time updated
+2018-04-28 00:50:35,284 - root - INFO - 0.192 	 dota2:loot.farm upd loaded
+2018-04-28 00:50:35,328 - root - INFO - 0.002 	 dota2:loot.farm av dropped
+2018-04-28 00:50:35,410 - root - INFO - 0.082 	 dota2:loot.farm server cache updated
+2018-04-28 00:50:35,417 - root - INFO - 0.007 	 dota2:loot.farm last time updated
+2018-04-28 00:50:40,605 - root - INFO - 0.183 	 dota2:loot.farm upd loaded
+2018-04-28 00:50:40,671 - root - INFO - 0.004 	 dota2:loot.farm av dropped
+2018-04-28 00:50:40,758 - root - INFO - 0.087 	 dota2:loot.farm server cache updated
+2018-04-28 00:50:40,766 - root - INFO - 0.007 	 dota2:loot.farm last time updated
+2018-04-28 00:50:45,978 - root - INFO - 0.208 	 dota2:loot.farm upd loaded
+2018-04-28 00:50:46,022 - root - INFO - 0.002 	 dota2:loot.farm av dropped
+2018-04-28 00:50:46,105 - root - INFO - 0.082 	 dota2:loot.farm server cache updated
+2018-04-28 00:50:46,111 - root - INFO - 0.007 	 dota2:loot.farm last time updated
+2018-04-28 00:50:51,374 - root - INFO - 0.261 	 dota2:loot.farm upd loaded
+2018-04-28 00:50:51,438 - root - INFO - 0.003 	 dota2:loot.farm av dropped
+2018-04-28 00:50:51,573 - root - INFO - 0.134 	 dota2:loot.farm server cache updated
+2018-04-28 00:50:51,583 - root - INFO - 0.010 	 dota2:loot.farm last time updated
+2018-04-28 00:50:52,081 - root - INFO - STATUS 1:True cache_layer {'storage': <DictProxy object, typeid 'dict' at 0x7fe9f19a6160>}
+2018-04-28 00:50:52,082 - root - INFO - STATUS 2:True legacy_api {'storage': <DictProxy object, typeid 'dict' at 0x7fe9f19a6160>}
+2018-04-28 00:50:52,082 - root - INFO - STATUS 3:True parser_wrapper {'game': 'meta', 'market': 'currencies', 'storage': <DictProxy object, typeid 'dict' at 0x7fe9f19a6160>, 'parser': <function currencies at 0x7fe9f0e6d6a8>, 'drop_av': False, 'proxy': None}
+2018-04-28 00:50:52,082 - root - INFO - STATUS 4:True parser_wrapper {'game': 'meta', 'market': 'c5game.com(id)', 'storage': <DictProxy object, typeid 'dict' at 0x7fe9f19a6160>, 'parser': <function c5game_id at 0x7fe9f0e6dea0>, 'drop_av': False, 'proxy': 'Dqjyqm:aDHhft@185.232.171.109:9137'}
+2018-04-28 00:50:52,082 - root - INFO - STATUS 5:True parser_wrapper {'game': 'dota2', 'market': 'loot.farm', 'storage': <DictProxy object, typeid 'dict' at 0x7fe9f19a6160>, 'parser': <function lootfarm at 0x7fe9f01322f0>, 'proxy': None}
+2018-04-28 00:50:52,082 - root - INFO - STATUS 6:True parser_wrapper {'game': 'dota2', 'market': 'c5game.com', 'storage': <DictProxy object, typeid 'dict' at 0x7fe9f19a6160>, 'parser': <function c5game at 0x7fe9f0132400>, 'proxy': 'Dqjyqm:aDHhft@185.232.171.109:9137', 'sale_purchase': True}
+2018-04-28 00:50:52,543 - root - ERROR - One of needed params is None
+Traceback (most recent call last):
+  File "src/processes/parser_wrapper.py", line 41, in parser_wrapper
+    upd = parser(kwargs, scraper)
+  File "src/parsers/dota2/c5game.py", line 54, in c5game
+    raise Exception('One of needed params is None')
+Exception: One of needed params is None
+2018-04-28 00:50:56,813 - root - INFO - 0.228 	 dota2:loot.farm upd loaded
+2018-04-28 00:50:56,866 - root - INFO - 0.002 	 dota2:loot.farm av dropped
+2018-04-28 00:50:56,958 - root - INFO - 0.092 	 dota2:loot.farm server cache updated
+2018-04-28 00:50:56,966 - root - INFO - 0.007 	 dota2:loot.farm last time updated
+2018-04-28 00:51:02,157 - root - INFO - 0.188 	 dota2:loot.farm upd loaded
+2018-04-28 00:51:02,213 - root - INFO - 0.003 	 dota2:loot.farm av dropped
+2018-04-28 00:51:02,342 - root - INFO - 0.129 	 dota2:loot.farm server cache updated
+2018-04-28 00:51:02,349 - root - INFO - 0.007 	 dota2:loot.farm last time updated
+2018-04-28 00:51:07,554 - root - INFO - 0.201 	 dota2:loot.farm upd loaded
+2018-04-28 00:51:07,606 - root - INFO - 0.003 	 dota2:loot.farm av dropped
+2018-04-28 00:51:07,716 - root - INFO - 0.110 	 dota2:loot.farm server cache updated
+2018-04-28 00:51:07,725 - root - INFO - 0.008 	 dota2:loot.farm last time updated
+2018-04-28 00:51:12,923 - root - INFO - 0.198 	 dota2:loot.farm upd loaded
+2018-04-28 00:51:12,976 - root - INFO - 0.003 	 dota2:loot.farm av dropped
+2018-04-28 00:51:13,108 - root - INFO - 0.131 	 dota2:loot.farm server cache updated
+2018-04-28 00:51:13,117 - root - INFO - 0.009 	 dota2:loot.farm last time updated
+2018-04-28 00:51:18,297 - root - INFO - 0.176 	 dota2:loot.farm upd loaded
+2018-04-28 00:51:18,343 - root - INFO - 0.002 	 dota2:loot.farm av dropped
+2018-04-28 00:51:18,441 - root - INFO - 0.098 	 dota2:loot.farm server cache updated
+2018-04-28 00:51:18,448 - root - INFO - 0.007 	 dota2:loot.farm last time updated
+2018-04-28 00:51:22,109 - root - INFO - STATUS 1:True cache_layer {'storage': <DictProxy object, typeid 'dict' at 0x7fe9f19a6160>}
+2018-04-28 00:51:22,109 - root - INFO - STATUS 2:True legacy_api {'storage': <DictProxy object, typeid 'dict' at 0x7fe9f19a6160>}
+2018-04-28 00:51:22,109 - root - INFO - STATUS 3:True parser_wrapper {'game': 'meta', 'market': 'currencies', 'storage': <DictProxy object, typeid 'dict' at 0x7fe9f19a6160>, 'parser': <function currencies at 0x7fe9f0e6d6a8>, 'drop_av': False, 'proxy': None}
+2018-04-28 00:51:22,110 - root - INFO - STATUS 4:True parser_wrapper {'game': 'meta', 'market': 'c5game.com(id)', 'storage': <DictProxy object, typeid 'dict' at 0x7fe9f19a6160>, 'parser': <function c5game_id at 0x7fe9f0e6dea0>, 'drop_av': False, 'proxy': 'Dqjyqm:aDHhft@185.232.171.109:9137'}
+2018-04-28 00:51:22,110 - root - INFO - STATUS 5:True parser_wrapper {'game': 'dota2', 'market': 'loot.farm', 'storage': <DictProxy object, typeid 'dict' at 0x7fe9f19a6160>, 'parser': <function lootfarm at 0x7fe9f01322f0>, 'proxy': None}
+2018-04-28 00:51:22,110 - root - INFO - STATUS 6:True parser_wrapper {'game': 'dota2', 'market': 'c5game.com', 'storage': <DictProxy object, typeid 'dict' at 0x7fe9f19a6160>, 'parser': <function c5game at 0x7fe9f0132400>, 'proxy': 'Dqjyqm:aDHhft@185.232.171.109:9137', 'sale_purchase': True}
+2018-04-28 00:51:22,559 - root - ERROR - One of needed params is None
+Traceback (most recent call last):
+  File "src/processes/parser_wrapper.py", line 41, in parser_wrapper
+    upd = parser(kwargs, scraper)
+  File "src/parsers/dota2/c5game.py", line 54, in c5game
+    raise Exception('One of needed params is None')
+Exception: One of needed params is None
+2018-04-28 00:51:23,709 - root - INFO - 0.256 	 dota2:loot.farm upd loaded
+2018-04-28 00:51:23,770 - root - INFO - 0.003 	 dota2:loot.farm av dropped
+2018-04-28 00:51:23,884 - root - INFO - 0.114 	 dota2:loot.farm server cache updated
+2018-04-28 00:51:23,893 - root - INFO - 0.009 	 dota2:loot.farm last time updated
+2018-04-28 00:51:29,151 - root - INFO - 0.253 	 dota2:loot.farm upd loaded
+2018-04-28 00:51:29,219 - root - INFO - 0.004 	 dota2:loot.farm av dropped
+2018-04-28 00:51:29,343 - root - INFO - 0.123 	 dota2:loot.farm server cache updated
+2018-04-28 00:51:29,352 - root - INFO - 0.009 	 dota2:loot.farm last time updated
+2018-04-28 00:51:34,545 - root - INFO - 0.188 	 dota2:loot.farm upd loaded
+2018-04-28 00:51:34,602 - root - INFO - 0.003 	 dota2:loot.farm av dropped
+2018-04-28 00:51:34,709 - root - INFO - 0.107 	 dota2:loot.farm server cache updated
+2018-04-28 00:51:34,717 - root - INFO - 0.007 	 dota2:loot.farm last time updated
+2018-04-28 00:51:39,897 - root - INFO - 0.176 	 dota2:loot.farm upd loaded
+2018-04-28 00:51:39,944 - root - INFO - 0.004 	 dota2:loot.farm av dropped
+2018-04-28 00:51:40,050 - root - INFO - 0.105 	 dota2:loot.farm server cache updated
+2018-04-28 00:51:40,060 - root - INFO - 0.010 	 dota2:loot.farm last time updated
+2018-04-28 00:51:45,292 - root - INFO - 0.227 	 dota2:loot.farm upd loaded
+2018-04-28 00:51:45,340 - root - INFO - 0.003 	 dota2:loot.farm av dropped
+2018-04-28 00:51:45,422 - root - INFO - 0.082 	 dota2:loot.farm server cache updated
+2018-04-28 00:51:45,428 - root - INFO - 0.006 	 dota2:loot.farm last time updated
+2018-04-28 00:51:50,715 - root - INFO - 0.286 	 dota2:loot.farm upd loaded
+2018-04-28 00:51:50,781 - root - INFO - 0.003 	 dota2:loot.farm av dropped
+2018-04-28 00:51:50,865 - root - INFO - 0.084 	 dota2:loot.farm server cache updated
+2018-04-28 00:51:50,873 - root - INFO - 0.008 	 dota2:loot.farm last time updated
+2018-04-28 00:51:52,128 - root - INFO - STATUS 1:True cache_layer {'storage': <DictProxy object, typeid 'dict' at 0x7fe9f19a6160>}
+2018-04-28 00:51:52,128 - root - INFO - STATUS 2:True legacy_api {'storage': <DictProxy object, typeid 'dict' at 0x7fe9f19a6160>}
+2018-04-28 00:51:52,128 - root - INFO - STATUS 3:True parser_wrapper {'game': 'meta', 'market': 'currencies', 'storage': <DictProxy object, typeid 'dict' at 0x7fe9f19a6160>, 'parser': <function currencies at 0x7fe9f0e6d6a8>, 'drop_av': False, 'proxy': None}
+2018-04-28 00:51:52,129 - root - INFO - STATUS 4:True parser_wrapper {'game': 'meta', 'market': 'c5game.com(id)', 'storage': <DictProxy object, typeid 'dict' at 0x7fe9f19a6160>, 'parser': <function c5game_id at 0x7fe9f0e6dea0>, 'drop_av': False, 'proxy': 'Dqjyqm:aDHhft@185.232.171.109:9137'}
+2018-04-28 00:51:52,129 - root - INFO - STATUS 5:True parser_wrapper {'game': 'dota2', 'market': 'loot.farm', 'storage': <DictProxy object, typeid 'dict' at 0x7fe9f19a6160>, 'parser': <function lootfarm at 0x7fe9f01322f0>, 'proxy': None}
+2018-04-28 00:51:52,129 - root - INFO - STATUS 6:True parser_wrapper {'game': 'dota2', 'market': 'c5game.com', 'storage': <DictProxy object, typeid 'dict' at 0x7fe9f19a6160>, 'parser': <function c5game at 0x7fe9f0132400>, 'proxy': 'Dqjyqm:aDHhft@185.232.171.109:9137', 'sale_purchase': True}
+2018-04-28 00:51:52,630 - root - ERROR - One of needed params is None
+Traceback (most recent call last):
+  File "src/processes/parser_wrapper.py", line 41, in parser_wrapper
+    upd = parser(kwargs, scraper)
+  File "src/parsers/dota2/c5game.py", line 54, in c5game
+    raise Exception('One of needed params is None')
+Exception: One of needed params is None
+2018-04-28 00:51:56,142 - root - INFO - 0.265 	 dota2:loot.farm upd loaded
+2018-04-28 00:51:56,190 - root - INFO - 0.004 	 dota2:loot.farm av dropped
+2018-04-28 00:51:56,272 - root - INFO - 0.082 	 dota2:loot.farm server cache updated
+2018-04-28 00:51:56,280 - root - INFO - 0.007 	 dota2:loot.farm last time updated
+2018-04-28 00:52:01,472 - root - INFO - 0.190 	 dota2:loot.farm upd loaded
+2018-04-28 00:52:01,539 - root - INFO - 0.005 	 dota2:loot.farm av dropped
+2018-04-28 00:52:01,656 - root - INFO - 0.117 	 dota2:loot.farm server cache updated
+2018-04-28 00:52:01,666 - root - INFO - 0.009 	 dota2:loot.farm last time updated
+2018-04-28 00:52:06,879 - root - INFO - 0.210 	 dota2:loot.farm upd loaded
+2018-04-28 00:52:06,959 - root - INFO - 0.004 	 dota2:loot.farm av dropped
+2018-04-28 00:52:07,058 - root - INFO - 0.099 	 dota2:loot.farm server cache updated
+2018-04-28 00:52:07,064 - root - INFO - 0.006 	 dota2:loot.farm last time updated
+2018-04-28 00:52:12,306 - root - INFO - 0.237 	 dota2:loot.farm upd loaded
+2018-04-28 00:52:12,353 - root - INFO - 0.002 	 dota2:loot.farm av dropped
+2018-04-28 00:52:12,437 - root - INFO - 0.084 	 dota2:loot.farm server cache updated
+2018-04-28 00:52:12,444 - root - INFO - 0.007 	 dota2:loot.farm last time updated
+2018-04-28 00:52:17,625 - root - INFO - 0.175 	 dota2:loot.farm upd loaded
+2018-04-28 00:52:17,678 - root - INFO - 0.002 	 dota2:loot.farm av dropped
+2018-04-28 00:52:17,756 - root - INFO - 0.077 	 dota2:loot.farm server cache updated
+2018-04-28 00:52:17,763 - root - INFO - 0.008 	 dota2:loot.farm last time updated
+2018-04-28 00:52:22,157 - root - INFO - STATUS 1:True cache_layer {'storage': <DictProxy object, typeid 'dict' at 0x7fe9f19a6160>}
+2018-04-28 00:52:22,158 - root - INFO - STATUS 2:True legacy_api {'storage': <DictProxy object, typeid 'dict' at 0x7fe9f19a6160>}
+2018-04-28 00:52:22,158 - root - INFO - STATUS 3:True parser_wrapper {'game': 'meta', 'market': 'currencies', 'storage': <DictProxy object, typeid 'dict' at 0x7fe9f19a6160>, 'parser': <function currencies at 0x7fe9f0e6d6a8>, 'drop_av': False, 'proxy': None}
+2018-04-28 00:52:22,158 - root - INFO - STATUS 4:True parser_wrapper {'game': 'meta', 'market': 'c5game.com(id)', 'storage': <DictProxy object, typeid 'dict' at 0x7fe9f19a6160>, 'parser': <function c5game_id at 0x7fe9f0e6dea0>, 'drop_av': False, 'proxy': 'Dqjyqm:aDHhft@185.232.171.109:9137'}
+2018-04-28 00:52:22,158 - root - INFO - STATUS 5:True parser_wrapper {'game': 'dota2', 'market': 'loot.farm', 'storage': <DictProxy object, typeid 'dict' at 0x7fe9f19a6160>, 'parser': <function lootfarm at 0x7fe9f01322f0>, 'proxy': None}
+2018-04-28 00:52:22,159 - root - INFO - STATUS 6:True parser_wrapper {'game': 'dota2', 'market': 'c5game.com', 'storage': <DictProxy object, typeid 'dict' at 0x7fe9f19a6160>, 'parser': <function c5game at 0x7fe9f0132400>, 'proxy': 'Dqjyqm:aDHhft@185.232.171.109:9137', 'sale_purchase': True}
+2018-04-28 00:52:22,659 - root - ERROR - One of needed params is None
+Traceback (most recent call last):
+  File "src/processes/parser_wrapper.py", line 41, in parser_wrapper
+    upd = parser(kwargs, scraper)
+  File "src/parsers/dota2/c5game.py", line 54, in c5game
+    raise Exception('One of needed params is None')
+Exception: One of needed params is None
+2018-04-28 00:52:22,946 - root - INFO - 0.179 	 dota2:loot.farm upd loaded
+2018-04-28 00:52:22,990 - root - INFO - 0.002 	 dota2:loot.farm av dropped
+2018-04-28 00:52:23,083 - root - INFO - 0.093 	 dota2:loot.farm server cache updated
+2018-04-28 00:52:23,090 - root - INFO - 0.006 	 dota2:loot.farm last time updated
+2018-04-28 00:52:28,349 - root - INFO - 0.255 	 dota2:loot.farm upd loaded
+2018-04-28 00:52:28,403 - root - INFO - 0.004 	 dota2:loot.farm av dropped
+2018-04-28 00:52:28,502 - root - INFO - 0.098 	 dota2:loot.farm server cache updated
+2018-04-28 00:52:28,508 - root - INFO - 0.006 	 dota2:loot.farm last time updated
+2018-04-28 00:52:34,088 - root - INFO - 0.578 	 dota2:loot.farm upd loaded
+2018-04-28 00:52:34,130 - root - INFO - 0.002 	 dota2:loot.farm av dropped
+2018-04-28 00:52:34,220 - root - INFO - 0.091 	 dota2:loot.farm server cache updated
+2018-04-28 00:52:34,227 - root - INFO - 0.007 	 dota2:loot.farm last time updated
+2018-04-28 00:52:40,105 - root - INFO - 0.875 	 dota2:loot.farm upd loaded
+2018-04-28 00:52:40,200 - root - INFO - 0.003 	 dota2:loot.farm av dropped
+2018-04-28 00:52:40,323 - root - INFO - 0.122 	 dota2:loot.farm server cache updated
+2018-04-28 00:52:40,330 - root - INFO - 0.007 	 dota2:loot.farm last time updated
+2018-04-28 00:52:45,574 - root - INFO - 0.241 	 dota2:loot.farm upd loaded
+2018-04-28 00:52:45,630 - root - INFO - 0.003 	 dota2:loot.farm av dropped
+2018-04-28 00:52:45,712 - root - INFO - 0.081 	 dota2:loot.farm server cache updated
+2018-04-28 00:52:45,718 - root - INFO - 0.006 	 dota2:loot.farm last time updated
+2018-04-28 00:52:50,947 - root - INFO - 0.226 	 dota2:loot.farm upd loaded
+2018-04-28 00:52:51,014 - root - INFO - 0.007 	 dota2:loot.farm av dropped
+2018-04-28 00:52:51,127 - root - INFO - 0.113 	 dota2:loot.farm server cache updated
+2018-04-28 00:52:51,136 - root - INFO - 0.008 	 dota2:loot.farm last time updated
+2018-04-28 00:52:52,189 - root - INFO - STATUS 1:True cache_layer {'storage': <DictProxy object, typeid 'dict' at 0x7fe9f19a6160>}
+2018-04-28 00:52:52,189 - root - INFO - STATUS 2:True legacy_api {'storage': <DictProxy object, typeid 'dict' at 0x7fe9f19a6160>}
+2018-04-28 00:52:52,189 - root - INFO - STATUS 3:True parser_wrapper {'game': 'meta', 'market': 'currencies', 'storage': <DictProxy object, typeid 'dict' at 0x7fe9f19a6160>, 'parser': <function currencies at 0x7fe9f0e6d6a8>, 'drop_av': False, 'proxy': None}
+2018-04-28 00:52:52,190 - root - INFO - STATUS 4:True parser_wrapper {'game': 'meta', 'market': 'c5game.com(id)', 'storage': <DictProxy object, typeid 'dict' at 0x7fe9f19a6160>, 'parser': <function c5game_id at 0x7fe9f0e6dea0>, 'drop_av': False, 'proxy': 'Dqjyqm:aDHhft@185.232.171.109:9137'}
+2018-04-28 00:52:52,190 - root - INFO - STATUS 5:True parser_wrapper {'game': 'dota2', 'market': 'loot.farm', 'storage': <DictProxy object, typeid 'dict' at 0x7fe9f19a6160>, 'parser': <function lootfarm at 0x7fe9f01322f0>, 'proxy': None}
+2018-04-28 00:52:52,190 - root - INFO - STATUS 6:True parser_wrapper {'game': 'dota2', 'market': 'c5game.com', 'storage': <DictProxy object, typeid 'dict' at 0x7fe9f19a6160>, 'parser': <function c5game at 0x7fe9f0132400>, 'proxy': 'Dqjyqm:aDHhft@185.232.171.109:9137', 'sale_purchase': True}
+2018-04-28 00:52:52,688 - root - ERROR - One of needed params is None
+Traceback (most recent call last):
+  File "src/processes/parser_wrapper.py", line 41, in parser_wrapper
+    upd = parser(kwargs, scraper)
+  File "src/parsers/dota2/c5game.py", line 54, in c5game
+    raise Exception('One of needed params is None')
+Exception: One of needed params is None
+2018-04-28 00:52:56,353 - root - INFO - 0.216 	 dota2:loot.farm upd loaded
+2018-04-28 00:52:56,427 - root - INFO - 0.004 	 dota2:loot.farm av dropped
+2018-04-28 00:52:56,535 - root - INFO - 0.107 	 dota2:loot.farm server cache updated
+2018-04-28 00:52:56,542 - root - INFO - 0.007 	 dota2:loot.farm last time updated
+2018-04-28 00:53:01,722 - root - INFO - 0.179 	 dota2:loot.farm upd loaded
+2018-04-28 00:53:01,774 - root - INFO - 0.003 	 dota2:loot.farm av dropped
+2018-04-28 00:53:01,878 - root - INFO - 0.103 	 dota2:loot.farm server cache updated
+2018-04-28 00:53:01,885 - root - INFO - 0.007 	 dota2:loot.farm last time updated
+2018-04-28 00:53:07,092 - root - INFO - 0.203 	 dota2:loot.farm upd loaded
+2018-04-28 00:53:07,170 - root - INFO - 0.004 	 dota2:loot.farm av dropped
+2018-04-28 00:53:07,336 - root - INFO - 0.164 	 dota2:loot.farm server cache updated
+2018-04-28 00:53:07,345 - root - INFO - 0.009 	 dota2:loot.farm last time updated
+2018-04-28 00:53:12,554 - root - INFO - 0.205 	 dota2:loot.farm upd loaded
+2018-04-28 00:53:12,622 - root - INFO - 0.003 	 dota2:loot.farm av dropped
+2018-04-28 00:53:12,773 - root - INFO - 0.151 	 dota2:loot.farm server cache updated
+2018-04-28 00:53:12,783 - root - INFO - 0.010 	 dota2:loot.farm last time updated
+2018-04-28 00:53:17,967 - root - INFO - 0.181 	 dota2:loot.farm upd loaded
+2018-04-28 00:53:18,020 - root - INFO - 0.003 	 dota2:loot.farm av dropped
+2018-04-28 00:53:18,143 - root - INFO - 0.121 	 dota2:loot.farm server cache updated
+2018-04-28 00:53:18,151 - root - INFO - 0.008 	 dota2:loot.farm last time updated
+2018-04-28 00:53:22,211 - root - INFO - STATUS 1:True cache_layer {'storage': <DictProxy object, typeid 'dict' at 0x7fe9f19a6160>}
+2018-04-28 00:53:22,212 - root - INFO - STATUS 2:True legacy_api {'storage': <DictProxy object, typeid 'dict' at 0x7fe9f19a6160>}
+2018-04-28 00:53:22,212 - root - INFO - STATUS 3:True parser_wrapper {'game': 'meta', 'market': 'currencies', 'storage': <DictProxy object, typeid 'dict' at 0x7fe9f19a6160>, 'parser': <function currencies at 0x7fe9f0e6d6a8>, 'drop_av': False, 'proxy': None}
+2018-04-28 00:53:22,212 - root - INFO - STATUS 4:True parser_wrapper {'game': 'meta', 'market': 'c5game.com(id)', 'storage': <DictProxy object, typeid 'dict' at 0x7fe9f19a6160>, 'parser': <function c5game_id at 0x7fe9f0e6dea0>, 'drop_av': False, 'proxy': 'Dqjyqm:aDHhft@185.232.171.109:9137'}
+2018-04-28 00:53:22,212 - root - INFO - STATUS 5:True parser_wrapper {'game': 'dota2', 'market': 'loot.farm', 'storage': <DictProxy object, typeid 'dict' at 0x7fe9f19a6160>, 'parser': <function lootfarm at 0x7fe9f01322f0>, 'proxy': None}
+2018-04-28 00:53:22,212 - root - INFO - STATUS 6:True parser_wrapper {'game': 'dota2', 'market': 'c5game.com', 'storage': <DictProxy object, typeid 'dict' at 0x7fe9f19a6160>, 'parser': <function c5game at 0x7fe9f0132400>, 'proxy': 'Dqjyqm:aDHhft@185.232.171.109:9137', 'sale_purchase': True}
+2018-04-28 00:53:22,716 - root - ERROR - One of needed params is None
+Traceback (most recent call last):
+  File "src/processes/parser_wrapper.py", line 41, in parser_wrapper
+    upd = parser(kwargs, scraper)
+  File "src/parsers/dota2/c5game.py", line 54, in c5game
+    raise Exception('One of needed params is None')
+Exception: One of needed params is None
+2018-04-28 00:53:23,323 - root - INFO - 0.170 	 dota2:loot.farm upd loaded
+2018-04-28 00:53:23,375 - root - INFO - 0.004 	 dota2:loot.farm av dropped
+2018-04-28 00:53:23,488 - root - INFO - 0.113 	 dota2:loot.farm server cache updated
+2018-04-28 00:53:23,496 - root - INFO - 0.008 	 dota2:loot.farm last time updated
+2018-04-28 00:53:28,690 - root - INFO - 0.189 	 dota2:loot.farm upd loaded
+2018-04-28 00:53:28,738 - root - INFO - 0.002 	 dota2:loot.farm av dropped
+2018-04-28 00:53:28,848 - root - INFO - 0.110 	 dota2:loot.farm server cache updated
+2018-04-28 00:53:28,858 - root - INFO - 0.008 	 dota2:loot.farm last time updated
+2018-04-28 00:53:34,040 - root - INFO - 0.176 	 dota2:loot.farm upd loaded
+2018-04-28 00:53:34,099 - root - INFO - 0.003 	 dota2:loot.farm av dropped
+2018-04-28 00:53:34,217 - root - INFO - 0.117 	 dota2:loot.farm server cache updated
+2018-04-28 00:53:34,226 - root - INFO - 0.009 	 dota2:loot.farm last time updated
+2018-04-28 00:53:39,404 - root - INFO - 0.174 	 dota2:loot.farm upd loaded
+2018-04-28 00:53:39,465 - root - INFO - 0.003 	 dota2:loot.farm av dropped
+2018-04-28 00:53:39,569 - root - INFO - 0.104 	 dota2:loot.farm server cache updated
+2018-04-28 00:53:39,577 - root - INFO - 0.007 	 dota2:loot.farm last time updated
+2018-04-28 00:53:44,779 - root - INFO - 0.198 	 dota2:loot.farm upd loaded
+2018-04-28 00:53:44,834 - root - INFO - 0.004 	 dota2:loot.farm av dropped
+2018-04-28 00:53:44,958 - root - INFO - 0.124 	 dota2:loot.farm server cache updated
+2018-04-28 00:53:44,966 - root - INFO - 0.008 	 dota2:loot.farm last time updated
+2018-04-28 00:53:50,167 - root - INFO - 0.197 	 dota2:loot.farm upd loaded
+2018-04-28 00:53:50,228 - root - INFO - 0.003 	 dota2:loot.farm av dropped
+2018-04-28 00:53:50,365 - root - INFO - 0.137 	 dota2:loot.farm server cache updated
+2018-04-28 00:53:50,375 - root - INFO - 0.009 	 dota2:loot.farm last time updated
+2018-04-28 00:53:52,237 - root - INFO - STATUS 1:True cache_layer {'storage': <DictProxy object, typeid 'dict' at 0x7fe9f19a6160>}
+2018-04-28 00:53:52,237 - root - INFO - STATUS 2:True legacy_api {'storage': <DictProxy object, typeid 'dict' at 0x7fe9f19a6160>}
+2018-04-28 00:53:52,237 - root - INFO - STATUS 3:True parser_wrapper {'game': 'meta', 'market': 'currencies', 'storage': <DictProxy object, typeid 'dict' at 0x7fe9f19a6160>, 'parser': <function currencies at 0x7fe9f0e6d6a8>, 'drop_av': False, 'proxy': None}
+2018-04-28 00:53:52,237 - root - INFO - STATUS 4:True parser_wrapper {'game': 'meta', 'market': 'c5game.com(id)', 'storage': <DictProxy object, typeid 'dict' at 0x7fe9f19a6160>, 'parser': <function c5game_id at 0x7fe9f0e6dea0>, 'drop_av': False, 'proxy': 'Dqjyqm:aDHhft@185.232.171.109:9137'}
+2018-04-28 00:53:52,238 - root - INFO - STATUS 5:True parser_wrapper {'game': 'dota2', 'market': 'loot.farm', 'storage': <DictProxy object, typeid 'dict' at 0x7fe9f19a6160>, 'parser': <function lootfarm at 0x7fe9f01322f0>, 'proxy': None}
+2018-04-28 00:53:52,238 - root - INFO - STATUS 6:True parser_wrapper {'game': 'dota2', 'market': 'c5game.com', 'storage': <DictProxy object, typeid 'dict' at 0x7fe9f19a6160>, 'parser': <function c5game at 0x7fe9f0132400>, 'proxy': 'Dqjyqm:aDHhft@185.232.171.109:9137', 'sale_purchase': True}
+2018-04-28 00:53:52,756 - root - ERROR - One of needed params is None
+Traceback (most recent call last):
+  File "src/processes/parser_wrapper.py", line 41, in parser_wrapper
+    upd = parser(kwargs, scraper)
+  File "src/parsers/dota2/c5game.py", line 54, in c5game
+    raise Exception('One of needed params is None')
+Exception: One of needed params is None
+2018-04-28 00:53:55,632 - root - INFO - 0.253 	 dota2:loot.farm upd loaded
+2018-04-28 00:53:55,679 - root - INFO - 0.002 	 dota2:loot.farm av dropped
+2018-04-28 00:53:55,828 - root - INFO - 0.149 	 dota2:loot.farm server cache updated
+2018-04-28 00:53:55,836 - root - INFO - 0.008 	 dota2:loot.farm last time updated
+2018-04-28 00:54:01,072 - root - INFO - 0.235 	 dota2:loot.farm upd loaded
+2018-04-28 00:54:01,147 - root - INFO - 0.004 	 dota2:loot.farm av dropped
+2018-04-28 00:54:01,288 - root - INFO - 0.141 	 dota2:loot.farm server cache updated
+2018-04-28 00:54:01,296 - root - INFO - 0.008 	 dota2:loot.farm last time updated
+2018-04-28 00:54:06,480 - root - INFO - 0.179 	 dota2:loot.farm upd loaded
+2018-04-28 00:54:06,535 - root - INFO - 0.003 	 dota2:loot.farm av dropped
+2018-04-28 00:54:06,721 - root - INFO - 0.186 	 dota2:loot.farm server cache updated
+2018-04-28 00:54:06,733 - root - INFO - 0.012 	 dota2:loot.farm last time updated
+2018-04-28 00:54:07,541 - root - INFO - 375.314 	 meta:c5game.com(id) upd loaded
+2018-04-28 00:54:07,612 - root - INFO - 0.041 	 meta:c5game.com(id) server cache updated
+2018-04-28 00:54:07,621 - root - INFO - 0.009 	 meta:c5game.com(id) last time updated
+2018-04-28 00:54:11,912 - root - INFO - 0.175 	 dota2:loot.farm upd loaded
+2018-04-28 00:54:11,967 - root - INFO - 0.005 	 dota2:loot.farm av dropped
+2018-04-28 00:54:12,119 - root - INFO - 0.152 	 dota2:loot.farm server cache updated
+2018-04-28 00:54:12,130 - root - INFO - 0.010 	 dota2:loot.farm last time updated
+2018-04-28 00:54:17,316 - root - INFO - 0.182 	 dota2:loot.farm upd loaded
+2018-04-28 00:54:17,373 - root - INFO - 0.004 	 dota2:loot.farm av dropped
+2018-04-28 00:54:17,530 - root - INFO - 0.157 	 dota2:loot.farm server cache updated
+2018-04-28 00:54:17,540 - root - INFO - 0.009 	 dota2:loot.farm last time updated
+2018-04-28 00:54:22,240 - root - INFO - STATUS 1:True cache_layer {'storage': <DictProxy object, typeid 'dict' at 0x7fe9f19a6160>}
+2018-04-28 00:54:22,240 - root - INFO - STATUS 2:True legacy_api {'storage': <DictProxy object, typeid 'dict' at 0x7fe9f19a6160>}
+2018-04-28 00:54:22,240 - root - INFO - STATUS 3:True parser_wrapper {'game': 'meta', 'market': 'currencies', 'storage': <DictProxy object, typeid 'dict' at 0x7fe9f19a6160>, 'parser': <function currencies at 0x7fe9f0e6d6a8>, 'drop_av': False, 'proxy': None}
+2018-04-28 00:54:22,240 - root - INFO - STATUS 4:True parser_wrapper {'game': 'meta', 'market': 'c5game.com(id)', 'storage': <DictProxy object, typeid 'dict' at 0x7fe9f19a6160>, 'parser': <function c5game_id at 0x7fe9f0e6dea0>, 'drop_av': False, 'proxy': 'Dqjyqm:aDHhft@185.232.171.109:9137'}
+2018-04-28 00:54:22,240 - root - INFO - STATUS 5:True parser_wrapper {'game': 'dota2', 'market': 'loot.farm', 'storage': <DictProxy object, typeid 'dict' at 0x7fe9f19a6160>, 'parser': <function lootfarm at 0x7fe9f01322f0>, 'proxy': None}
+2018-04-28 00:54:22,240 - root - INFO - STATUS 6:True parser_wrapper {'game': 'dota2', 'market': 'c5game.com', 'storage': <DictProxy object, typeid 'dict' at 0x7fe9f19a6160>, 'parser': <function c5game at 0x7fe9f0132400>, 'proxy': 'Dqjyqm:aDHhft@185.232.171.109:9137', 'sale_purchase': True}
+2018-04-28 00:54:22,746 - root - INFO - 0.201 	 dota2:loot.farm upd loaded
+2018-04-28 00:54:22,805 - root - INFO - 0.005 	 dota2:loot.farm av dropped
+2018-04-28 00:54:22,938 - root - INFO - 0.133 	 dota2:loot.farm server cache updated
+2018-04-28 00:54:22,947 - root - INFO - 0.009 	 dota2:loot.farm last time updated
+2018-04-28 00:54:28,128 - root - INFO - 0.179 	 dota2:loot.farm upd loaded
+2018-04-28 00:54:28,194 - root - INFO - 0.003 	 dota2:loot.farm av dropped
+2018-04-28 00:54:28,326 - root - INFO - 0.132 	 dota2:loot.farm server cache updated
+2018-04-28 00:54:28,333 - root - INFO - 0.007 	 dota2:loot.farm last time updated
+2018-04-28 00:54:33,542 - root - INFO - 0.205 	 dota2:loot.farm upd loaded
+2018-04-28 00:54:33,602 - root - INFO - 0.005 	 dota2:loot.farm av dropped
+2018-04-28 00:54:33,722 - root - INFO - 0.120 	 dota2:loot.farm server cache updated
+2018-04-28 00:54:33,736 - root - INFO - 0.011 	 dota2:loot.farm last time updated
+2018-04-28 00:54:39,152 - root - INFO - 0.413 	 dota2:loot.farm upd loaded
+2018-04-28 00:54:39,217 - root - INFO - 0.003 	 dota2:loot.farm av dropped
+2018-04-28 00:54:39,358 - root - INFO - 0.141 	 dota2:loot.farm server cache updated
+2018-04-28 00:54:39,367 - root - INFO - 0.008 	 dota2:loot.farm last time updated
+2018-04-28 00:54:44,028 - root - ERROR - 'NoneType' object has no attribute 'get'
+Traceback (most recent call last):
+  File "src/parsers/dota2/c5game.py", line 65, in c5game
+    items = items.get('list')
+AttributeError: 'NoneType' object has no attribute 'get'
+2018-04-28 00:54:44,552 - root - INFO - 0.183 	 dota2:loot.farm upd loaded
+2018-04-28 00:54:44,611 - root - INFO - 0.004 	 dota2:loot.farm av dropped
+2018-04-28 00:54:44,748 - root - INFO - 0.136 	 dota2:loot.farm server cache updated
+2018-04-28 00:54:44,756 - root - INFO - 0.008 	 dota2:loot.farm last time updated
+2018-04-28 00:54:49,967 - root - ERROR - 'NoneType' object has no attribute 'get'
+Traceback (most recent call last):
+  File "src/parsers/dota2/c5game.py", line 65, in c5game
+    items = items.get('list')
+AttributeError: 'NoneType' object has no attribute 'get'
+2018-04-28 00:54:50,006 - root - INFO - 0.246 	 dota2:loot.farm upd loaded
+2018-04-28 00:54:50,081 - root - INFO - 0.003 	 dota2:loot.farm av dropped
+2018-04-28 00:54:50,217 - root - INFO - 0.136 	 dota2:loot.farm server cache updated
+2018-04-28 00:54:50,225 - root - INFO - 0.008 	 dota2:loot.farm last time updated
+2018-04-28 00:54:52,263 - root - INFO - STATUS 1:True cache_layer {'storage': <DictProxy object, typeid 'dict' at 0x7fe9f19a6160>}
+2018-04-28 00:54:52,264 - root - INFO - STATUS 2:True legacy_api {'storage': <DictProxy object, typeid 'dict' at 0x7fe9f19a6160>}
+2018-04-28 00:54:52,264 - root - INFO - STATUS 3:True parser_wrapper {'game': 'meta', 'market': 'currencies', 'storage': <DictProxy object, typeid 'dict' at 0x7fe9f19a6160>, 'parser': <function currencies at 0x7fe9f0e6d6a8>, 'drop_av': False, 'proxy': None}
+2018-04-28 00:54:52,264 - root - INFO - STATUS 4:True parser_wrapper {'game': 'meta', 'market': 'c5game.com(id)', 'storage': <DictProxy object, typeid 'dict' at 0x7fe9f19a6160>, 'parser': <function c5game_id at 0x7fe9f0e6dea0>, 'drop_av': False, 'proxy': 'Dqjyqm:aDHhft@185.232.171.109:9137'}
+2018-04-28 00:54:52,264 - root - INFO - STATUS 5:True parser_wrapper {'game': 'dota2', 'market': 'loot.farm', 'storage': <DictProxy object, typeid 'dict' at 0x7fe9f19a6160>, 'parser': <function lootfarm at 0x7fe9f01322f0>, 'proxy': None}
+2018-04-28 00:54:52,264 - root - INFO - STATUS 6:True parser_wrapper {'game': 'dota2', 'market': 'c5game.com', 'storage': <DictProxy object, typeid 'dict' at 0x7fe9f19a6160>, 'parser': <function c5game at 0x7fe9f0132400>, 'proxy': 'Dqjyqm:aDHhft@185.232.171.109:9137', 'sale_purchase': True}
+2018-04-28 00:54:55,543 - root - INFO - 0.314 	 dota2:loot.farm upd loaded
+2018-04-28 00:54:55,617 - root - INFO - 0.002 	 dota2:loot.farm av dropped
+2018-04-28 00:54:55,752 - root - INFO - 0.135 	 dota2:loot.farm server cache updated
+2018-04-28 00:54:55,763 - root - INFO - 0.010 	 dota2:loot.farm last time updated
+2018-04-28 00:55:01,007 - root - INFO - 0.242 	 dota2:loot.farm upd loaded
+2018-04-28 00:55:01,061 - root - INFO - 0.003 	 dota2:loot.farm av dropped
+2018-04-28 00:55:01,197 - root - INFO - 0.136 	 dota2:loot.farm server cache updated
+2018-04-28 00:55:01,207 - root - INFO - 0.010 	 dota2:loot.farm last time updated
+2018-04-28 00:55:06,398 - root - INFO - 0.186 	 dota2:loot.farm upd loaded
+2018-04-28 00:55:06,452 - root - INFO - 0.003 	 dota2:loot.farm av dropped
+2018-04-28 00:55:06,559 - root - INFO - 0.107 	 dota2:loot.farm server cache updated
+2018-04-28 00:55:06,567 - root - INFO - 0.007 	 dota2:loot.farm last time updated
+2018-04-28 00:55:11,816 - root - INFO - 0.245 	 dota2:loot.farm upd loaded
+2018-04-28 00:55:11,876 - root - INFO - 0.003 	 dota2:loot.farm av dropped
+2018-04-28 00:55:11,998 - root - INFO - 0.121 	 dota2:loot.farm server cache updated
+2018-04-28 00:55:12,007 - root - INFO - 0.008 	 dota2:loot.farm last time updated
+2018-04-28 00:55:12,539 - root - ERROR - 'NoneType' object has no attribute 'get'
+Traceback (most recent call last):
+  File "src/parsers/dota2/c5game.py", line 65, in c5game
+    items = items.get('list')
+AttributeError: 'NoneType' object has no attribute 'get'
+2018-04-28 00:55:17,239 - root - INFO - 0.227 	 dota2:loot.farm upd loaded
+2018-04-28 00:55:17,302 - root - INFO - 0.003 	 dota2:loot.farm av dropped
+2018-04-28 00:55:17,457 - root - INFO - 0.154 	 dota2:loot.farm server cache updated
+2018-04-28 00:55:17,467 - root - INFO - 0.009 	 dota2:loot.farm last time updated
+2018-04-28 00:55:22,294 - root - INFO - STATUS 1:True cache_layer {'storage': <DictProxy object, typeid 'dict' at 0x7fe9f19a6160>}
+2018-04-28 00:55:22,294 - root - INFO - STATUS 2:True legacy_api {'storage': <DictProxy object, typeid 'dict' at 0x7fe9f19a6160>}
+2018-04-28 00:55:22,294 - root - INFO - STATUS 3:True parser_wrapper {'game': 'meta', 'market': 'currencies', 'storage': <DictProxy object, typeid 'dict' at 0x7fe9f19a6160>, 'parser': <function currencies at 0x7fe9f0e6d6a8>, 'drop_av': False, 'proxy': None}
+2018-04-28 00:55:22,295 - root - INFO - STATUS 4:True parser_wrapper {'game': 'meta', 'market': 'c5game.com(id)', 'storage': <DictProxy object, typeid 'dict' at 0x7fe9f19a6160>, 'parser': <function c5game_id at 0x7fe9f0e6dea0>, 'drop_av': False, 'proxy': 'Dqjyqm:aDHhft@185.232.171.109:9137'}
+2018-04-28 00:55:22,295 - root - INFO - STATUS 5:True parser_wrapper {'game': 'dota2', 'market': 'loot.farm', 'storage': <DictProxy object, typeid 'dict' at 0x7fe9f19a6160>, 'parser': <function lootfarm at 0x7fe9f01322f0>, 'proxy': None}
+2018-04-28 00:55:22,295 - root - INFO - STATUS 6:True parser_wrapper {'game': 'dota2', 'market': 'c5game.com', 'storage': <DictProxy object, typeid 'dict' at 0x7fe9f19a6160>, 'parser': <function c5game at 0x7fe9f0132400>, 'proxy': 'Dqjyqm:aDHhft@185.232.171.109:9137', 'sale_purchase': True}
+2018-04-28 00:55:22,673 - root - INFO - 0.204 	 dota2:loot.farm upd loaded
+2018-04-28 00:55:22,733 - root - INFO - 0.003 	 dota2:loot.farm av dropped
+2018-04-28 00:55:22,876 - root - INFO - 0.143 	 dota2:loot.farm server cache updated
+2018-04-28 00:55:22,885 - root - INFO - 0.009 	 dota2:loot.farm last time updated
+2018-04-28 00:55:28,229 - root - INFO - 0.340 	 dota2:loot.farm upd loaded
+2018-04-28 00:55:28,293 - root - INFO - 0.002 	 dota2:loot.farm av dropped
+2018-04-28 00:55:28,427 - root - INFO - 0.134 	 dota2:loot.farm server cache updated
+2018-04-28 00:55:28,435 - root - INFO - 0.007 	 dota2:loot.farm last time updated
+2018-04-28 00:55:33,634 - root - INFO - 0.197 	 dota2:loot.farm upd loaded
+2018-04-28 00:55:33,702 - root - INFO - 0.003 	 dota2:loot.farm av dropped
+2018-04-28 00:55:33,842 - root - INFO - 0.139 	 dota2:loot.farm server cache updated
+2018-04-28 00:55:33,851 - root - INFO - 0.008 	 dota2:loot.farm last time updated
+2018-04-28 00:55:39,038 - root - INFO - 0.183 	 dota2:loot.farm upd loaded
+2018-04-28 00:55:39,098 - root - INFO - 0.003 	 dota2:loot.farm av dropped
+2018-04-28 00:55:39,232 - root - INFO - 0.131 	 dota2:loot.farm server cache updated
+2018-04-28 00:55:39,242 - root - INFO - 0.010 	 dota2:loot.farm last time updated
+2018-04-28 00:55:41,748 - root - INFO - 78.961 	 dota2:c5game.com upd loaded
+2018-04-28 00:55:41,830 - root - INFO - 0.036 	 dota2:c5game.com av dropped
+2018-04-28 00:55:42,186 - root - INFO - 0.356 	 dota2:c5game.com server cache updated
+2018-04-28 00:55:42,200 - root - INFO - 0.014 	 dota2:c5game.com last time updated
+2018-04-28 00:55:44,453 - root - INFO - 0.206 	 dota2:loot.farm upd loaded
+2018-04-28 00:55:44,657 - root - INFO - 0.009 	 dota2:loot.farm av dropped
+2018-04-28 00:55:44,812 - root - INFO - 0.154 	 dota2:loot.farm server cache updated
+2018-04-28 00:55:44,826 - root - INFO - 0.014 	 dota2:loot.farm last time updated
+2018-04-28 00:55:50,040 - root - INFO - 0.212 	 dota2:loot.farm upd loaded
+2018-04-28 00:55:50,227 - root - INFO - 0.008 	 dota2:loot.farm av dropped
+2018-04-28 00:55:50,341 - root - INFO - 0.114 	 dota2:loot.farm server cache updated
+2018-04-28 00:55:50,350 - root - INFO - 0.008 	 dota2:loot.farm last time updated
+2018-04-28 00:55:52,321 - root - INFO - STATUS 1:True cache_layer {'storage': <DictProxy object, typeid 'dict' at 0x7fe9f19a6160>}
+2018-04-28 00:55:52,322 - root - INFO - STATUS 2:True legacy_api {'storage': <DictProxy object, typeid 'dict' at 0x7fe9f19a6160>}
+2018-04-28 00:55:52,322 - root - INFO - STATUS 3:True parser_wrapper {'game': 'meta', 'market': 'currencies', 'storage': <DictProxy object, typeid 'dict' at 0x7fe9f19a6160>, 'parser': <function currencies at 0x7fe9f0e6d6a8>, 'drop_av': False, 'proxy': None}
+2018-04-28 00:55:52,322 - root - INFO - STATUS 4:True parser_wrapper {'game': 'meta', 'market': 'c5game.com(id)', 'storage': <DictProxy object, typeid 'dict' at 0x7fe9f19a6160>, 'parser': <function c5game_id at 0x7fe9f0e6dea0>, 'drop_av': False, 'proxy': 'Dqjyqm:aDHhft@185.232.171.109:9137'}
+2018-04-28 00:55:52,323 - root - INFO - STATUS 5:True parser_wrapper {'game': 'dota2', 'market': 'loot.farm', 'storage': <DictProxy object, typeid 'dict' at 0x7fe9f19a6160>, 'parser': <function lootfarm at 0x7fe9f01322f0>, 'proxy': None}
+2018-04-28 00:55:52,323 - root - INFO - STATUS 6:True parser_wrapper {'game': 'dota2', 'market': 'c5game.com', 'storage': <DictProxy object, typeid 'dict' at 0x7fe9f19a6160>, 'parser': <function c5game at 0x7fe9f0132400>, 'proxy': 'Dqjyqm:aDHhft@185.232.171.109:9137', 'sale_purchase': True}
+2018-04-28 00:55:55,567 - root - INFO - 0.214 	 dota2:loot.farm upd loaded
+2018-04-28 00:55:55,790 - root - INFO - 0.008 	 dota2:loot.farm av dropped
+2018-04-28 00:55:55,902 - root - INFO - 0.112 	 dota2:loot.farm server cache updated
+2018-04-28 00:55:55,910 - root - INFO - 0.008 	 dota2:loot.farm last time updated
+2018-04-28 00:56:01,108 - root - INFO - 0.193 	 dota2:loot.farm upd loaded
+2018-04-28 00:56:01,294 - root - INFO - 0.006 	 dota2:loot.farm av dropped
+2018-04-28 00:56:01,409 - root - INFO - 0.115 	 dota2:loot.farm server cache updated
+2018-04-28 00:56:01,419 - root - INFO - 0.010 	 dota2:loot.farm last time updated
+2018-04-28 00:56:06,648 - root - INFO - 0.223 	 dota2:loot.farm upd loaded
+2018-04-28 00:56:06,842 - root - INFO - 0.007 	 dota2:loot.farm av dropped
+2018-04-28 00:56:06,951 - root - INFO - 0.109 	 dota2:loot.farm server cache updated
+2018-04-28 00:56:06,959 - root - INFO - 0.008 	 dota2:loot.farm last time updated
+2018-04-28 00:56:12,147 - root - INFO - 0.185 	 dota2:loot.farm upd loaded
+2018-04-28 00:56:12,321 - root - INFO - 0.005 	 dota2:loot.farm av dropped
+2018-04-28 00:56:12,429 - root - INFO - 0.108 	 dota2:loot.farm server cache updated
+2018-04-28 00:56:12,438 - root - INFO - 0.009 	 dota2:loot.farm last time updated
+2018-04-28 00:56:14,518 - root - ERROR - 'NoneType' object has no attribute 'get'
+Traceback (most recent call last):
+  File "src/parsers/dota2/c5game.py", line 65, in c5game
+    items = items.get('list')
+AttributeError: 'NoneType' object has no attribute 'get'
+2018-04-28 00:56:17,661 - root - INFO - 0.219 	 dota2:loot.farm upd loaded
+2018-04-28 00:56:17,875 - root - INFO - 0.006 	 dota2:loot.farm av dropped
+2018-04-28 00:56:18,008 - root - INFO - 0.132 	 dota2:loot.farm server cache updated
+2018-04-28 00:56:18,016 - root - INFO - 0.007 	 dota2:loot.farm last time updated
+2018-04-28 00:56:22,353 - root - INFO - STATUS 1:True cache_layer {'storage': <DictProxy object, typeid 'dict' at 0x7fe9f19a6160>}
+2018-04-28 00:56:22,353 - root - INFO - STATUS 2:True legacy_api {'storage': <DictProxy object, typeid 'dict' at 0x7fe9f19a6160>}
+2018-04-28 00:56:22,354 - root - INFO - STATUS 3:True parser_wrapper {'game': 'meta', 'market': 'currencies', 'storage': <DictProxy object, typeid 'dict' at 0x7fe9f19a6160>, 'parser': <function currencies at 0x7fe9f0e6d6a8>, 'drop_av': False, 'proxy': None}
+2018-04-28 00:56:22,354 - root - INFO - STATUS 4:True parser_wrapper {'game': 'meta', 'market': 'c5game.com(id)', 'storage': <DictProxy object, typeid 'dict' at 0x7fe9f19a6160>, 'parser': <function c5game_id at 0x7fe9f0e6dea0>, 'drop_av': False, 'proxy': 'Dqjyqm:aDHhft@185.232.171.109:9137'}
+2018-04-28 00:56:22,354 - root - INFO - STATUS 5:True parser_wrapper {'game': 'dota2', 'market': 'loot.farm', 'storage': <DictProxy object, typeid 'dict' at 0x7fe9f19a6160>, 'parser': <function lootfarm at 0x7fe9f01322f0>, 'proxy': None}
+2018-04-28 00:56:22,354 - root - INFO - STATUS 6:True parser_wrapper {'game': 'dota2', 'market': 'c5game.com', 'storage': <DictProxy object, typeid 'dict' at 0x7fe9f19a6160>, 'parser': <function c5game at 0x7fe9f0132400>, 'proxy': 'Dqjyqm:aDHhft@185.232.171.109:9137', 'sale_purchase': True}
+2018-04-28 00:56:22,402 - root - ERROR - 'NoneType' object has no attribute 'get'
+Traceback (most recent call last):
+  File "src/parsers/dota2/c5game.py", line 65, in c5game
+    items = items.get('list')
+AttributeError: 'NoneType' object has no attribute 'get'
+2018-04-28 00:56:23,221 - root - INFO - 0.200 	 dota2:loot.farm upd loaded
+2018-04-28 00:56:23,437 - root - INFO - 0.006 	 dota2:loot.farm av dropped
+2018-04-28 00:56:23,595 - root - INFO - 0.157 	 dota2:loot.farm server cache updated
+2018-04-28 00:56:23,607 - root - INFO - 0.011 	 dota2:loot.farm last time updated
+2018-04-28 00:56:28,811 - root - INFO - 0.204 	 dota2:loot.farm upd loaded
+2018-04-28 00:56:29,018 - root - INFO - 0.006 	 dota2:loot.farm av dropped
+2018-04-28 00:56:29,141 - root - INFO - 0.122 	 dota2:loot.farm server cache updated
+2018-04-28 00:56:29,151 - root - INFO - 0.010 	 dota2:loot.farm last time updated
+2018-04-28 00:56:34,390 - root - INFO - 0.234 	 dota2:loot.farm upd loaded
+2018-04-28 00:56:34,584 - root - INFO - 0.005 	 dota2:loot.farm av dropped
+2018-04-28 00:56:34,698 - root - INFO - 0.113 	 dota2:loot.farm server cache updated
+2018-04-28 00:56:34,707 - root - INFO - 0.010 	 dota2:loot.farm last time updated
+2018-04-28 00:56:39,912 - root - INFO - 0.203 	 dota2:loot.farm upd loaded
+2018-04-28 00:56:40,111 - root - INFO - 0.008 	 dota2:loot.farm av dropped
+2018-04-28 00:56:40,243 - root - INFO - 0.132 	 dota2:loot.farm server cache updated
+2018-04-28 00:56:40,253 - root - INFO - 0.009 	 dota2:loot.farm last time updated
+2018-04-28 00:56:45,458 - root - INFO - 0.201 	 dota2:loot.farm upd loaded
+2018-04-28 00:56:45,658 - root - INFO - 0.005 	 dota2:loot.farm av dropped
+2018-04-28 00:56:45,780 - root - INFO - 0.122 	 dota2:loot.farm server cache updated
+2018-04-28 00:56:45,791 - root - INFO - 0.010 	 dota2:loot.farm last time updated
+2018-04-28 00:56:50,989 - root - INFO - 0.196 	 dota2:loot.farm upd loaded
+2018-04-28 00:56:51,178 - root - INFO - 0.005 	 dota2:loot.farm av dropped
+2018-04-28 00:56:51,292 - root - INFO - 0.113 	 dota2:loot.farm server cache updated
+2018-04-28 00:56:51,303 - root - INFO - 0.011 	 dota2:loot.farm last time updated
+2018-04-28 00:56:52,384 - root - INFO - STATUS 1:True cache_layer {'storage': <DictProxy object, typeid 'dict' at 0x7fe9f19a6160>}
+2018-04-28 00:56:52,384 - root - INFO - STATUS 2:True legacy_api {'storage': <DictProxy object, typeid 'dict' at 0x7fe9f19a6160>}
+2018-04-28 00:56:52,385 - root - INFO - STATUS 3:True parser_wrapper {'game': 'meta', 'market': 'currencies', 'storage': <DictProxy object, typeid 'dict' at 0x7fe9f19a6160>, 'parser': <function currencies at 0x7fe9f0e6d6a8>, 'drop_av': False, 'proxy': None}
+2018-04-28 00:56:52,385 - root - INFO - STATUS 4:True parser_wrapper {'game': 'meta', 'market': 'c5game.com(id)', 'storage': <DictProxy object, typeid 'dict' at 0x7fe9f19a6160>, 'parser': <function c5game_id at 0x7fe9f0e6dea0>, 'drop_av': False, 'proxy': 'Dqjyqm:aDHhft@185.232.171.109:9137'}
+2018-04-28 00:56:52,385 - root - INFO - STATUS 5:True parser_wrapper {'game': 'dota2', 'market': 'loot.farm', 'storage': <DictProxy object, typeid 'dict' at 0x7fe9f19a6160>, 'parser': <function lootfarm at 0x7fe9f01322f0>, 'proxy': None}
+2018-04-28 00:56:52,385 - root - INFO - STATUS 6:True parser_wrapper {'game': 'dota2', 'market': 'c5game.com', 'storage': <DictProxy object, typeid 'dict' at 0x7fe9f19a6160>, 'parser': <function c5game at 0x7fe9f0132400>, 'proxy': 'Dqjyqm:aDHhft@185.232.171.109:9137', 'sale_purchase': True}
+2018-04-28 00:56:54,964 - root - ERROR - 'NoneType' object has no attribute 'get'
+Traceback (most recent call last):
+  File "src/parsers/dota2/c5game.py", line 65, in c5game
+    items = items.get('list')
+AttributeError: 'NoneType' object has no attribute 'get'
+2018-04-28 00:56:56,856 - root - INFO - 0.547 	 dota2:loot.farm upd loaded
+2018-04-28 00:56:57,042 - root - INFO - 0.005 	 dota2:loot.farm av dropped
+2018-04-28 00:56:57,156 - root - INFO - 0.113 	 dota2:loot.farm server cache updated
+2018-04-28 00:56:57,165 - root - INFO - 0.010 	 dota2:loot.farm last time updated
+2018-04-28 00:56:57,627 - root - ERROR - 'NoneType' object has no attribute 'get'
+Traceback (most recent call last):
+  File "src/parsers/dota2/c5game.py", line 65, in c5game
+    items = items.get('list')
+AttributeError: 'NoneType' object has no attribute 'get'
+2018-04-28 00:57:02,405 - root - INFO - 0.236 	 dota2:loot.farm upd loaded
+2018-04-28 00:57:02,643 - root - INFO - 0.007 	 dota2:loot.farm av dropped
+2018-04-28 00:57:02,782 - root - INFO - 0.140 	 dota2:loot.farm server cache updated
+2018-04-28 00:57:02,793 - root - INFO - 0.011 	 dota2:loot.farm last time updated
+2018-04-28 00:57:07,984 - root - INFO - 0.188 	 dota2:loot.farm upd loaded
+2018-04-28 00:57:08,171 - root - INFO - 0.006 	 dota2:loot.farm av dropped
+2018-04-28 00:57:08,282 - root - INFO - 0.111 	 dota2:loot.farm server cache updated
+2018-04-28 00:57:08,290 - root - INFO - 0.008 	 dota2:loot.farm last time updated
+2018-04-28 00:57:13,525 - root - INFO - 0.232 	 dota2:loot.farm upd loaded
+2018-04-28 00:57:13,724 - root - INFO - 0.006 	 dota2:loot.farm av dropped
+2018-04-28 00:57:13,835 - root - INFO - 0.110 	 dota2:loot.farm server cache updated
+2018-04-28 00:57:13,842 - root - INFO - 0.008 	 dota2:loot.farm last time updated
+2018-04-28 00:57:19,071 - root - INFO - 0.225 	 dota2:loot.farm upd loaded
+2018-04-28 00:57:19,273 - root - INFO - 0.006 	 dota2:loot.farm av dropped
+2018-04-28 00:57:19,435 - root - INFO - 0.162 	 dota2:loot.farm server cache updated
+2018-04-28 00:57:19,448 - root - INFO - 0.013 	 dota2:loot.farm last time updated
+2018-04-28 00:57:22,415 - root - INFO - STATUS 1:True cache_layer {'storage': <DictProxy object, typeid 'dict' at 0x7fe9f19a6160>}
+2018-04-28 00:57:22,415 - root - INFO - STATUS 2:True legacy_api {'storage': <DictProxy object, typeid 'dict' at 0x7fe9f19a6160>}
+2018-04-28 00:57:22,415 - root - INFO - STATUS 3:True parser_wrapper {'game': 'meta', 'market': 'currencies', 'storage': <DictProxy object, typeid 'dict' at 0x7fe9f19a6160>, 'parser': <function currencies at 0x7fe9f0e6d6a8>, 'drop_av': False, 'proxy': None}
+2018-04-28 00:57:22,416 - root - INFO - STATUS 4:True parser_wrapper {'game': 'meta', 'market': 'c5game.com(id)', 'storage': <DictProxy object, typeid 'dict' at 0x7fe9f19a6160>, 'parser': <function c5game_id at 0x7fe9f0e6dea0>, 'drop_av': False, 'proxy': 'Dqjyqm:aDHhft@185.232.171.109:9137'}
+2018-04-28 00:57:22,416 - root - INFO - STATUS 5:True parser_wrapper {'game': 'dota2', 'market': 'loot.farm', 'storage': <DictProxy object, typeid 'dict' at 0x7fe9f19a6160>, 'parser': <function lootfarm at 0x7fe9f01322f0>, 'proxy': None}
+2018-04-28 00:57:22,416 - root - INFO - STATUS 6:True parser_wrapper {'game': 'dota2', 'market': 'c5game.com', 'storage': <DictProxy object, typeid 'dict' at 0x7fe9f19a6160>, 'parser': <function c5game at 0x7fe9f0132400>, 'proxy': 'Dqjyqm:aDHhft@185.232.171.109:9137', 'sale_purchase': True}
+2018-04-28 00:57:24,644 - root - INFO - 0.191 	 dota2:loot.farm upd loaded
+2018-04-28 00:57:24,870 - root - INFO - 0.005 	 dota2:loot.farm av dropped
+2018-04-28 00:57:25,023 - root - INFO - 0.151 	 dota2:loot.farm server cache updated
+2018-04-28 00:57:25,034 - root - INFO - 0.011 	 dota2:loot.farm last time updated
+2018-04-28 00:57:26,910 - root - INFO - 99.705 	 dota2:c5game.com upd loaded
+2018-04-28 00:57:27,120 - root - INFO - 0.028 	 dota2:c5game.com av dropped
+2018-04-28 00:57:27,431 - root - INFO - 0.311 	 dota2:c5game.com server cache updated
+2018-04-28 00:57:27,443 - root - INFO - 0.011 	 dota2:c5game.com last time updated
+2018-04-28 00:57:30,277 - root - INFO - 0.238 	 dota2:loot.farm upd loaded
+2018-04-28 00:57:30,466 - root - INFO - 0.005 	 dota2:loot.farm av dropped
+2018-04-28 00:57:30,609 - root - INFO - 0.142 	 dota2:loot.farm server cache updated
+2018-04-28 00:57:30,625 - root - INFO - 0.015 	 dota2:loot.farm last time updated
+2018-04-28 00:57:35,833 - root - INFO - 0.204 	 dota2:loot.farm upd loaded
+2018-04-28 00:57:36,068 - root - INFO - 0.005 	 dota2:loot.farm av dropped
+2018-04-28 00:57:36,186 - root - INFO - 0.118 	 dota2:loot.farm server cache updated
+2018-04-28 00:57:36,200 - root - INFO - 0.012 	 dota2:loot.farm last time updated
+2018-04-28 00:57:41,393 - root - INFO - 0.189 	 dota2:loot.farm upd loaded
+2018-04-28 00:57:41,593 - root - INFO - 0.007 	 dota2:loot.farm av dropped
+2018-04-28 00:57:41,704 - root - INFO - 0.111 	 dota2:loot.farm server cache updated
+2018-04-28 00:57:41,713 - root - INFO - 0.009 	 dota2:loot.farm last time updated
+2018-04-28 00:57:46,958 - root - INFO - 0.239 	 dota2:loot.farm upd loaded
+2018-04-28 00:57:47,161 - root - INFO - 0.007 	 dota2:loot.farm av dropped
+2018-04-28 00:57:47,293 - root - INFO - 0.132 	 dota2:loot.farm server cache updated
+2018-04-28 00:57:47,302 - root - INFO - 0.009 	 dota2:loot.farm last time updated
+2018-04-28 00:57:52,445 - root - INFO - STATUS 1:True cache_layer {'storage': <DictProxy object, typeid 'dict' at 0x7fe9f19a6160>}
+2018-04-28 00:57:52,445 - root - INFO - STATUS 2:True legacy_api {'storage': <DictProxy object, typeid 'dict' at 0x7fe9f19a6160>}
+2018-04-28 00:57:52,446 - root - INFO - STATUS 3:True parser_wrapper {'game': 'meta', 'market': 'currencies', 'storage': <DictProxy object, typeid 'dict' at 0x7fe9f19a6160>, 'parser': <function currencies at 0x7fe9f0e6d6a8>, 'drop_av': False, 'proxy': None}
+2018-04-28 00:57:52,446 - root - INFO - STATUS 4:True parser_wrapper {'game': 'meta', 'market': 'c5game.com(id)', 'storage': <DictProxy object, typeid 'dict' at 0x7fe9f19a6160>, 'parser': <function c5game_id at 0x7fe9f0e6dea0>, 'drop_av': False, 'proxy': 'Dqjyqm:aDHhft@185.232.171.109:9137'}
+2018-04-28 00:57:52,446 - root - INFO - STATUS 5:True parser_wrapper {'game': 'dota2', 'market': 'loot.farm', 'storage': <DictProxy object, typeid 'dict' at 0x7fe9f19a6160>, 'parser': <function lootfarm at 0x7fe9f01322f0>, 'proxy': None}
+2018-04-28 00:57:52,446 - root - INFO - STATUS 6:True parser_wrapper {'game': 'dota2', 'market': 'c5game.com', 'storage': <DictProxy object, typeid 'dict' at 0x7fe9f19a6160>, 'parser': <function c5game at 0x7fe9f0132400>, 'proxy': 'Dqjyqm:aDHhft@185.232.171.109:9137', 'sale_purchase': True}
+2018-04-28 00:57:52,500 - root - INFO - 0.194 	 dota2:loot.farm upd loaded
+2018-04-28 00:57:52,695 - root - INFO - 0.008 	 dota2:loot.farm av dropped
+2018-04-28 00:57:52,807 - root - INFO - 0.112 	 dota2:loot.farm server cache updated
+2018-04-28 00:57:52,815 - root - INFO - 0.008 	 dota2:loot.farm last time updated
+2018-04-28 00:57:58,040 - root - INFO - 0.223 	 dota2:loot.farm upd loaded
+2018-04-28 00:57:58,249 - root - INFO - 0.008 	 dota2:loot.farm av dropped
+2018-04-28 00:57:58,363 - root - INFO - 0.114 	 dota2:loot.farm server cache updated
+2018-04-28 00:57:58,372 - root - INFO - 0.009 	 dota2:loot.farm last time updated
+2018-04-28 00:57:59,776 - root - ERROR - 'NoneType' object has no attribute 'get'
+Traceback (most recent call last):
+  File "src/parsers/dota2/c5game.py", line 65, in c5game
+    items = items.get('list')
+AttributeError: 'NoneType' object has no attribute 'get'
+2018-04-28 00:58:03,608 - root - INFO - 0.230 	 dota2:loot.farm upd loaded
+2018-04-28 00:58:03,827 - root - INFO - 0.005 	 dota2:loot.farm av dropped
+2018-04-28 00:58:03,939 - root - INFO - 0.112 	 dota2:loot.farm server cache updated
+2018-04-28 00:58:03,949 - root - INFO - 0.010 	 dota2:loot.farm last time updated
+2018-04-28 00:58:08,028 - root - ERROR - 'NoneType' object has no attribute 'get'
+Traceback (most recent call last):
+  File "src/parsers/dota2/c5game.py", line 65, in c5game
+    items = items.get('list')
+AttributeError: 'NoneType' object has no attribute 'get'
+2018-04-28 00:58:09,131 - root - INFO - 0.177 	 dota2:loot.farm upd loaded
+2018-04-28 00:58:09,342 - root - INFO - 0.006 	 dota2:loot.farm av dropped
+2018-04-28 00:58:09,450 - root - INFO - 0.108 	 dota2:loot.farm server cache updated
+2018-04-28 00:58:09,460 - root - INFO - 0.010 	 dota2:loot.farm last time updated
+2018-04-28 00:58:14,699 - root - INFO - 0.237 	 dota2:loot.farm upd loaded
+2018-04-28 00:58:14,947 - root - INFO - 0.009 	 dota2:loot.farm av dropped
+2018-04-28 00:58:15,101 - root - INFO - 0.154 	 dota2:loot.farm server cache updated
+2018-04-28 00:58:15,114 - root - INFO - 0.012 	 dota2:loot.farm last time updated
+2018-04-28 00:58:20,331 - root - INFO - 0.214 	 dota2:loot.farm upd loaded
+2018-04-28 00:58:20,567 - root - INFO - 0.006 	 dota2:loot.farm av dropped
+2018-04-28 00:58:20,687 - root - INFO - 0.119 	 dota2:loot.farm server cache updated
+2018-04-28 00:58:20,696 - root - INFO - 0.008 	 dota2:loot.farm last time updated
+2018-04-28 00:58:22,477 - root - INFO - STATUS 1:True cache_layer {'storage': <DictProxy object, typeid 'dict' at 0x7fe9f19a6160>}
+2018-04-28 00:58:22,478 - root - INFO - STATUS 2:True legacy_api {'storage': <DictProxy object, typeid 'dict' at 0x7fe9f19a6160>}
+2018-04-28 00:58:22,478 - root - INFO - STATUS 3:True parser_wrapper {'game': 'meta', 'market': 'currencies', 'storage': <DictProxy object, typeid 'dict' at 0x7fe9f19a6160>, 'parser': <function currencies at 0x7fe9f0e6d6a8>, 'drop_av': False, 'proxy': None}
+2018-04-28 00:58:22,479 - root - INFO - STATUS 4:True parser_wrapper {'game': 'meta', 'market': 'c5game.com(id)', 'storage': <DictProxy object, typeid 'dict' at 0x7fe9f19a6160>, 'parser': <function c5game_id at 0x7fe9f0e6dea0>, 'drop_av': False, 'proxy': 'Dqjyqm:aDHhft@185.232.171.109:9137'}
+2018-04-28 00:58:22,480 - root - INFO - STATUS 5:True parser_wrapper {'game': 'dota2', 'market': 'loot.farm', 'storage': <DictProxy object, typeid 'dict' at 0x7fe9f19a6160>, 'parser': <function lootfarm at 0x7fe9f01322f0>, 'proxy': None}
+2018-04-28 00:58:22,481 - root - INFO - STATUS 6:True parser_wrapper {'game': 'dota2', 'market': 'c5game.com', 'storage': <DictProxy object, typeid 'dict' at 0x7fe9f19a6160>, 'parser': <function c5game at 0x7fe9f0132400>, 'proxy': 'Dqjyqm:aDHhft@185.232.171.109:9137', 'sale_purchase': True}
