@@ -64,6 +64,7 @@ if __name__ == '__main__':
     import parsers.dota2.bitskins
     import parsers.dota2.lootfarm
     import parsers.dota2.tradeit
+    import parsers.dota2.c5game
 
     import parsers.pubg.c5game
     import parsers.pubg.lootfarm
@@ -230,6 +231,14 @@ if __name__ == '__main__':
             'market': 'tradeit.gg',
             'parser': parsers.dota2.tradeit.tradeit,
         }) if conf.enabled.dota2['tradeit.gg'] else None,
+        (parser_wrapper, {
+            'storage': storage,
+            'game': 'dota2',
+            'market': 'c5game.com',
+            'parser': parsers.dota2.c5game.c5game,
+            'sale_purchase': True,
+            'proxy': 'Dqjyqm:aDHhft@185.232.171.109:9137',
+        }) if conf.enabled.dota2['c5game.com'] else None,
 
 
         # ---------------------
