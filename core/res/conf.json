@@ -32,25 +32,25 @@
                     "tradeskinsfast.com": false
                 },
                 "dota2": {
-                    "opskins.com":      true,
-                    "dota.money":       true,
-                    "bitskins.com":     true,
-                    "loot.farm":        true,
+                    "opskins.com":      false,
+                    "dota.money":       false,
+                    "bitskins.com":     false,
+                    "loot.farm":        false,
                     "tradeit.gg":       true
                 },
                 "pubg": {
-                    "c5game.com":       true,
-                    "loot.farm":        true,
-                    "opskins.com":      true,
-                    "tradeit.gg":       true,
-                    "swap.gg":          true,
-                    "bitskins.com":     true
+                    "c5game.com":       false,
+                    "loot.farm":        false,
+                    "opskins.com":      false,
+                    "tradeit.gg":       false,
+                    "swap.gg":          false,
+                    "bitskins.com":     false
                 },
                 "h1z1": {
-                    "c5game.com":       true,
-                    "opskins.com":      true,
-                    "tradeit.gg":       true,
-                    "swap.gg":          true
+                    "c5game.com":       false,
+                    "opskins.com":      false,
+                    "tradeit.gg":       false,
+                    "swap.gg":          false
                 },
                 "meta": {
                     "currencies":       true,

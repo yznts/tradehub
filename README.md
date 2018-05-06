@@ -2,9 +2,9 @@
 
 
 ## Map
-1. [Overview](##overview)
-2. [Server setup](##server-setup-(centos-7.x))
-3. [Supported markets](##supported-markets)
+1. Overview
+2. Server setup
+3. Supported markets
 
 
 ## Overview
@@ -28,13 +28,13 @@ yum -y install python36u python36u-pip python36u-devel
 ### Parsers
 | CSGO | H1Z1 | PUBG | DOTA2 |
 | - | - | - | - |
-| c5game.com(purchase) | c5game.com(purchase) | c5game.com(purchase) | bitskins.com |
-| c5game.com(sale) | c5game.com(sale) | c5game.com(sale) | dota.money |
-| tradeit.gg | tradeit.gg | tradeit.gg | opskins.com |
-| opskins.com | opskins.com | opskins.com | |
-| swap.gg | swap.gg | swap.gg | |
-| loot.farm |  | loot.farm  | |
-| cs.money |  |  | |
+| c5game.com(purchase) | c5game.com(purchase) | c5game.com(purchase) | c5game.com(purchase) |
+| c5game.com(sale) | c5game.com(sale) | c5game.com(sale) | c5game.com(sale) |
+| tradeit.gg | tradeit.gg | tradeit.gg | tradeit.gg |
+| opskins.com | opskins.com | opskins.com | opskins.com |
+| swap.gg | swap.gg | swap.gg | bitskins.com |
+| loot.farm |  | loot.farm  | loot.farm |
+| cs.money |  | bitskins.com | dota.money |
 | cs.deals |  |  | |
 | csgosell.com |  |  | |
 | skinsjar.com |  |  | |

@@ -13,7 +13,7 @@ from modules import custom_log
 def parser_wrapper(**kwargs):
 
     time.sleep(0.3)
-    
+
     storage = kwargs.get('storage')
     proxy = kwargs.get('proxy')
     game = kwargs.get('game')
@@ -32,7 +32,7 @@ def parser_wrapper(**kwargs):
             'http': 'http://{0}'.format(proxy),
             'https': 'https://{0}'.format(proxy),
         }
-    
+
     while True:
 
         try:
@@ -81,13 +81,13 @@ def parser_wrapper(**kwargs):
                             upd[game][item_name]['{0}(sale)|available'.format(market)] = False
                         if not upd[game][item_name].get('{0}(purchase)|available'.format(market)):
                             upd[game][item_name]['{0}(purchase)|available'.format(market)] = False
-            
+
                 custom_log.info('av dropped', game=game, market=market, tt=tt)
-            
+
 
             # Update server cache
             if update_cache:
-                
+
                 tt = time.time()
 
                 requests.put(
@@ -100,13 +100,13 @@ def parser_wrapper(**kwargs):
                     },
                     json=upd
                 )
-                
+
                 custom_log.info('server cache updated', game=game, market=market, tt=tt)
-            
+
 
             # Update last update time
             if update_time:
-                
+
                 tt = time.time()
 
                 if not sale_purchase:
@@ -118,7 +118,7 @@ def parser_wrapper(**kwargs):
                         '{0}(sale)'.format(market): int(time.time()),
                         '{0}(purchase)'.format(market): int(time.time()),
                     }
-                
+
                 requests.put(
                     'http://{0}:{1}/set'.format(
                         storage.conf.cl_host,
@@ -137,7 +137,7 @@ def parser_wrapper(**kwargs):
                 )
 
                 custom_log.info('last time updated', game=game, market=market, tt=tt)
-            
+
             # Delay
             time.sleep(storage.conf.delays[game][market])
 
