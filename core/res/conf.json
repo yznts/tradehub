@@ -6,7 +6,7 @@
         "main.release": {
             "cl_host": "0.0.0.0",
             "cl_port": "23414",
-            "cl_api_key": "484d0758-8d1a-4f01-8c50-26098c507252",
+            "cl_api_key": "q4a1",
 
             "legacy_api_host": "0.0.0.0",
             "legacy_api_port": "2087",
@@ -34,25 +34,28 @@
                 "dota2": {
                     "opskins.com":      true,
                     "dota.money":       true,
-                    "bitskins.com":     true
+                    "bitskins.com":     true,
+                    "loot.farm":        true,
+                    "tradeit.gg":       true,
+                    "c5game.com":       true
                 },
                 "pubg": {
-                    "c5game.com":       true,
-                    "loot.farm":        true,
-                    "opskins.com":      true,
-                    "tradeit.gg":       true,
-                    "swap.gg":          true,
-                    "bitskins.com":     true
+                    "c5game.com":       false,
+                    "loot.farm":        false,
+                    "opskins.com":      false,
+                    "tradeit.gg":       false,
+                    "swap.gg":          false,
+                    "bitskins.com":     false
                 },
                 "h1z1": {
-                    "c5game.com":       true,
-                    "opskins.com":      true,
-                    "tradeit.gg":       true,
-                    "swap.gg":          true
+                    "c5game.com":       false,
+                    "opskins.com":      false,
+                    "tradeit.gg":       false,
+                    "swap.gg":          false
                 },
                 "meta": {
                     "currencies":       true,
-                    "c5game.com(id)":   false
+                    "c5game.com(id)":   true
                 }
             },
 
@@ -74,7 +77,9 @@
                     "c5game.com":       5,
                     "opskins.com":      20,
                     "dota.money":       5,
-                    "bitskins.com":     5
+                    "bitskins.com":     5,
+                    "loot.farm":        5,
+                    "tradeit.gg":       5
                 },
                 "pubg": {
                     "c5game.com":       5,
@@ -92,11 +97,11 @@
                 },
                 "meta": {
                     "currencies":       720,
-                    "c5game.com(id)":   720
+                    "c5game.com(id)":   1440
                 },
-                "error": 60
+                "error": 30
             }
         }
-        
+
     }
 }

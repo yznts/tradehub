@@ -1,53 +1,16 @@
-2018-04-21 13:23:29,545 - root - INFO - Start
-2018-04-21 13:23:29,678 - root - INFO - STATUS 1:True cache_layer {'storage': <DictProxy object, typeid 'dict' at 0x10e0d0b38>}
-2018-04-21 13:23:29,679 - root - INFO - STATUS 2:True legacy_api {'storage': <DictProxy object, typeid 'dict' at 0x10e0d0b38>}
-2018-04-21 13:23:29,679 - root - INFO - STATUS 3:True parser_wrapper {'storage': <DictProxy object, typeid 'dict' at 0x10e0d0b38>, 'proxy': None, 'game': 'meta', 'market': 'currencies', 'drop_av': False, 'parser': <function currencies at 0x10f4b9158>}
-2018-04-21 13:23:29,679 - root - INFO - STATUS 4:True parser_wrapper {'storage': <DictProxy object, typeid 'dict' at 0x10e0d0b38>, 'game': 'pubg', 'market': 'c5game.com', 'parser': <function c5game at 0x10fc98d90>, 'sale_purchase': True, 'proxy': 'Dqjyqm:aDHhft@185.232.171.109:9137'}
-2018-04-21 13:23:29,679 - root - INFO - STATUS 5:True parser_wrapper {'storage': <DictProxy object, typeid 'dict' at 0x10e0d0b38>, 'proxy': None, 'bs-token': <pyotp.totp.TOTP object at 0x10f095f98>, 'bs-api-key': '6651e3e2-5842-4538-8b91-12f67211fabe', 'game': 'pubg', 'market': 'bitskins.com', 'sale_purchase': False, 'parser': <function bitskins at 0x10fca61e0>}
-2018-04-21 13:23:30,026 - root - INFO - No CNY
-2018-04-21 13:23:30,027 - root - INFO - 0.040 	 pubg:c5game.com upd loaded
-2018-04-21 13:23:30,030 - root - INFO - 0.000 	 pubg:c5game.com av dropped
-2018-04-21 13:23:30,033 - root - INFO - 0.003 	 pubg:c5game.com server cache updated
-2018-04-21 13:23:30,036 - root - INFO - 0.002 	 pubg:c5game.com last time updated
-2018-04-21 13:23:30,142 - root - INFO - 0.155 	 meta:currencies upd loaded
-2018-04-21 13:23:30,176 - root - INFO - 0.003 	 meta:currencies server cache updated
-2018-04-21 13:23:30,180 - root - INFO - 0.003 	 meta:currencies last time updated
-2018-04-21 13:23:30,471 - root - INFO - 0.481 	 pubg:bitskins.com upd loaded
-2018-04-21 13:23:30,488 - root - INFO - 0.000 	 pubg:bitskins.com av dropped
-2018-04-21 13:23:30,492 - root - INFO - 0.004 	 pubg:bitskins.com server cache updated
-2018-04-21 13:23:30,495 - root - INFO - 0.003 	 pubg:bitskins.com last time updated
-2018-04-21 13:23:30,496 - root - ERROR - "'bitskins.com'"
-Traceback (most recent call last):
-  File "/Users/yzinets/Desktop/tradehub/core/venv/lib/python3.6/site-packages/box.py", line 409, in __getitem__
-    value = super(Box, self).__getitem__(item)
-KeyError: 'bitskins.com'
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "src/processes/parser_wrapper.py", line 142, in parser_wrapper
-    time.sleep(storage.conf.delays[game][market])
-  File "/Users/yzinets/Desktop/tradehub/core/venv/lib/python3.6/site-packages/box.py", line 424, in __getitem__
-    raise BoxKeyError(str(err))
-box.BoxKeyError: "'bitskins.com'"
-2018-04-21 13:23:38,392 - root - INFO - 3.351 	 pubg:c5game.com pages links generated
-2018-04-21 13:23:42,462 - root - INFO - 7.425 	 pubg:c5game.com upd loaded
-2018-04-21 13:23:42,467 - root - INFO - 0.001 	 pubg:c5game.com av dropped
-2018-04-21 13:23:42,477 - root - INFO - 0.009 	 pubg:c5game.com server cache updated
-2018-04-21 13:23:42,481 - root - INFO - 0.004 	 pubg:c5game.com last time updated
-2018-04-21 13:23:48,693 - root - INFO - 1.204 	 pubg:c5game.com pages links generated
-2018-04-21 13:23:51,908 - root - INFO - 4.425 	 pubg:c5game.com upd loaded
-2018-04-21 13:23:51,916 - root - INFO - 0.000 	 pubg:c5game.com av dropped
-2018-04-21 13:23:51,925 - root - INFO - 0.008 	 pubg:c5game.com server cache updated
-2018-04-21 13:23:51,928 - root - INFO - 0.003 	 pubg:c5game.com last time updated
-2018-04-21 13:23:58,213 - root - INFO - 1.276 	 pubg:c5game.com pages links generated
-2018-04-21 13:23:59,683 - root - INFO - STATUS 1:True cache_layer {'storage': <DictProxy object, typeid 'dict' at 0x10e0d0b38>}
-2018-04-21 13:23:59,683 - root - INFO - STATUS 2:True legacy_api {'storage': <DictProxy object, typeid 'dict' at 0x10e0d0b38>}
-2018-04-21 13:23:59,683 - root - INFO - STATUS 3:True parser_wrapper {'storage': <DictProxy object, typeid 'dict' at 0x10e0d0b38>, 'proxy': None, 'game': 'meta', 'market': 'currencies', 'drop_av': False, 'parser': <function currencies at 0x10f4b9158>}
-2018-04-21 13:23:59,683 - root - INFO - STATUS 4:True parser_wrapper {'storage': <DictProxy object, typeid 'dict' at 0x10e0d0b38>, 'game': 'pubg', 'market': 'c5game.com', 'parser': <function c5game at 0x10fc98d90>, 'sale_purchase': True, 'proxy': 'Dqjyqm:aDHhft@185.232.171.109:9137'}
-2018-04-21 13:23:59,683 - root - INFO - STATUS 5:True parser_wrapper {'storage': <DictProxy object, typeid 'dict' at 0x10e0d0b38>, 'proxy': None, 'bs-token': <pyotp.totp.TOTP object at 0x10f095f98>, 'bs-api-key': '6651e3e2-5842-4538-8b91-12f67211fabe', 'game': 'pubg', 'market': 'bitskins.com', 'sale_purchase': False, 'parser': <function bitskins at 0x10fca61e0>}
-2018-04-21 13:24:01,322 - root - INFO - 4.392 	 pubg:c5game.com upd loaded
-2018-04-21 13:24:01,331 - root - INFO - 0.000 	 pubg:c5game.com av dropped
-2018-04-21 13:24:01,344 - root - INFO - 0.009 	 pubg:c5game.com server cache updated
-2018-04-21 13:24:01,347 - root - INFO - 0.003 	 pubg:c5game.com last time updated
-2018-04-21 13:24:07,629 - root - INFO - 1.273 	 pubg:c5game.com pages links generated
+2018-05-01 11:20:43,487 - root - INFO - Start
+2018-05-01 11:20:43,765 - root - INFO - STATUS 1:True cache_layer {'storage': <DictProxy object, typeid 'dict' at 0x10c4b8ef0>}
+2018-05-01 11:20:43,766 - root - INFO - STATUS 2:True legacy_api {'storage': <DictProxy object, typeid 'dict' at 0x10c4b8ef0>}
+2018-05-01 11:20:43,766 - root - INFO - STATUS 3:True parser_wrapper {'storage': <DictProxy object, typeid 'dict' at 0x10c4b8ef0>, 'proxy': None, 'game': 'meta', 'market': 'currencies', 'drop_av': False, 'parser': <function currencies at 0x10cd7c158>}
+2018-05-01 11:20:43,766 - root - INFO - STATUS 4:True parser_wrapper {'storage': <DictProxy object, typeid 'dict' at 0x10c4b8ef0>, 'proxy': None, 'game': 'dota2', 'market': 'tradeit.gg', 'parser': <function tradeit at 0x10d55cd08>}
+2018-05-01 11:20:44,307 - root - INFO - 0.235 	 meta:currencies upd loaded
+2018-05-01 11:20:44,345 - root - INFO - 0.003 	 meta:currencies server cache updated
+2018-05-01 11:20:44,348 - root - INFO - 0.003 	 meta:currencies last time updated
+2018-05-01 11:20:47,623 - root - INFO - 3.550 	 dota2:tradeit.gg upd loaded
+2018-05-01 11:20:47,640 - root - INFO - 0.000 	 dota2:tradeit.gg av dropped
+2018-05-01 11:20:47,668 - root - INFO - 0.028 	 dota2:tradeit.gg server cache updated
+2018-05-01 11:20:47,672 - root - INFO - 0.003 	 dota2:tradeit.gg last time updated
+2018-05-01 11:20:55,395 - root - INFO - 2.722 	 dota2:tradeit.gg upd loaded
+2018-05-01 11:20:55,434 - root - INFO - 0.002 	 dota2:tradeit.gg av dropped
+2018-05-01 11:20:55,509 - root - INFO - 0.075 	 dota2:tradeit.gg server cache updated
+2018-05-01 11:20:55,514 - root - INFO - 0.005 	 dota2:tradeit.gg last time updated

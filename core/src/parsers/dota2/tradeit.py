@@ -11,7 +11,7 @@ def tradeit(wrapper_kwargs, scraper):
     data = json.loads(resp.text)
     items = {}
     for bot in data:
-        items = nested_data.merge(items, bot['433850']['items'])
+        items = nested_data.merge(items, bot['570']['items'])
 
     # Cache update
     upd = {wrapper_kwargs.get('game'): {}}
