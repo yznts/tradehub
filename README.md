@@ -1,4 +1,4 @@
-# Tradehub (private project)
+# Tradehub (private project) (discontinued)
 
 
 ## Map
